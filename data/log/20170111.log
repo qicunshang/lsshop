@@ -1,0 +1,126 @@
+[2017-01-11 09:05:14] /shop/ybkapi.php?act=ybkapi&op=versionupdate ( act=ybkapi&op=versionupdate ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 09:05:14] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 09:05:14] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 09:05:25] /shop/ybkapi.php?act=ybkapi&op=versionupdate ( act=ybkapi&op=versionupdate ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 09:05:49] /shop/ybkapi.php?act=ybkapi&op=versionupdate ( act=ybkapi&op=versionupdate ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 09:06:03] /shop/ybkapi.php?act=ybkapi&op=versionupdate ( act=ybkapi&op=versionupdate ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 09:08:30] /shop/ybkapi.php?act=ybkapi&op=versionupdate ( act=ybkapi&op=versionupdate ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 09:09:08] /shop/ybkapi.php?act=ybkapi&op=versionupdate ( act=ybkapi&op=versionupdate ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 09:10:18] /shop/ybkapi.php?act=ybkapi&op=versionupdate ( act=ybkapi&op=versionupdate ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 09:10:50] /shop/ybkapi.php?act=ybkapi&op=versionupdate ( act=ybkapi&op=versionupdate ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 09:11:53] /shop/ybkapi.php?act=ybkapi&op=versionupdate ( act=ybkapi&op=versionupdate ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 16:08:28] /shop/ybkapi.php?act=ybkapi&op=versionupdate ( act=ybkapi&op=versionupdate ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 16:08:56] /shop/ybkapi.php?act=ybkapi&op=versionupdate ( act=ybkapi&op=versionupdate ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 16:09:15] /shop/ybkapi.php?act=ybkapi&op=versionupdate ( act=ybkapi&op=versionupdate ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 16:51:53] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 16:51:53] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id = LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id = LIMIT 1  
+[2017-01-11 16:51:53] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT member_name,member_email FROM `33hao_member` WHERE member_id =  LIMIT 1  
+[2017-01-11 16:51:53] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Column 'buyer_id' cannot be null
+INSERT  INTO `33hao_order` (order_sn,pay_sn,store_id,store_name,buyer_id,buyer_name,buyer_email,add_time,payment_code,goods_amount,order_amount,shipping_fee,order_from) VALUES ('8000111247138604','820537468713089000','1','官方旗舰店',NULL,NULL,NULL,'1484124713','online','500','500','0','2')
+[2017-01-11 16:51:55] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 16:51:55] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id = LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id = LIMIT 1  
+[2017-01-11 16:51:55] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT member_name,member_email FROM `33hao_member` WHERE member_id =  LIMIT 1  
+[2017-01-11 16:51:55] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Column 'buyer_id' cannot be null
+INSERT  INTO `33hao_order` (order_sn,pay_sn,store_id,store_name,buyer_id,buyer_name,buyer_email,add_time,payment_code,goods_amount,order_amount,shipping_fee,order_from) VALUES ('8000111247151171','370537468715817000','1','官方旗舰店',NULL,NULL,NULL,'1484124715','online','500','500','0','2')
+[2017-01-11 16:52:48] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 16:52:48] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id = LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id = LIMIT 1  
+[2017-01-11 16:52:48] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT member_name,member_email FROM `33hao_member` WHERE member_id =  LIMIT 1  
+[2017-01-11 16:52:48] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Column 'buyer_id' cannot be null
+INSERT  INTO `33hao_order` (order_sn,pay_sn,store_id,store_name,buyer_id,buyer_name,buyer_email,add_time,payment_code,goods_amount,order_amount,shipping_fee,order_from) VALUES ('8000111247682571','500537468768192000','1','官方旗舰店',NULL,NULL,NULL,'1484124768','online','500','500','0','2')
+[2017-01-11 16:53:19] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 16:53:19] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id = LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id = LIMIT 1  
+[2017-01-11 16:53:19] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT member_name,member_email FROM `33hao_member` WHERE member_id =  LIMIT 1  
+[2017-01-11 16:53:19] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Column 'buyer_id' cannot be null
+INSERT  INTO `33hao_order` (order_sn,pay_sn,store_id,store_name,buyer_id,buyer_name,buyer_email,add_time,payment_code,goods_amount,order_amount,shipping_fee,order_from) VALUES ('8000111247999119','560537468799407000','1','官方旗舰店',NULL,NULL,NULL,'1484124799','online','500','500','0','2')
+[2017-01-11 16:54:04] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 16:54:04] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id = LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id = LIMIT 1  
+[2017-01-11 16:54:04] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT member_name,member_email FROM `33hao_member` WHERE member_id =  LIMIT 1  
+[2017-01-11 16:54:04] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Column 'buyer_id' cannot be null
+INSERT  INTO `33hao_order` (order_sn,pay_sn,store_id,store_name,buyer_id,buyer_name,buyer_email,add_time,payment_code,goods_amount,order_amount,shipping_fee,order_from) VALUES ('8000111248449572','800537468844420000','1','官方旗舰店',NULL,NULL,NULL,'1484124844','online','500','500','0','2')
+[2017-01-11 16:55:29] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 16:55:29] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id = LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id = LIMIT 1  
+[2017-01-11 16:55:29] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT member_name,member_email FROM `33hao_member` WHERE member_id =  LIMIT 1  
+[2017-01-11 16:55:29] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id%20=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Column 'buyer_id' cannot be null
+INSERT  INTO `33hao_order` (order_sn,pay_sn,store_id,store_name,buyer_id,buyer_name,buyer_email,add_time,payment_code,goods_amount,order_amount,shipping_fee,order_from) VALUES ('8000111249292392','700537468929608000','1','官方旗舰店',NULL,NULL,NULL,'1484124929','online','500','500','0','2')
+[2017-01-11 16:55:37] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 16:55:37] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2017-01-11 17:51:55] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-11 17:51:55] /shop/ybkapi.php?act=ybkapi&op=toPay&method=alipay&recharge=500&member_id=47 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  

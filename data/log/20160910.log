@@ -1,0 +1,21 @@
+[2016-09-10 13:44:25] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-10 15:43:14] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-10 16:41:11] /shop/index.php?act=ybkapi&op=ybkclass ( act=ybkapi&op=ybkclass ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '10000' ) LIMIT 1000' at line 1
+SELECT * FROM `33hao_` WHERE ( limit = '10000' ) LIMIT 1000  
+[2016-09-10 16:41:36] /shop/index.php?act=ybkapi&op=ybkclass ( act=ybkapi&op=ybkclass ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '10000' ) LIMIT 1000' at line 1
+SELECT * FROM `33hao_` WHERE ( limit = '10000' ) LIMIT 1000  
+[2016-09-10 16:42:13] /shop/index.php?act=ybkapi&op=ybkclass ( act=ybkapi&op=ybkclass ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT * FROM `33hao_` LIMIT 1000  
+[2016-09-10 16:42:31] /shop/index.php?act=ybkapi&op=ybkclass ( act=ybkapi&op=ybkclass ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT * FROM `33hao_` LIMIT 30  
+[2016-09-10 16:42:32] /shop/index.php?act=ybkapi&op=ybkclass ( act=ybkapi&op=ybkclass ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT * FROM `33hao_` LIMIT 30  

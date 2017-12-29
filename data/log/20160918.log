@@ -1,0 +1,156 @@
+[2016-09-18 08:30:25] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-18 08:33:00] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-18 08:33:00] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-18 09:06:10] /shop/ybkapi.php?act=ybkapi&op=newinfo ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_identity' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,NULL,NULL,NULL,'0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474160770','0',NULL,NULL)
+[2016-09-18 09:40:49] /shop/ybkapi.php?act=ybkapi&op=newinfo ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_identity' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,NULL,NULL,NULL,'0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474162849','0',NULL,NULL)
+[2016-09-18 09:40:51] /shop/ybkapi.php?act=ybkapi&op=newinfo ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_identity' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,NULL,NULL,NULL,'0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474162851','0',NULL,NULL)
+[2016-09-18 10:46:19] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_member` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-18 10:47:14] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_member` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-18 10:47:42] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_member` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-18 10:47:42] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'token' in 'field list'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,token,login_time) VALUES ('1','c3880f4d87e559bdad5588b0c7a02e86','1474166862')
+[2016-09-18 10:48:31] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_member` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-18 10:48:31] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'token' in 'field list'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,token,login_time) VALUES ('1','a537487578d887d60cf4b2594335a2af','1474166911')
+[2016-09-18 10:49:28] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_member` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-18 10:49:28] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'token' in 'field list'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,token,login_time) VALUES ('1','16566f461884099c25ba74595245015a','1474166968')
+[2016-09-18 10:50:31] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_member` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-18 10:50:31] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'token' in 'field list'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,token,login_time) VALUES ('1','fe07d9327e5dcab26ce4a7053c912c37','1474167031')
+[2016-09-18 10:50:38] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_member` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-18 10:50:38] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'token' in 'field list'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,token,login_time) VALUES ('1','61e457cf34690958cd39ebafcc81a50c','1474167038')
+[2016-09-18 10:51:52] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_member` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-18 10:51:52] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'token' in 'field list'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,token,login_time) VALUES ('1','8ee57262b8c46f8ab705f69e698dd126','1474167112')
+[2016-09-18 10:51:53] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_member` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-18 10:51:53] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'token' in 'field list'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,token,login_time) VALUES ('1','66615d0cd9c649880312a6f08ad07eb2','1474167113')
+[2016-09-18 10:52:21] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_member` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-18 10:52:21] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'token' in 'field list'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,token,login_time) VALUES ('1','6927f129b21968d0f3ec1e654f2176e6','1474167141')
+[2016-09-18 10:53:45] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_member` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-18 10:53:45] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'token' in 'field list'
+INSERT  INTO `33hao_ybk_member` (ybk_m_id,ybk_member_id,token,login_time) VALUES (NULL,'1','0d61d09fd0a568e3115080ce80ce672d','1474167225')
+[2016-09-18 10:53:53] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_member` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-18 10:53:53] /shop/ybkapi.php?act=ybkapi&op=login&user_name=13800138000&password=123456 ( act=ybkapi&op=login ) 
+ERR: Db Error: Unknown column 'token' in 'field list'
+INSERT  INTO `33hao_ybk_member` (ybk_m_id,ybk_member_id,token,login_time) VALUES (NULL,'1','d1822329b8918c0ebd5590db97f3331a','1474167233')
+[2016-09-18 11:38:26] /shop/ybkapi.php?act=ybkapi&op=newInfo&ybk_member_id=33&token=8135c3d8796419ea5bd93f15e282d052 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_identity' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,NULL,NULL,'33','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474169906','0',NULL,NULL)
+[2016-09-18 13:43:13] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-18 13:43:16] /index.php?act=login&op=index ( act=login&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-18 13:43:22] /shop/index.php?act=login&op=login&inajax=1 ( act=login&op=login ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-18 13:43:22] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-18 14:17:31] /shop/ybkapi.php?act=ybkapi&op=newInfo&ybk_member_id=33&token=8135c3d8796419ea5bd93f15e282d052 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_identity' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,NULL,NULL,'33','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474179451','0',NULL,NULL)
+[2016-09-18 14:17:47] /shop/ybkapi.php?act=ybkapi&op=newInfo&ybk_member_id=33&token=8135c3d8796419ea5bd93f15e282d052 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_identity' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,NULL,NULL,'33','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474179467','0',NULL,NULL)
+[2016-09-18 14:39:34] /shop/ybkapi.php?act=ybkapi&op=newInfo&ybk_member_id=33&token=8135c3d8796419ea5bd93f15e282d052 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_identity' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,NULL,NULL,'33','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474180774','0',NULL,NULL)
+[2016-09-18 14:39:36] /shop/ybkapi.php?act=ybkapi&op=newInfo&ybk_member_id=33&token=8135c3d8796419ea5bd93f15e282d052 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_identity' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,NULL,NULL,'33','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474180776','0',NULL,NULL)
+[2016-09-18 14:39:37] /shop/ybkapi.php?act=ybkapi&op=newInfo&ybk_member_id=33&token=8135c3d8796419ea5bd93f15e282d052 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_identity' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,NULL,NULL,'33','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474180777','0',NULL,NULL)
+[2016-09-18 14:39:40] /shop/ybkapi.php?act=ybkapi&op=newInfo&ybk_member_id=33&token=8135c3d8796419ea5bd93f15e282d052 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_identity' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,NULL,NULL,'33','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474180780','0',NULL,NULL)
+[2016-09-18 14:39:41] /shop/ybkapi.php?act=ybkapi&op=newInfo&ybk_member_id=33&token=8135c3d8796419ea5bd93f15e282d052 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_identity' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,NULL,NULL,'33','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474180781','0',NULL,NULL)
+[2016-09-18 14:39:41] /shop/ybkapi.php?act=ybkapi&op=newInfo&ybk_member_id=33&token=8135c3d8796419ea5bd93f15e282d052 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_identity' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,NULL,NULL,'33','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474180781','0',NULL,NULL)
+[2016-09-18 14:39:59] /shop/ybkapi.php?act=ybkapi&op=newaddress&member_id=33&token=8135c3d8796419ea5bd93f15e282d052 ( act=ybkapi&op=newaddress ) 
+ERR: Db Error: Column 'true_name' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,area_info,mob_phone,is_default) VALUES ('33',NULL,'0',NULL,NULL,NULL)
+[2016-09-18 14:40:17] /shop/ybkapi.php?act=ybkapi&op=newaddress&member_id=33&token=8135c3d8796419ea5bd93f15e282d052 ( act=ybkapi&op=newaddress ) 
+ERR: Db Error: Column 'true_name' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,area_info,mob_phone,is_default) VALUES ('33',NULL,'0',NULL,NULL,NULL)
+[2016-09-18 14:40:19] /shop/ybkapi.php?act=ybkapi&op=newaddress&member_id=33&token=8135c3d8796419ea5bd93f15e282d052 ( act=ybkapi&op=newaddress ) 
+ERR: Db Error: Column 'true_name' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,area_info,mob_phone,is_default) VALUES ('33',NULL,'0',NULL,NULL,NULL)
+[2016-09-18 14:40:21] /shop/ybkapi.php?act=ybkapi&op=newaddress&member_id=33&token=8135c3d8796419ea5bd93f15e282d052 ( act=ybkapi&op=newaddress ) 
+ERR: Db Error: Column 'true_name' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,area_info,mob_phone,is_default) VALUES ('33',NULL,'0',NULL,NULL,NULL)
+[2016-09-18 14:40:27] /shop/ybkapi.php?act=ybkapi&op=newaddress ( act=ybkapi&op=newaddress ) 
+ERR: Db Error: Column 'member_id' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,area_info,mob_phone,is_default) VALUES (NULL,NULL,'0',NULL,NULL,NULL)
+[2016-09-18 14:41:50] /shop/ybkapi.php?act=ybkapi&op=newaddress&member_id=1 ( act=ybkapi&op=newaddress ) 
+ERR: Db Error: Column 'true_name' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,area_info,mob_phone,is_default) VALUES ('1',NULL,'0',NULL,NULL,NULL)
+[2016-09-18 14:42:00] /shop/ybkapi.php?act=ybkapi&op=newaddress&member_id=1 ( act=ybkapi&op=newaddress ) 
+ERR: Db Error: Column 'true_name' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,area_info,mob_phone,is_default) VALUES ('1',NULL,'0',NULL,NULL,NULL)
+[2016-09-18 15:02:36] /shop/ybkapi.php?act=ybkapi&op=newaddress&member_id=1&is_default=1 ( act=ybkapi&op=newaddress ) 
+ERR: Db Error: Column 'true_name' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,area_info,mob_phone,is_default) VALUES ('1',NULL,'0',NULL,NULL,'1')
+[2016-09-18 15:03:33] /shop/ybkapi.php?act=ybkapi&op=newaddress&member_id=1&is_default=1 ( act=ybkapi&op=newaddress ) 
+ERR: Db Error: Column 'true_name' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,area_info,mob_phone,is_default) VALUES ('1',NULL,'0',NULL,NULL,'1')
+[2016-09-18 15:07:10] /shop/ybkapi.php?act=ybkapi&op=newaddress ( act=ybkapi&op=newaddress ) 
+ERR: Db Error: Column 'member_id' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,area_info,address,mob_phone,is_default) VALUES (NULL,NULL,'0',NULL,NULL,NULL,NULL)
+[2016-09-18 17:24:21] /shop/ybkapi.php?act=ybkapi&op=ybkcontent&ybk_id=17 ( act=ybkapi&op=ybkcontent ) 
+ERR: Db Error: 
+

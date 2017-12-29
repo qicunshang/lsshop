@@ -1,0 +1,33 @@
+[2017-01-10 13:36:58] /shop/ybkapi.php?act=ybkapi&op=goodslist&member_id=47 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-10 13:36:58] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-10 13:36:59] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-10 13:37:19] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&order_sn=8001215814879837&method=alipay ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-10 13:38:01] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=98b222ada34fd79da45e93902ab477ba&order_sn=8001215814879837&method=alipay ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-10 13:38:18] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=98b222ada34fd79da45e93902ab477ba&order_sn=8001215814879837&method=alipay ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-10 13:38:47] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=98b222ada34fd79da45e93902ab477ba&order_sn=8000110263708123&method=alipay ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-10 13:38:54] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=98b222ada34fd79da45e93902ab477ba&order_sn=8000110263708123&method=alipay ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-10 13:39:25] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=98b222ada34fd79da45e93902ab477ba&order_sn=8000110263708123&method=alipay&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-10 13:42:37] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=98b222ada34fd79da45e93902ab477ba&order_sn=8000110263708123&method=alipay&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-10 13:42:46] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=98b222ada34fd79da45e93902ab477ba&order_sn=8000110263708123&method=alipay&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  

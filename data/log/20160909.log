@@ -1,0 +1,6 @@
+[2016-09-09 09:55:22] /shop/index.php?act=ybkapi&op=reg ( act=ybkapi&op=reg ) 
+ERR: Db Error: Unknown column 'id' in 'order clause'
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = NULL ) AND ( log_captcha = NULL ) ORDER BY id desc LIMIT 1  
+[2016-09-09 10:00:56] /shop/index.php?act=ybkapi&op=reg ( act=ybkapi&op=reg ) 
+ERR: Db Error: Unknown column 'id' in 'order clause'
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = NULL ) AND ( log_captcha = NULL ) ORDER BY id desc LIMIT 1  

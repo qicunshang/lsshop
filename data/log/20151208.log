@@ -1,0 +1,147 @@
+[2015-12-08 12:06:05] /admin/index.php?act=mb_special&op=special_item_add ( act=mb_special&op=special_item_add ) 
+ERR: Db Error: Duplicate entry '2016' for key 'PRIMARY'
+INSERT  INTO `33hao_mb_special_item` (special_id,item_type,item_usable,item_sort,item_id) VALUES ('0','goods2','0','255','2016')
+[2015-12-08 12:06:23] /admin/index.php?act=mb_special&op=special_item_add ( act=mb_special&op=special_item_add ) 
+ERR: Db Error: Duplicate entry '2016' for key 'PRIMARY'
+INSERT  INTO `33hao_mb_special_item` (special_id,item_type,item_usable,item_sort,item_id) VALUES ('0','goods2','0','255','2016')
+[2015-12-08 12:09:27] /admin/index.php?act=mb_special&op=special_item_add ( act=mb_special&op=special_item_add ) 
+ERR: Db Error: Duplicate entry '2016' for key 'PRIMARY'
+INSERT  INTO `33hao_mb_special_item` (special_id,item_type,item_usable,item_sort,item_id) VALUES ('0','goods2','0','255','2016')
+[2015-12-08 16:03:32] /mobile/index.php?act=member_favorites&op=favorites_list&page=10&curpage=1 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_promotion_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('44') ) AND ( is_book = '0' ) LIMIT 1000  
+[2015-12-08 16:03:36] /mobile/index.php?act=member_favorites&op=favorites_list&page=10&curpage=1 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_promotion_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('44') ) AND ( is_book = '0' ) LIMIT 1000  
+[2015-12-08 16:03:49] /mobile/index.php?act=member_favorites&op=favorites_list&page=10&curpage=1 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_promotion_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('44') ) AND ( is_book = '0' ) LIMIT 1000  
+[2015-12-08 16:03:51] /mobile/index.php?act=member_favorites&op=favorites_list&page=10&curpage=1 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_promotion_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('44') ) AND ( is_book = '0' ) LIMIT 1000  
+[2015-12-08 16:04:04] /mobile/index.php?act=member_favorites&op=favorites_list&page=10&curpage=1 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_promotion_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('39','44') ) AND ( is_book = '0' ) LIMIT 1000  
+[2015-12-08 16:04:05] /mobile/index.php?act=member_favorites&op=favorites_list&page=10&curpage=1 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_promotion_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('39','44') ) AND ( is_book = '0' ) LIMIT 1000  
+[2015-12-08 16:04:09] /mobile/index.php?act=member_favorites&op=favorites_list&page=10&curpage=1 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_promotion_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('39','44') ) AND ( is_book = '0' ) LIMIT 1000  
+[2015-12-08 16:04:10] /mobile/index.php?act=member_favorites&op=favorites_list&page=10&curpage=1 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_promotion_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('39','44') ) AND ( is_book = '0' ) LIMIT 1000  
+[2015-12-08 16:04:11] /mobile/index.php?act=member_favorites&op=favorites_list&page=10&curpage=1 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_promotion_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('39','44') ) AND ( is_book = '0' ) LIMIT 1000  
+[2015-12-08 16:23:04] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 16:23:05] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 16:23:08] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 16:23:15] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 17:42:00] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 17:42:03] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 17:42:03] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 17:42:11] /mobile/index.php?act=store&op=store_goods&store_id=1&curpage=1&page=10 ( act=store&op=store_goods ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:00:56] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:00:57] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:00:59] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:01:01] /mobile/index.php?act=store&op=store_goods&store_id=1&curpage=1&page=10 ( act=store&op=store_goods ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:01:01] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:01:08] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:01:28] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:03:52] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:04:07] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:05:40] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:05:42] /mobile/index.php?act=store&op=store_goods&store_id=1&curpage=1&page=10 ( act=store&op=store_goods ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:05:44] /mobile/index.php?act=store&op=store_new_goods&store_id=1&curpage=1&page=10 ( act=store&op=store_new_goods ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND (  (goods_addtime BETWEEN '1446912000' AND '1449590400' ) ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:05:52] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:05:59] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:06:06] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:07:02] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:07:07] /mobile/index.php?act=store&op=store_goods&store_id=1&curpage=1&page=10 ( act=store&op=store_goods ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:07:51] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:11:20] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:11:22] /mobile/index.php?act=store&op=store_goods&store_id=1&curpage=1&page=10 ( act=store&op=store_goods ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:11:24] /mobile/index.php?act=store&op=store_new_goods&store_id=1&curpage=1&page=10 ( act=store&op=store_new_goods ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND (  (goods_addtime BETWEEN '1446912000' AND '1449590400' ) ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:11:39] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:12:27] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 18:59:43] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 19:01:33] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 19:03:14] /mobile/index.php?act=store&op=store_goods&store_id=1&curpage=1&page=10 ( act=store&op=store_goods ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 19:05:34] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 19:05:34] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-08 19:05:35] /mobile/index.php?act=store&op=store_goods_rank ( act=store&op=store_goods_rank ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( store_id = '1' ) AND ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  

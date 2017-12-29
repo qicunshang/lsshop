@@ -1,0 +1,169 @@
+[2016-09-19 08:47:55] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-19 08:47:56] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-19 09:16:21] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY ybk_addtime desc LIMIT 10' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id WHERE ( ybk_status = '1' ) AND ( ybk_deadline =  ) ORDER BY ybk_addtime desc LIMIT 10  
+[2016-09-19 09:19:24] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY ybk_addtime desc LIMIT 10' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id WHERE ( ybk_status = '1' ) AND ( ybk_deadline =  ) ORDER BY ybk_addtime desc LIMIT 10  
+[2016-09-19 09:49:15] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-19 10:17:40] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0.','.10' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id WHERE ( ybk_status = '1' ) AND ( ybk_deadline >= '(TIMESTAMP- 1473836909)/86400' ) ORDER BY ybk_addtime desc LIMIT 0.','.10  
+[2016-09-19 10:17:48] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0.','.10' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id WHERE ( ybk_status = '1' ) ORDER BY ybk_addtime desc LIMIT 0.','.10  
+[2016-09-19 10:18:34] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0.','.10' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id WHERE ( ybk_status = '1' ) ORDER BY ybk_addtime desc LIMIT 0.','.10  
+[2016-09-19 10:45:03] /shop/index.php?act=ybkapi&op=ybklist&ybk_member_id=1&ybk_page=2&ybk_limit=5&ybk_status=all ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'TIMESTAMP' in 'where clause'
+UPDATE 33hao_ybk_info SET ybk_status=4 WHERE ((TIMESTAMP - ybk_addtime)/86400) > ybk_deadline
+[2016-09-19 10:45:11] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'TIMESTAMP' in 'where clause'
+UPDATE 33hao_ybk_info SET ybk_status=4 WHERE ((TIMESTAMP - ybk_addtime)/86400) > ybk_deadline
+[2016-09-19 10:45:38] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'TIMESTAMP' in 'where clause'
+UPDATE 33hao_ybk_info SET ybk_status=4 WHERE ((TIMESTAMP - ybk_addtime)/86400) > ybk_deadline
+[2016-09-19 10:46:22] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') - ybk_addtime)/86400) > ybk_deadline' at line 1
+UPDATE 33hao_ybk_info SET ybk_status=4 WHERE ((time() - ybk_addtime)/86400) > ybk_deadline
+[2016-09-19 10:49:58] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'TIMESTAMP' in 'where clause'
+UPDATE 33hao_ybk_info SET ybk_status=4 WHERE ((TIMESTAMP - ybk_addtime)/86400) > ybk_deadline
+[2016-09-19 10:50:58] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'TIMESTAMP' in 'where clause'
+UPDATE 33hao_ybk_info SET ybk_status=4 WHERE ((TIMESTAMP - ybk_addtime)/86400) > ybk_deadline
+[2016-09-19 10:50:58] /shop/index.php?act=ybkapi&op=ybkcontent& ( act=ybkapi&op=ybkcontent ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+SELECT a.*,b.ybk_name,c.attr_value,d.method FROM 33hao_ybk_info as a
+        LEFT JOIN  33hao_ybk_class as b on a.ybk_type=b.ybk_id
+        LEFT JOIN 33hao_ybk_attr AS c ON a.ybk_attr=c.attr_id
+        LEFT JOIN 33hao_ybk_buymode as d ON a.ybk_buymode=d.mode_id
+        WHERE a.ybk_id=
+[2016-09-19 10:50:58] /shop/index.php?act=ybkapi&op=ybkcontent& ( act=ybkapi&op=ybkcontent ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+update 33hao_ybk_info set ybk_viewed= + 1 where ybk_id=
+[2016-09-19 10:54:22] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'TIMESTAMP' in 'where clause'
+UPDATE 33hao_ybk_info SET ybk_status=4 WHERE ((TIMESTAMP - ybk_addtime)/86400) > ybk_deadline
+[2016-09-19 10:54:23] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-19 10:54:23] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-19 10:55:36] /shop/index.php?act=ybkapi&op=ybklist&ybk_status=0,1\ ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'TIMESTAMP' in 'where clause'
+UPDATE 33hao_ybk_info SET ybk_status=4 WHERE ((TIMESTAMP - ybk_addtime)/86400) > ybk_deadline
+[2016-09-19 10:55:39] /shop/index.php?act=ybkapi&op=ybklist&ybk_status=0,1 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'TIMESTAMP' in 'where clause'
+UPDATE 33hao_ybk_info SET ybk_status=4 WHERE ((TIMESTAMP - ybk_addtime)/86400) > ybk_deadline
+[2016-09-19 10:55:41] /shop/index.php?act=ybkapi&op=ybklist&ybk_status=0,1 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'TIMESTAMP' in 'where clause'
+UPDATE 33hao_ybk_info SET ybk_status=4 WHERE ((TIMESTAMP - ybk_addtime)/86400) > ybk_deadline
+[2016-09-19 10:59:33] /shop/index.php?act=ybkapi&op=ybklist&ybk_status=4,0 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'TIMESTAMP' in 'where clause'
+UPDATE 33hao_ybk_info SET ybk_status=4 WHERE ((TIMESTAMP - ybk_addtime)/86400) > ybk_deadline
+[2016-09-19 11:00:14] /shop/index.php?act=ybkapi&op=ybklist&ybk_status=4,0 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'TIMESTAMP' in 'where clause'
+UPDATE 33hao_ybk_info SET ybk_status=4 WHERE ((TIMESTAMP - `ybk_addtime`)/86400) > `ybk_deadline`
+[2016-09-19 11:20:11] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-19 11:28:28] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-19 11:28:30] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-19 11:28:30] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-19 11:33:58] /shop/ybkapi.php?act=ybkapi&op=newCart ( act=ybkapi&op=newcart ) 
+ERR: Db Error: Column 'buyer_id' cannot be null
+INSERT  INTO `33hao_cart` (buyer_id,goods_id) VALUES (NULL,NULL)
+[2016-09-19 14:20:15] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266015',NULL,NULL,'defalut.png')
+[2016-09-19 14:20:57] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266057',NULL,NULL,'defalut.png')
+[2016-09-19 14:21:28] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266088',NULL,NULL,'defalut.png')
+[2016-09-19 14:22:01] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266121',NULL,NULL,'defalut.png')
+[2016-09-19 14:23:46] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266226',NULL,NULL,'defalut.png')
+[2016-09-19 14:23:58] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266238',NULL,NULL,'defalut.png')
+[2016-09-19 14:25:12] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266312',NULL,NULL,'defalut.png')
+[2016-09-19 14:25:22] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266322',NULL,NULL,'defalut.png')
+[2016-09-19 14:25:23] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266323',NULL,NULL,'defalut.png')
+[2016-09-19 14:25:39] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266339',NULL,NULL,'defalut.png')
+[2016-09-19 14:25:42] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266342',NULL,NULL,'defalut.png')
+[2016-09-19 14:25:59] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266359',NULL,NULL,'defalut.png')
+[2016-09-19 14:26:00] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266360',NULL,NULL,'defalut.png')
+[2016-09-19 14:26:10] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266370',NULL,NULL,'defalut.png')
+[2016-09-19 14:26:11] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266371',NULL,NULL,'defalut.png')
+[2016-09-19 14:26:12] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266372',NULL,NULL,'defalut.png')
+[2016-09-19 14:29:00] /shop/ybkapi.php?act=ybkapi&op=newinfo&ybk_identity=1&ybk_member_id=39&ybk_type=4 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_title' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,'1','4','39','0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474266540',NULL,NULL,'defalut.png')
+[2016-09-19 14:54:10] /shop/index.php?act=ybkapi&op=newinfo ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Column 'ybk_identity' cannot be null
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadline,ybk_content,ybk_pic) VALUES (NULL,NULL,NULL,NULL,'0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1474268050',NULL,NULL,'57df8b9256b80_new.jpg')
+[2016-09-19 15:55:02] /shop/ybkapi.php?act=ybkapi&op=ybkstatus&ybk_id=1 ( act=ybkapi&op=ybkstatus ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT ybk_status FROM `33hao_ybk_info` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-19 17:26:38] /shop/ybkapi.php?act=ybkapi&op=setDefaultAddr&member_id=1&address_id=1 ( act=ybkapi&op=setdefaultaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET is_default='1',address_id='1' WHERE ( member_id = '1' )
+[2016-09-19 17:26:41] /shop/ybkapi.php?act=ybkapi&op=setDefaultAddr&member_id=1&address_id=2 ( act=ybkapi&op=setdefaultaddr ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+UPDATE `33hao_address` SET is_default='1',address_id='2' WHERE ( member_id = '1' )
+[2016-09-19 17:26:43] /shop/ybkapi.php?act=ybkapi&op=setDefaultAddr&member_id=1&address_id=2 ( act=ybkapi&op=setdefaultaddr ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+UPDATE `33hao_address` SET is_default='1',address_id='2' WHERE ( member_id = '1' )
+[2016-09-19 17:41:01] /shop/ybkapi.php?act=ybkapi&op=setDefaultAddr&member_id=1&address_id=2 ( act=ybkapi&op=setdefaultaddr ) 
+ERR: Db Error: Unknown column '2member_id' in 'where clause'
+UPDATE `33hao_address` SET is_default='1' WHERE address_id=2member_id=1
+[2016-09-19 17:41:02] /shop/ybkapi.php?act=ybkapi&op=setDefaultAddr&member_id=1&address_id=2 ( act=ybkapi&op=setdefaultaddr ) 
+ERR: Db Error: Unknown column '2member_id' in 'where clause'
+UPDATE `33hao_address` SET is_default='1' WHERE address_id=2member_id=1
+[2016-09-19 17:41:16] /shop/ybkapi.php?act=ybkapi&op=setDefaultAddr&member_id=1&address_id=2 ( act=ybkapi&op=setdefaultaddr ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'member_id=1' at line 1
+UPDATE `33hao_address` SET is_default='1' WHERE address_id=2AND member_id=1
+[2016-09-19 17:41:17] /shop/ybkapi.php?act=ybkapi&op=setDefaultAddr&member_id=1&address_id=2 ( act=ybkapi&op=setdefaultaddr ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'member_id=1' at line 1
+UPDATE `33hao_address` SET is_default='1' WHERE address_id=2AND member_id=1

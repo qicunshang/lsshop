@@ -1,0 +1,249 @@
+[2017-01-13 09:42:54] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 09:42:55] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:20:25] /shop/ybkapi.php?act=ybkapi&op=refund&member_id=47&order_sn=8000112956399182 ( act=ybkapi&op=refund ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:20:37] /shop/ybkapi.php?act=ybkapi&op=refund&member_id=47&order_sn=8000112956399182 ( act=ybkapi&op=refund ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:22:25] /shop/ybkapi.php?act=ybkapi&op=refund&member_id=47&order_sn=8000112852324313 ( act=ybkapi&op=refund ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:22:26] /shop/ybkapi.php?act=ybkapi&op=refund&member_id=47&order_sn=8000112852324313 ( act=ybkapi&op=refund ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:24:21] /shop/ybkapi.php?act=ybkapi&op=orderlist&member_id=47 ( act=ybkapi&op=orderlist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:26:54] /shop/ybkapi.php?act=ybkapi&op=orderlist&member_id=47 ( act=ybkapi&op=orderlist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:27:02] /shop/ybkapi.php?act=ybkapi&op=orderlist&member_id=47 ( act=ybkapi&op=orderlist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:29:39] /shop/ybkapi.php?act=ybkapi&op=orderlist&member_id=47 ( act=ybkapi&op=orderlist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:30:37] /shop/ybkapi.php?act=ybkapi&op=order&member_id=47 ( act=ybkapi&op=order ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:30:37] /shop/ybkapi.php?act=ybkapi&op=order&member_id=47 ( act=ybkapi&op=order ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1000' at line 1
+SELECT goods_id,goods_name,goods_pay_price,goods_num,goods_image FROM `33hao_order_goods` WHERE order_id = LIMIT 1000  
+[2017-01-13 10:30:37] /shop/ybkapi.php?act=ybkapi&op=order&member_id=47 ( act=ybkapi&op=order ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT * FROM `33hao_order_common` WHERE order_id= LIMIT 1  
+[2017-01-13 10:30:52] /shop/ybkapi.php?act=ybkapi&op=order&member_id=47&order_sn=8001228016893154 ( act=ybkapi&op=order ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:31:40] /shop/ybkapi.php?act=ybkapi&op=order&member_id=47&order_sn=8001228016893154 ( act=ybkapi&op=order ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:35:25] /shop/ybkapi.php?act=ybkapi&op=order&member_id=47&order_sn=8001228016893154 ( act=ybkapi&op=order ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:35:41] /shop/ybkapi.php?act=ybkapi&op=order&member_id=47&order_sn=8001228016893154 ( act=ybkapi&op=order ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:36:00] /shop/ybkapi.php?act=ybkapi&op=order&member_id=47&order_sn=8001228016893154 ( act=ybkapi&op=order ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:37:10] /shop/ybkapi.php?act=ybkapi&op=order&member_id=47&order_sn=8001228016893154 ( act=ybkapi&op=order ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:41:13] /shop/ybkapi.php?act=ybkapi&op=order&member_id=47&order_sn=8001228016893154 ( act=ybkapi&op=order ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 10:43:10] /shop/ybkapi.php?act=ybkapi&op=order&member_id=47&order_sn=8001228016893154 ( act=ybkapi&op=order ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:16:14] /shop/ybkapi.php?act=ybkapi&op=neworder ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:16:44] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=47&cart_id=550 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:16:46] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=47&cart_id=550 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:16:54] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=47&cart_id=550 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:21:50] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:21:50] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:21:50] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Duplicate entry '290' for key 'PRIMARY'
+INSERT  INTO `33hao_order` (order_id,order_sn,pay_sn,store_id,store_name,buyer_id,buyer_name,buyer_email,add_time,payment_code,goods_amount,order_amount,order_state,shipping_fee,order_from) VALUES ('290','8000113777105171','370537621710679047','1','官方旗舰店','47','root','','1484277710','online','0.01','0.01','10','0','2')
+[2017-01-13 11:21:50] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''304','杰克斯梅洛干红葡萄酒 Jack‘s Merlot PB1 烤肉、鸡肉、奶' at line 1
+INSERT  INTO `33hao_order_goods` (order_id,goods_id,goods_name,goods_price,goods_num,goods_image,goods_pay_price,store_id,buyer_id) VALUES (,'304','杰克斯梅洛干红葡萄酒 Jack‘s Merlot PB1 烤肉、鸡肉、奶酪','0.01','1','1_05372849770003464.jpg','0.01','1','47')
+[2017-01-13 11:22:28] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:22:28] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:22:28] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Duplicate entry '291' for key 'PRIMARY'
+INSERT  INTO `33hao_order` (order_id,order_sn,pay_sn,store_id,store_name,buyer_id,buyer_name,buyer_email,add_time,payment_code,goods_amount,order_amount,order_state,shipping_fee,order_from) VALUES ('291','8000113777481703','350537621748106047','1','官方旗舰店','47','root','','1484277748','online','0.01','0.01','10','0','2')
+[2017-01-13 11:22:28] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''304','杰克斯梅洛干红葡萄酒 Jack‘s Merlot PB1 烤肉、鸡肉、奶' at line 1
+INSERT  INTO `33hao_order_goods` (order_id,goods_id,goods_name,goods_price,goods_num,goods_image,goods_pay_price,store_id,buyer_id) VALUES (,'304','杰克斯梅洛干红葡萄酒 Jack‘s Merlot PB1 烤肉、鸡肉、奶酪','0.01','1','1_05372849770003464.jpg','0.01','1','47')
+[2017-01-13 11:23:49] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:23:49] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:28:39] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:28:39] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'id' in 'field list'
+SELECT id FROM `33hao_order` ORDER BY id desc LIMIT 1  
+[2017-01-13 11:28:40] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:29:18] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:29:18] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:31:02] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:31:02] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:31:13] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:31:13] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Duplicate entry '324' for key 'PRIMARY'
+INSERT  INTO `33hao_order_common` (order_id,store_id,evalseller_time,daddress_id,reciver_name,reciver_info,invoice_info,order_message) VALUES ('324','1','1484278273','1','刘帅','a:6:{s:5:\"phone\";s:21:\"13621286210,131611563\";s:9:\"mob_phone\";s:11:\"13621286210\";s:9:\"tel_phone\";s:9:\"131611563\";s:7:\"address\";s:24:\"昌平大河村太极庙\";s:4:\"area\";s:31:\"北京市  北京市  昌平区\";s:6:\"street\";s:31:\"北京市  北京市  昌平区\";}',NULL,'')
+[2017-01-13 11:31:13] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:31:13] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''8000113782731319','930537622273596047','1','官方旗舰店','47','root','','14' at line 1
+INSERT  INTO `33hao_order` (order_id,order_sn,pay_sn,store_id,store_name,buyer_id,buyer_name,buyer_email,add_time,payment_code,goods_amount,order_amount,order_state,shipping_fee,order_from) VALUES (,'8000113782731319','930537622273596047','1','官方旗舰店','47','root','','1484278273','online','0.01','0.01','10','0','2')
+[2017-01-13 11:31:13] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''304','杰克斯梅洛干红葡萄酒 Jack‘s Merlot PB1 烤肉、鸡肉、奶' at line 1
+INSERT  INTO `33hao_order_goods` (order_id,goods_id,goods_name,goods_price,goods_num,goods_image,goods_pay_price,store_id,buyer_id) VALUES (,'304','杰克斯梅洛干红葡萄酒 Jack‘s Merlot PB1 烤肉、鸡肉、奶酪','0.01','1','1_05372849770003464.jpg','0.01','1','47')
+[2017-01-13 11:31:20] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:31:20] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Duplicate entry '324' for key 'PRIMARY'
+INSERT  INTO `33hao_order_common` (order_id,store_id,evalseller_time,daddress_id,reciver_name,reciver_info,invoice_info,order_message) VALUES ('324','1','1484278280','1','刘帅','a:6:{s:5:\"phone\";s:21:\"13621286210,131611563\";s:9:\"mob_phone\";s:11:\"13621286210\";s:9:\"tel_phone\";s:9:\"131611563\";s:7:\"address\";s:24:\"昌平大河村太极庙\";s:4:\"area\";s:31:\"北京市  北京市  昌平区\";s:6:\"street\";s:31:\"北京市  北京市  昌平区\";}',NULL,'')
+[2017-01-13 11:31:20] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:32:28] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:32:28] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Duplicate entry '324' for key 'PRIMARY'
+INSERT  INTO `33hao_order_common` (order_id,store_id,evalseller_time,daddress_id,reciver_name,reciver_info,invoice_info,order_message) VALUES ('324','1','1484278348','1','刘帅','a:6:{s:5:\"phone\";s:21:\"13621286210,131611563\";s:9:\"mob_phone\";s:11:\"13621286210\";s:9:\"tel_phone\";s:9:\"131611563\";s:7:\"address\";s:24:\"昌平大河村太极庙\";s:4:\"area\";s:31:\"北京市  北京市  昌平区\";s:6:\"street\";s:31:\"北京市  北京市  昌平区\";}',NULL,'')
+[2017-01-13 11:32:28] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:32:50] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:32:50] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Duplicate entry '324' for key 'PRIMARY'
+INSERT  INTO `33hao_order_common` (order_id,store_id,evalseller_time,daddress_id,reciver_name,reciver_info,invoice_info,order_message) VALUES ('324','1','1484278370','1','刘帅','a:6:{s:5:\"phone\";s:21:\"13621286210,131611563\";s:9:\"mob_phone\";s:11:\"13621286210\";s:9:\"tel_phone\";s:9:\"131611563\";s:7:\"address\";s:24:\"昌平大河村太极庙\";s:4:\"area\";s:31:\"北京市  北京市  昌平区\";s:6:\"street\";s:31:\"北京市  北京市  昌平区\";}',NULL,'')
+[2017-01-13 11:32:50] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:34:47] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:34:47] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'evalseller_time' in 'field list'
+INSERT  INTO `33hao_order` (order_id,store_id,evalseller_time,daddress_id,reciver_name,reciver_info,invoice_info,order_message) VALUES ('324','1','1484278487','1','刘帅','a:6:{s:5:\"phone\";s:21:\"13621286210,131611563\";s:9:\"mob_phone\";s:11:\"13621286210\";s:9:\"tel_phone\";s:9:\"131611563\";s:7:\"address\";s:24:\"昌平大河村太极庙\";s:4:\"area\";s:31:\"北京市  北京市  昌平区\";s:6:\"street\";s:31:\"北京市  北京市  昌平区\";}',NULL,'')
+[2017-01-13 11:34:47] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:34:49] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:34:50] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'evalseller_time' in 'field list'
+INSERT  INTO `33hao_order` (order_id,store_id,evalseller_time,daddress_id,reciver_name,reciver_info,invoice_info,order_message) VALUES ('324','1','1484278490','1','刘帅','a:6:{s:5:\"phone\";s:21:\"13621286210,131611563\";s:9:\"mob_phone\";s:11:\"13621286210\";s:9:\"tel_phone\";s:9:\"131611563\";s:7:\"address\";s:24:\"昌平大河村太极庙\";s:4:\"area\";s:31:\"北京市  北京市  昌平区\";s:6:\"street\";s:31:\"北京市  北京市  昌平区\";}',NULL,'')
+[2017-01-13 11:34:50] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:34:51] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:34:51] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'evalseller_time' in 'field list'
+INSERT  INTO `33hao_order` (order_id,store_id,evalseller_time,daddress_id,reciver_name,reciver_info,invoice_info,order_message) VALUES ('324','1','1484278491','1','刘帅','a:6:{s:5:\"phone\";s:21:\"13621286210,131611563\";s:9:\"mob_phone\";s:11:\"13621286210\";s:9:\"tel_phone\";s:9:\"131611563\";s:7:\"address\";s:24:\"昌平大河村太极庙\";s:4:\"area\";s:31:\"北京市  北京市  昌平区\";s:6:\"street\";s:31:\"北京市  北京市  昌平区\";}',NULL,'')
+[2017-01-13 11:34:51] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:34:52] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:34:52] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'evalseller_time' in 'field list'
+INSERT  INTO `33hao_order` (order_id,store_id,evalseller_time,daddress_id,reciver_name,reciver_info,invoice_info,order_message) VALUES ('324','1','1484278492','1','刘帅','a:6:{s:5:\"phone\";s:21:\"13621286210,131611563\";s:9:\"mob_phone\";s:11:\"13621286210\";s:9:\"tel_phone\";s:9:\"131611563\";s:7:\"address\";s:24:\"昌平大河村太极庙\";s:4:\"area\";s:31:\"北京市  北京市  昌平区\";s:6:\"street\";s:31:\"北京市  北京市  昌平区\";}',NULL,'')
+[2017-01-13 11:34:52] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:35:15] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:35:15] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'evalseller_time' in 'field list'
+INSERT  INTO `33hao_order` (order_id,store_id,evalseller_time,daddress_id,reciver_name,reciver_info,invoice_info,order_message) VALUES ('324','1','1484278515','1','刘帅','a:6:{s:5:\"phone\";s:21:\"13621286210,131611563\";s:9:\"mob_phone\";s:11:\"13621286210\";s:9:\"tel_phone\";s:9:\"131611563\";s:7:\"address\";s:24:\"昌平大河村太极庙\";s:4:\"area\";s:31:\"北京市  北京市  昌平区\";s:6:\"street\";s:31:\"北京市  北京市  昌平区\";}',NULL,'')
+[2017-01-13 11:35:15] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:35:27] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:35:27] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:35:40] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:35:40] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0.00 where member_id=47
+[2017-01-13 11:35:52] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 11:35:52] /shop/ybkapi.php?act=ybkapi&op=neworder&account=balance,drinksbalance&address=&address_id=1&bank=&bank_account=&cart_id=551&comment=&inv=&inv_code=&inv_content=&inv_title=&member_id=47&phone= ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+update 33hao_ybk_member set ybk_balance=ybk_balance-0 where member_id=47
+[2017-01-13 15:43:16] /shop/ybkapi.php/?act=ybkapi&op=orderlist&member_id=50&token=beb5680a3388baa2a18838d79b08cd8f&state=all ( act=ybkapi&op=orderlist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 15:43:18] /shop/ybkapi.php/?act=ybkapi&op=orderlist&member_id=50&token=beb5680a3388baa2a18838d79b08cd8f&state=all ( act=ybkapi&op=orderlist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 15:43:56] /shop/ybkapi.php/?act=ybkapi&op=orderlist&member_id=50&token=beb5680a3388baa2a18838d79b08cd8f&state=all ( act=ybkapi&op=orderlist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 15:47:06] /shop/ybkapi.php/?act=ybkapi&op=orderlist&member_id=50&token=beb5680a3388baa2a18838d79b08cd8f&state=all ( act=ybkapi&op=orderlist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 15:47:17] /shop/ybkapi.php/?act=ybkapi&op=orderlist&member_id=50&token=beb5680a3388baa2a18838d79b08cd8f&state=all ( act=ybkapi&op=orderlist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-01-13 15:47:26] /shop/ybkapi.php/?act=ybkapi&op=orderlist&member_id=50&token=beb5680a3388baa2a18838d79b08cd8f&state=all ( act=ybkapi&op=orderlist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  

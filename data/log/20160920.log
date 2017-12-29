@@ -1,0 +1,438 @@
+[2016-09-20 08:25:56] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-20 08:42:07] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-20 08:42:07] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-20 08:59:59] /shop/ybkapi.php?act=ybkapi&op=changeybkstatus&member_id=1&ybk_id=1&ybk_status=1 ( act=ybkapi&op=changeybkstatus ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0='ybk_status',1='1' WHERE ( ybk_id = '1' ) AND ( ybk_member_id = NULL ) AND ( l' at line 1
+UPDATE `33hao_ybk_info` SET 0='ybk_status',1='1' WHERE ( ybk_id = '1' ) AND ( ybk_member_id = NULL ) AND ( limit = '1' ) AND ( ybk_status IN ('3','4') )
+[2016-09-20 09:00:01] /shop/ybkapi.php?act=ybkapi&op=changeybkstatus&member_id=1&ybk_id=1&ybk_status=1 ( act=ybkapi&op=changeybkstatus ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0='ybk_status',1='1' WHERE ( ybk_id = '1' ) AND ( ybk_member_id = NULL ) AND ( l' at line 1
+UPDATE `33hao_ybk_info` SET 0='ybk_status',1='1' WHERE ( ybk_id = '1' ) AND ( ybk_member_id = NULL ) AND ( limit = '1' ) AND ( ybk_status IN ('3','4') )
+[2016-09-20 09:02:35] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-20 09:02:38] /index.php?act=login&op=index ( act=login&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-20 09:02:43] /shop/index.php?act=login&op=login&inajax=1 ( act=login&op=login ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-20 09:02:43] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-20 09:59:50] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) AS from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1
+[2016-09-20 09:59:52] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) AS from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1
+[2016-09-20 10:02:11] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) AS from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1
+[2016-09-20 10:24:44] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) AS from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1
+[2016-09-20 10:26:07] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) AS from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1
+[2016-09-20 10:26:22] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) AS from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1
+[2016-09-20 10:26:23] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) AS from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1
+[2016-09-20 10:26:56] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) AS from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1
+[2016-09-20 10:27:50] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) AS from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1
+[2016-09-20 10:33:06] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) AS from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1
+[2016-09-20 10:33:31] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) AS from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1
+[2016-09-20 10:33:49] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) AS from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1
+[2016-09-20 10:34:07] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) AS from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=1 and ybk_status=1
+[2016-09-20 10:48:19] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=2 and ybk_status in(3' at line 1
+select count(*) AS from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=2 and ybk_status in(3,4,5)
+[2016-09-20 10:51:41] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=2 and ybk_status in(3' at line 1
+select count(*) as from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=2 and ybk_status in(3,4,5)
+[2016-09-20 10:52:30] /shop/ybkapi.php?act=ybkapi&op=myybk ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=2 and ybk_status in(3' at line 1
+select count(*) as from 33hao_ybk_info where ybk_member_id=1 and ybk_identity=2 and ybk_status in(3,4,5)
+[2016-09-20 10:57:35] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status=0' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status=0
+[2016-09-20 10:57:35] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status=0' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status=0
+[2016-09-20 10:57:35] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status=1
+[2016-09-20 10:57:35] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status=1' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status=1
+[2016-09-20 10:57:35] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status in(3,4,5)' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status in(3,4,5)
+[2016-09-20 10:57:35] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status in(3,4,5)' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status in(3,4,5)
+[2016-09-20 11:00:01] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status=0' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status=0
+[2016-09-20 11:00:01] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status=0' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status=0
+[2016-09-20 11:00:01] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status=1
+[2016-09-20 11:00:01] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status=1' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status=1
+[2016-09-20 11:00:01] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status in(3,4,5)' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status in(3,4,5)
+[2016-09-20 11:00:01] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status in(3,4,5)' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status in(3,4,5)
+[2016-09-20 11:01:36] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status=0' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status=0
+[2016-09-20 11:01:36] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status=0' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status=0
+[2016-09-20 11:01:36] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status=1
+[2016-09-20 11:01:36] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status=1' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status=1
+[2016-09-20 11:01:36] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status in(3,4,5)' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status in(3,4,5)
+[2016-09-20 11:01:36] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status in(3,4,5)' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status in(3,4,5)
+[2016-09-20 11:01:50] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status=0' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status=0
+[2016-09-20 11:01:50] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status=0' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status=0
+[2016-09-20 11:01:50] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status=1
+[2016-09-20 11:01:50] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status=1' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status=1
+[2016-09-20 11:01:50] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status in(3,4,5)' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status in(3,4,5)
+[2016-09-20 11:01:50] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status in(3,4,5)' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status in(3,4,5)
+[2016-09-20 11:02:15] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status=0' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status=0
+[2016-09-20 11:02:15] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status=0' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status=0
+[2016-09-20 11:02:15] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status=1
+[2016-09-20 11:02:15] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status=1' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status=1
+[2016-09-20 11:02:15] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status in(3,4,5)' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status in(3,4,5)
+[2016-09-20 11:02:15] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status in(3,4,5)' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status in(3,4,5)
+[2016-09-20 11:02:21] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status=0' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status=0
+[2016-09-20 11:02:21] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status=0' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status=0
+[2016-09-20 11:02:21] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status=1
+[2016-09-20 11:02:21] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status=1' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status=1
+[2016-09-20 11:02:21] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status in(3,4,5)' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status in(3,4,5)
+[2016-09-20 11:02:21] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=36 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status in(3,4,5)' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status in(3,4,5)
+[2016-09-20 11:09:37] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=1 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status=0' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status=0
+[2016-09-20 11:09:37] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=1 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status=0' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status=0
+[2016-09-20 11:09:37] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=1 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status=1' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status=1
+[2016-09-20 11:09:37] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=1 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status=1' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status=1
+[2016-09-20 11:09:37] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=1 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=1 and ybk_status in(3,4,5)' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=1 and ybk_status in(3,4,5)
+[2016-09-20 11:09:37] /shop/ybkapi.php?act=ybkapi&op=myybk&ybk_member_id=1 ( act=ybkapi&op=myybk ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_identity=2 and ybk_status in(3,4,5)' at line 1
+select count(*) from 33hao_ybk_info where ybk_member_id= and ybk_identity=2 and ybk_status in(3,4,5)
+[2016-09-20 11:26:23] /shop/ybkapi.php?act=ybkapi&op=newcart&ybk_id=1 ( act=ybkapi&op=newcart ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_info` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-20 11:26:23] /shop/ybkapi.php?act=ybkapi&op=newcart&ybk_id=1 ( act=ybkapi&op=newcart ) 
+ERR: Db Error: Column 'buyer_id' cannot be null
+INSERT  INTO `33hao_cart` (buyer_id,goods_id,goods_num) VALUES (NULL,'1',NULL)
+[2016-09-20 11:26:42] /shop/ybkapi.php?act=ybkapi&op=newcart&ybk_id=1 ( act=ybkapi&op=newcart ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_info` WHERE ( id = '1' ) LIMIT 1  
+[2016-09-20 11:34:17] /shop/ybkapi.php?act=ybkapi&op=newcart&ybk_id=1 ( act=ybkapi&op=newcart ) 
+ERR: Db Error: Column 'buyer_id' cannot be null
+INSERT  INTO `33hao_cart` (buyer_id,goods_id,goods_num,store_id,goods_image) VALUES (NULL,'1',NULL,'1','1')
+[2016-09-20 11:34:32] /shop/ybkapi.php?act=ybkapi&op=newcart&ybk_id=1 ( act=ybkapi&op=newcart ) 
+ERR: Db Error: Column 'buyer_id' cannot be null
+INSERT  INTO `33hao_cart` (buyer_id,goods_id,goods_num,store_id,goods_image) VALUES (NULL,'1',NULL,'1','1')
+[2016-09-20 11:34:51] /shop/ybkapi.php?act=ybkapi&op=newcart&ybk_id=1 ( act=ybkapi&op=newcart ) 
+ERR: Db Error: Column 'buyer_id' cannot be null
+INSERT  INTO `33hao_cart` (buyer_id,goods_id,goods_num,store_id,goods_image) VALUES (NULL,'1',NULL,'1','default1.png,default2.png,default3.jpg')
+[2016-09-20 11:56:48] /shop/ybkapi.php?act=ybkapi&op=newcart&ybk_id=1 ( act=ybkapi&op=newcart ) 
+ERR: Db Error: Column 'buyer_id' cannot be null
+INSERT  INTO `33hao_cart` (buyer_id,goods_id,goods_num,store_name) VALUES (NULL,'1',NULL,',,')
+[2016-09-20 13:57:54] /shop/ybkapi.php?act=ybkapi&op=newcart&member_id=1&ybk_id=1&attr_value=%E4%B8%8A%E5%93%81&method=%E5%85%88%E6%AC%BE%E5%90%8E%E8%B4%A7&city=%E5%8C%97%E4%BA%AC ( act=ybkapi&op=newcart ) 
+ERR: Db Error: Column 'goods_num' cannot be null
+INSERT  INTO `33hao_cart` (buyer_id,goods_id,goods_num,store_name) VALUES ('1','1',NULL,'上品,先款后货,北京')
+[2016-09-20 13:59:20] /shop/ybkapi.php?act=ybkapi&op=newcart&member_id=1&ybk_id=1&attr_value=%E4%B8%8A%E5%93%81&method=%E5%85%88%E6%AC%BE%E5%90%8E%E8%B4%A7&city=%E5%8C%97%E4%BA%AC ( act=ybkapi&op=newcart ) 
+ERR: Db Error: Column 'goods_num' cannot be null
+INSERT  INTO `33hao_cart` (buyer_id,goods_id,goods_num,store_name) VALUES ('1','1',NULL,'上品,先款后货,北京')
+[2016-09-20 14:36:30] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=1234567894561&member_id ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '' )
+[2016-09-20 14:36:49] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '1' )
+[2016-09-20 14:37:21] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '1' )
+[2016-09-20 14:41:18] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id= ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',area_id='0',mob_phone='1234567894561' WHERE ( member_id = '' )
+[2016-09-20 14:41:22] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id=0 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',area_id='0',mob_phone='1234567894561' WHERE ( member_id = '0' )
+[2016-09-20 14:41:26] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',area_id='0',mob_phone='1234567894561' WHERE ( member_id = '1' )
+[2016-09-20 14:41:38] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',area_id='0',mob_phone='1234567894561' WHERE ( member_id = '1' )
+[2016-09-20 14:42:25] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',mob_phone='1234567894561' WHERE ( member_id = '1' )
+[2016-09-20 14:43:33] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',mob_phone='1234567894561' WHERE ( member_id = '1' )
+[2016-09-20 14:43:35] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',mob_phone='1234567894561' WHERE ( member_id = '1' )
+[2016-09-20 14:44:56] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '1' )
+[2016-09-20 14:45:21] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '1' )
+[2016-09-20 14:45:36] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '1' )
+[2016-09-20 14:45:37] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '1' )
+[2016-09-20 14:45:51] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '1' )
+[2016-09-20 14:45:57] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '1' )
+[2016-09-20 14:45:58] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '1' )
+[2016-09-20 14:46:00] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '1' )
+[2016-09-20 14:46:47] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '1' )
+[2016-09-20 14:46:48] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id=0 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '0' )
+[2016-09-20 14:46:48] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=1234567894561&member_id= ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '' )
+[2016-09-20 14:46:49] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '1' )
+[2016-09-20 14:46:49] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=1234567894561&member_id ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '' )
+[2016-09-20 14:47:21] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='1234567894561',is_default=NULL WHERE ( member_id = '1' )
+[2016-09-20 14:48:11] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',mob_phone='1234567894561' WHERE ( member_id = '1' )
+[2016-09-20 14:49:36] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:49:39] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=123456789456&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',mob_phone='123456789456' WHERE ( member_id = '1' )
+[2016-09-20 14:49:40] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=123456789456&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',mob_phone='123456789456' WHERE ( member_id = '1' )
+[2016-09-20 14:49:42] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=123456789456&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',mob_phone='123456789456' WHERE ( member_id = '1' )
+[2016-09-20 14:50:34] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=2&mob_phone=123456789456&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='2',mob_phone='123456789456' WHERE ( member_id = '1' )
+[2016-09-20 14:50:35] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=2&mob_phone=123456789456&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='2',mob_phone='123456789456' WHERE ( member_id = '1' )
+[2016-09-20 14:50:36] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=2&mob_phone=123456789456&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='2',mob_phone='123456789456' WHERE ( member_id = '1' )
+[2016-09-20 14:50:38] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=2&mob_phone=123456789456&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='2',mob_phone='123456789456' WHERE ( member_id = '1' )
+[2016-09-20 14:51:05] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=2&mob_phone=123456789456&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='2',mob_phone='123456789456' WHERE ( member_id = '1' )
+[2016-09-20 14:51:09] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=2&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='2',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:51:10] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=2&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='2',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:51:11] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=2&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='2',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:51:32] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=2&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='2',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:51:33] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=2&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='2',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:51:43] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:51:44] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:51:45] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:51:50] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:52:06] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:52:08] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:52:22] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=2&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='2',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:52:23] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=2&mob_phone=123456789456&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='2',mob_phone='123456789456' WHERE ( member_id = '1' )
+[2016-09-20 14:52:24] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=123456789456&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',mob_phone='123456789456' WHERE ( member_id = '1' )
+[2016-09-20 14:52:25] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=6&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '6' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='6',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:52:26] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:52:32] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:52:42] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=1234567894561&member_id=1 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',mob_phone='1234567894561' WHERE ( member_id = '1' )
+[2016-09-20 14:53:06] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',mob_phone='123456789456' WHERE ( member_id = '' )
+[2016-09-20 14:53:12] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 14:53:30] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',true_name=NULL,area_id='0',area_info=NULL,address=NULL,mob_phone='123456789456',is_default=NULL WHERE ( member_id = '33' )
+[2016-09-20 14:54:21] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Duplicate entry '1' for key 'PRIMARY'
+UPDATE `33hao_address` SET address_id='1',mob_phone='123456789456' WHERE ( member_id = '33' )
+[2016-09-20 15:04:38] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+update 33hao_address set
+[2016-09-20 15:04:40] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+update 33hao_address set
+[2016-09-20 15:04:41] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+update 33hao_address set
+[2016-09-20 15:06:39] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'address_id=1and member_id=33' at line 1
+update 33hao_address set area_id=0,mob_phone=123456789456where address_id=1and member_id=33
+[2016-09-20 15:06:40] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'address_id=1and member_id=33' at line 1
+update 33hao_address set area_id=0,mob_phone=123456789456where address_id=1and member_id=33
+[2016-09-20 15:07:10] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'address_id=1and member_id=33' at line 1
+update 33hao_address set area_id=0,mob_phone=123456789456where address_id=1and member_id=33
+[2016-09-20 15:07:24] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=1&mob_phone=123456789456&member_id=33 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'member_id=33' at line 1
+update 33hao_address set area_id=0,mob_phone=123456789456 where address_id=1and member_id=33
+[2016-09-20 15:08:37] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=3&mob_phone=1234556 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+update 33hao_address set area_id=0,mob_phone=1234556 where address_id=3 and member_id=
+[2016-09-20 15:16:14] /shop/ybkapi.php?act=ybkapi&op=updateAddr&address_id=10&mob_phone=1234556&member_id= ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+update 33hao_address set area_id=0,mob_phone=1234556,is_default="0" where address_id=10 and member_id=
+[2016-09-20 15:38:02] /shop/ybkapi.php?act=ybkapi&op=updateGoodsNum&member_id=1&cart_id ( act=ybkapi&op=updategoodsnum ) 
+ERR: Db Error: Unknown column 'buy_id' in 'where clause'
+UPDATE `33hao_cart` SET goods_num=NULL WHERE ( cart_id = '' ) AND ( buy_id = '1' )
+[2016-09-20 15:41:48] /shop/ybkapi.php?act=ybkapi&op=updateGoodsNum&member_id=1&cart_id ( act=ybkapi&op=updategoodsnum ) 
+ERR: Db Error: Unknown column 'buy_id' in 'where clause'
+UPDATE `33hao_cart` SET goods_num=NULL WHERE ( cart_id = '' ) AND ( buy_id = '1' )
+[2016-09-20 15:42:06] /shop/ybkapi.php?act=ybkapi&op=updateGoodsNum&member_id=1&cart_id&goods_num=100 ( act=ybkapi&op=updategoodsnum ) 
+ERR: Db Error: Unknown column 'buy_id' in 'where clause'
+UPDATE `33hao_cart` SET goods_num='100' WHERE ( cart_id = '' ) AND ( buy_id = '1' )
+[2016-09-20 15:42:13] /shop/ybkapi.php?act=ybkapi&op=updateGoodsNum&member_id=1&cart_id=1&goods_num=100 ( act=ybkapi&op=updategoodsnum ) 
+ERR: Db Error: Unknown column 'buy_id' in 'where clause'
+UPDATE `33hao_cart` SET goods_num='100' WHERE ( cart_id = '1' ) AND ( buy_id = '1' )
+[2016-09-20 16:13:50] /shop/ybkapi.php?act=ybkapi&op=delCartGoods&member_id=1&cart_id=4 ( act=ybkapi&op=delcartgoods ) 
+ERR: Db Error: Unknown column 'buy_id' in 'where clause'
+DELETE  FROM `33hao_cart` WHERE cart_id=4 and buy_id=1

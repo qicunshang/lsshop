@@ -1,0 +1,384 @@
+[2016-01-06 00:01:29] /mobile/index.php?act=goods&op=goods_detail&goods_id=102244&key=2a2816ca97eb9bf417abc2a80fc3d4bf ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452009689' ) AND ( voucher_t_store_id IN ('16') ) LIMIT 1000  
+[2016-01-06 00:05:13] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=750505353909937016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452009913' WHERE ( order_id IN ('254') )
+[2016-01-06 00:05:15] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=750505353909937016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452009915' WHERE ( order_id IN ('254') )
+[2016-01-06 00:05:16] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=750505353909937016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452009916' WHERE ( order_id IN ('254') )
+[2016-01-06 00:05:17] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=750505353909937016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452009917' WHERE ( order_id IN ('254') )
+[2016-01-06 00:05:17] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=750505353909937016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452009917' WHERE ( order_id IN ('254') )
+[2016-01-06 00:05:45] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=750505353909937016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452009945' WHERE ( order_id IN ('254') )
+[2016-01-06 00:05:46] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=750505353909937016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452009946' WHERE ( order_id IN ('254') )
+[2016-01-06 00:05:54] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=750505353909937016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452009954' WHERE ( order_id IN ('254') )
+[2016-01-06 00:19:52] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=750505353909937016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452010792' WHERE ( order_id IN ('254') )
+[2016-01-06 11:54:18] /mobile/index.php?act=goods&op=goods_detail&goods_id=101693&key=2a2816ca97eb9bf417abc2a80fc3d4bf ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452052458' ) AND ( voucher_t_store_id IN ('12') ) LIMIT 1000  
+[2016-01-06 11:54:42] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=610505396469390016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452052482' WHERE ( order_id IN ('255') )
+[2016-01-06 12:43:26] /mobile/index.php?act=goods&op=goods_detail&goods_id=101686&key=2a2816ca97eb9bf417abc2a80fc3d4bf ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452055406' ) AND ( voucher_t_store_id IN ('12') ) LIMIT 1000  
+[2016-01-06 12:46:48] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452055608' WHERE ( order_id IN ('256') )
+[2016-01-06 13:56:35] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452059795' WHERE ( order_id IN ('256') )
+[2016-01-06 13:56:36] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452059796' WHERE ( order_id IN ('256') )
+[2016-01-06 13:56:46] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452059806' WHERE ( order_id IN ('256') )
+[2016-01-06 13:56:48] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452059807' WHERE ( order_id IN ('256') )
+[2016-01-06 13:56:49] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452059809' WHERE ( order_id IN ('256') )
+[2016-01-06 13:57:22] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452059842' WHERE ( order_id IN ('256') )
+[2016-01-06 13:57:23] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452059843' WHERE ( order_id IN ('256') )
+[2016-01-06 13:57:24] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452059844' WHERE ( order_id IN ('256') )
+[2016-01-06 13:57:35] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452059855' WHERE ( order_id IN ('256') )
+[2016-01-06 13:57:36] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452059856' WHERE ( order_id IN ('256') )
+[2016-01-06 13:58:04] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452059884' WHERE ( order_id IN ('256') )
+[2016-01-06 13:58:05] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452059885' WHERE ( order_id IN ('256') )
+[2016-01-06 13:58:07] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452059886' WHERE ( order_id IN ('256') )
+[2016-01-06 14:00:30] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452060030' WHERE ( order_id IN ('256') )
+[2016-01-06 14:00:31] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452060031' WHERE ( order_id IN ('256') )
+[2016-01-06 14:00:32] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452060032' WHERE ( order_id IN ('256') )
+[2016-01-06 14:00:32] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452060032' WHERE ( order_id IN ('256') )
+[2016-01-06 14:00:33] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452060033' WHERE ( order_id IN ('256') )
+[2016-01-06 14:00:41] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452060041' WHERE ( order_id IN ('256') )
+[2016-01-06 14:00:59] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452060059' WHERE ( order_id IN ('256') )
+[2016-01-06 14:01:00] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452060060' WHERE ( order_id IN ('256') )
+[2016-01-06 14:01:01] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452060061' WHERE ( order_id IN ('256') )
+[2016-01-06 14:01:48] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452060108' WHERE ( order_id IN ('256') )
+[2016-01-06 14:01:49] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452060109' WHERE ( order_id IN ('256') )
+[2016-01-06 14:01:50] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452060110' WHERE ( order_id IN ('256') )
+[2016-01-06 14:01:51] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452060111' WHERE ( order_id IN ('256') )
+[2016-01-06 14:24:40] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061480' WHERE ( order_id IN ('256') )
+[2016-01-06 14:24:41] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061481' WHERE ( order_id IN ('256') )
+[2016-01-06 14:24:51] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061491' WHERE ( order_id IN ('256') )
+[2016-01-06 14:24:52] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061492' WHERE ( order_id IN ('256') )
+[2016-01-06 14:24:53] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061493' WHERE ( order_id IN ('256') )
+[2016-01-06 14:26:54] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061614' WHERE ( order_id IN ('256') )
+[2016-01-06 14:30:05] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061805' WHERE ( order_id IN ('256') )
+[2016-01-06 14:30:06] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061806' WHERE ( order_id IN ('256') )
+[2016-01-06 14:30:12] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061812' WHERE ( order_id IN ('256') )
+[2016-01-06 14:30:13] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061813' WHERE ( order_id IN ('256') )
+[2016-01-06 14:30:26] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=730505399417484016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061826' WHERE ( order_id IN ('256') )
+[2016-01-06 14:30:50] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=940505405834312016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061850' WHERE ( order_id IN ('257') )
+[2016-01-06 14:31:17] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=940505405834312016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061877' WHERE ( order_id IN ('257') )
+[2016-01-06 14:31:49] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=940505405834312016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061909' WHERE ( order_id IN ('257') )
+[2016-01-06 14:31:50] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=940505405834312016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061910' WHERE ( order_id IN ('257') )
+[2016-01-06 14:31:51] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=940505405834312016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061911' WHERE ( order_id IN ('257') )
+[2016-01-06 14:31:52] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=940505405834312016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061912' WHERE ( order_id IN ('257') )
+[2016-01-06 14:33:08] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=940505405834312016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061988' WHERE ( order_id IN ('257') )
+[2016-01-06 14:33:08] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=940505405834312016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061988' WHERE ( order_id IN ('257') )
+[2016-01-06 14:33:09] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=940505405834312016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061989' WHERE ( order_id IN ('257') )
+[2016-01-06 14:33:10] /mobile/index.php?act=member_payment&op=pay_new&key=2a2816ca97eb9bf417abc2a80fc3d4bf&pay_sn=940505405834312016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452061990' WHERE ( order_id IN ('257') )
+[2016-01-06 14:35:09] /mobile/index.php?act=member_favorites&op=favorites_list&key=2a2816ca97eb9bf417abc2a80fc3d4bf&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('101686','102126','101950') ) AND ( is_book = '0' ) LIMIT 1000  
+[2016-01-06 14:35:31] /mobile/index.php?act=member_favorites&op=favorites_list&key=2a2816ca97eb9bf417abc2a80fc3d4bf&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('101686','102126','101950') ) AND ( is_book = '0' ) LIMIT 1000  
+[2016-01-06 14:35:38] /mobile/index.php?act=goods&op=goods_detail&goods_id=101934&key=2a2816ca97eb9bf417abc2a80fc3d4bf ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452062138' ) AND ( voucher_t_store_id IN ('15') ) LIMIT 1000  
+[2016-01-06 14:36:35] /mobile/index.php?act=member_favorites&op=favorites_list&key=2a2816ca97eb9bf417abc2a80fc3d4bf&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('101934','101686','102126','101950') ) AND ( is_book = '0' ) LIMIT 1000  
+[2016-01-06 14:36:43] /mobile/index.php?act=member_favorites&op=favorites_list&key=2a2816ca97eb9bf417abc2a80fc3d4bf&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('101934','101686','102126','101950') ) AND ( is_book = '0' ) LIMIT 1000  
+[2016-01-06 14:36:46] /mobile/index.php?act=member_favorites&op=favorites_list&key=2a2816ca97eb9bf417abc2a80fc3d4bf&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('101934','101686','102126','101950') ) AND ( is_book = '0' ) LIMIT 1000  
+[2016-01-06 14:36:58] /mobile/index.php?act=goods&op=goods_detail&goods_id=101686&key=2a2816ca97eb9bf417abc2a80fc3d4bf ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452062218' ) AND ( voucher_t_store_id IN ('12') ) LIMIT 1000  
+[2016-01-06 15:00:00] /mobile/index.php?act=goods&op=goods_detail&goods_id=101686&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452063600' ) AND ( voucher_t_store_id IN ('12') ) LIMIT 1000  
+[2016-01-06 15:00:23] /mobile/index.php?act=goods&op=goods_detail&goods_id=101559&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452063623' ) AND ( voucher_t_store_id IN ('12') ) LIMIT 1000  
+[2016-01-06 15:03:20] /mobile/index.php?act=goods&op=goods_detail&goods_id=101559&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452063800' ) AND ( voucher_t_store_id IN ('12') ) LIMIT 1000  
+[2016-01-06 21:33:46] /mobile/index.php?act=goods&op=goods_detail&goods_id=102158&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452087226' ) AND ( voucher_t_store_id IN ('15') ) LIMIT 1000  
+[2016-01-06 21:34:22] /mobile/index.php?act=goods&op=goods_list&gc_id=1101&page=10&curpage=1&gc_id=1101 ( act=goods&op=goods_list ) 
+ERR: Db Error: Unknown column 'goods_id' in 'order clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_goods_common` WHERE ( store_id = '12' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct ORDER BY is_own_shop desc,goods_id desc LIMIT 1  
+[2016-01-06 21:34:27] /mobile/index.php?act=goods&op=goods_list&gc_id=1101&page=10&curpage=2&gc_id=1101 ( act=goods&op=goods_list ) 
+ERR: Db Error: Unknown column 'goods_id' in 'order clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_goods_common` WHERE ( store_id = '12' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct ORDER BY is_own_shop desc,goods_id desc LIMIT 1  
+[2016-01-06 21:34:30] /mobile/index.php?act=goods&op=goods_detail&goods_id=102126&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452087270' ) AND ( voucher_t_store_id IN ('12') ) LIMIT 1000  
+[2016-01-06 21:37:25] /mobile/index.php?act=member_favorites&op=favorites_list&key=7b00031b624f37a18e8f71802a992b05&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('101559','101686','101934','102126','101950') ) AND ( is_book = '0' ) LIMIT 1000  
+[2016-01-06 21:37:30] /mobile/index.php?act=member_favorites&op=favorites_list&key=7b00031b624f37a18e8f71802a992b05&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('101559','101686','101934','102126','101950') ) AND ( is_book = '0' ) LIMIT 1000  
+[2016-01-06 21:37:48] /mobile/index.php?act=goods&op=goods_list&keyword=&page=10&curpage=1 ( act=goods&op=goods_list ) 
+ERR: Db Error: Unknown column 'goods_id' in 'order clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_goods_common` WHERE ( store_id = '11' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct ORDER BY is_own_shop desc,goods_id desc LIMIT 1  
+[2016-01-06 21:37:50] /mobile/index.php?act=goods&op=goods_list&keyword=&page=10&curpage=2 ( act=goods&op=goods_list ) 
+ERR: Db Error: Unknown column 'goods_id' in 'order clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_goods_common` WHERE ( store_id = '16' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct ORDER BY is_own_shop desc,goods_id desc LIMIT 1  
+[2016-01-06 21:37:54] /mobile/index.php?act=goods&op=goods_detail&goods_id=102216&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452087474' ) AND ( voucher_t_store_id IN ('16') ) LIMIT 1000  
+[2016-01-06 21:38:57] /mobile/index.php?act=goods&op=goods_detail&goods_id=102688&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452087537' ) AND ( voucher_t_store_id IN ('16') ) LIMIT 1000  
+[2016-01-06 21:39:47] /mobile/index.php?act=goods&op=goods_detail&goods_id=102550&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452087587' ) AND ( voucher_t_store_id IN ('16') ) LIMIT 1000  
+[2016-01-06 21:55:33] /mobile/index.php?act=goods&op=goods_detail&goods_id=101934&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452088533' ) AND ( voucher_t_store_id IN ('15') ) LIMIT 1000  
+[2016-01-06 21:55:43] /mobile/index.php?act=goods&op=goods_detail&goods_id=101934&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452088543' ) AND ( voucher_t_store_id IN ('15') ) LIMIT 1000  
+[2016-01-06 21:59:25] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452088765' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 21:59:34] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452088774' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 21:59:57] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452088797' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:02:18] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452088938' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:02:36] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452088956' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:03:43] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089023' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:04:44] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089084' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:05:24] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089124' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:07:12] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089232' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:10:29] /mobile/index.php?act=goods&op=goods_list&keyword=%E4%B8%8A%E8%A1%A3&page=10&curpage=1&keyword=%E4%B8%8A%E8%A1%A3 ( act=goods&op=goods_list ) 
+ERR: Db Error: Unknown column 'goods_id' in 'order clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_goods_common` WHERE ( store_id = '15' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct ORDER BY is_own_shop desc,goods_id desc LIMIT 1  
+[2016-01-06 22:10:33] /mobile/index.php?act=goods&op=goods_detail&goods_id=101887&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089433' ) AND ( voucher_t_store_id IN ('15') ) LIMIT 1000  
+[2016-01-06 22:10:41] /mobile/index.php?act=goods&op=goods_list&keyword=%E4%B8%8A%E8%A1%A3&page=10&curpage=1&keyword=%E4%B8%8A%E8%A1%A3 ( act=goods&op=goods_list ) 
+ERR: Db Error: Unknown column 'goods_id' in 'order clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_goods_common` WHERE ( store_id = '15' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct ORDER BY is_own_shop desc,goods_id desc LIMIT 1  
+[2016-01-06 22:10:55] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089455' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:11:11] /mobile/index.php?act=goods&op=goods_list&keyword=2015%E5%A4%8F%E5%AD%A3%E6%96%B0%E6%AC%BE%E9%9F%A9%E7%89%88%E7%BB%86%E8%B7%9F%E4%BE%A7%E7%A9%BA%E9%B1%BC%E5%98%B4%E5%87%89%E9%9E%8B%E9%98%B2%E6%B0%B4%E5%8F%B0%E5%B8%A6%E8%B6%85%E9%AB%98%E8%B7%9F%E5%A4%9C%E5%BA%97%E5%A5%B3%E9%9E%8B&page=10&curpage=1&keyword=2015%E5%A4%8F%E5%AD%A3%E6%96%B0%E6%AC%BE%E9%9F%A9%E7%89%88%E7%BB%86%E8%B7%9F%E4%BE%A7%E7%A9%BA%E9%B1%BC%E5%98%B4%E5%87%89%E9%9E%8B%E9%98%B2%E6%B0%B4%E5%8F%B0%E5%B8%A6%E8%B6%85%E9%AB%98%E8%B7%9F%E5%A4%9C%E5%BA%97%E5%A5%B3%E9%9E%8B ( act=goods&op=goods_list ) 
+ERR: Db Error: Unknown column 'goods_id' in 'order clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_goods_common` WHERE ( store_id = '6' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct ORDER BY is_own_shop desc,goods_id desc LIMIT 1  
+[2016-01-06 22:11:19] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089479' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:11:45] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089505' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:12:13] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089533' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:14:18] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089658' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:14:45] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089685' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:15:19] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089719' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:15:37] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089737' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:15:59] /mobile/index.php?act=goods&op=goods_detail&goods_id=101307&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089759' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:16:09] /mobile/index.php?act=goods&op=goods_detail&goods_id=101156&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089769' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:16:17] /mobile/index.php?act=goods&op=goods_detail&goods_id=101157&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452089777' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:37:29] /mobile/index.php?act=goods&op=goods_detail&goods_id=101156&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452091049' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:37:30] /mobile/index.php?act=goods&op=goods_detail&goods_id=101161&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452091050' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:37:31] /mobile/index.php?act=goods&op=goods_detail&goods_id=101166&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452091051' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:40:09] /mobile/index.php?act=goods&op=goods_detail&goods_id=101157&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452091209' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 22:41:19] /mobile/index.php?act=goods&op=goods_detail&goods_id=101157&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452091279' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 23:08:08] /mobile/index.php?act=goods&op=goods_detail&goods_id=101157&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452092888' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 23:08:14] /mobile/index.php?act=goods&op=goods_detail&goods_id=101162&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452092894' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 23:16:52] /mobile/index.php?act=member_payment&op=pay_new&key=7b00031b624f37a18e8f71802a992b05&pay_sn=370505437410062016&password=&rcb_pay=0&pd_pay=0&payment_code=alipay ( act=member_payment&op=pay_new ) 
+ERR: Db Error: Unknown column 'api_pay_time' in 'field list'
+UPDATE `33hao_order` SET api_pay_time='1452093412' WHERE ( order_id IN ('258') )
+[2016-01-06 23:22:42] /mobile/index.php?act=goods&op=goods_detail&goods_id=101934&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452093762' ) AND ( voucher_t_store_id IN ('15') ) LIMIT 1000  
+[2016-01-06 23:29:19] /mobile/index.php?act=goods&op=goods_detail&goods_id=102728&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452094159' ) AND ( voucher_t_store_id IN ('11') ) LIMIT 1000  
+[2016-01-06 23:30:41] /mobile/index.php?act=goods&op=goods_detail&goods_id=102728&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452094241' ) AND ( voucher_t_store_id IN ('11') ) LIMIT 1000  
+[2016-01-06 23:31:42] /mobile/index.php?act=goods&op=goods_detail&goods_id=101448&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452094302' ) AND ( voucher_t_store_id IN ('11') ) LIMIT 1000  
+[2016-01-06 23:31:58] /mobile/index.php?act=goods&op=goods_detail&goods_id=102728&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452094318' ) AND ( voucher_t_store_id IN ('11') ) LIMIT 1000  
+[2016-01-06 23:32:13] /mobile/index.php?act=goods&op=goods_detail&goods_id=102728&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452094333' ) AND ( voucher_t_store_id IN ('11') ) LIMIT 1000  
+[2016-01-06 23:33:01] /mobile/index.php?act=goods&op=goods_detail&goods_id=102728&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452094381' ) AND ( voucher_t_store_id IN ('11') ) LIMIT 1000  
+[2016-01-06 23:33:11] /mobile/index.php?act=goods&op=goods_detail&goods_id=101451&key=7b00031b624f37a18e8f71802a992b05 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452094391' ) AND ( voucher_t_store_id IN ('11') ) LIMIT 1000  
+[2016-01-06 23:38:45] /mobile/index.php?act=member_favorites&op=favorites_list&key=d526ad66c12ee0b21306162dd6d11c96&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('101307','101559','101686','101934','102126','101950') ) AND ( is_book = '0' ) LIMIT 1000  
+[2016-01-06 23:43:43] /mobile/index.php?act=goods&op=goods_detail&goods_id=101157&key=d526ad66c12ee0b21306162dd6d11c96 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452095023' ) AND ( voucher_t_store_id IN ('6') ) LIMIT 1000  
+[2016-01-06 23:43:47] /mobile/index.php?act=goods&op=goods_detail&goods_id=102728&key=d526ad66c12ee0b21306162dd6d11c96 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452095027' ) AND ( voucher_t_store_id IN ('11') ) LIMIT 1000  
+[2016-01-06 23:59:40] /mobile/index.php?act=goods&op=goods_detail&goods_id=101451&key=d526ad66c12ee0b21306162dd6d11c96 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452095980' ) AND ( voucher_t_store_id IN ('11') ) LIMIT 1000  

@@ -1,0 +1,429 @@
+[2016-12-16 11:01:42] /shop/ybkapi.php?act=ybkapi&op=likewx ( act=ybkapi&op=likewx ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:04:12] /shop/ybkapi.php?act=ybkapi&op=likewx ( act=ybkapi&op=likewx ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:05:12] /shop/ybkapi.php?act=ybkapi&op=likewx ( act=ybkapi&op=likewx ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:05:12] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:05:13] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:07:47] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:07:57] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:08:13] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:08:32] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:08:45] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:10:46] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:11:09] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:11:13] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:11:27] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:11:28] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:11:52] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:12:25] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:13:00] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:13:23] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:13:35] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:13:57] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:14:03] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:14:35] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:15:08] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:17:59] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:18:51] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:23:49] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:24:32] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:26:33] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:35:35] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:35:36] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:36:01] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:36:11] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:36:17] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 11:36:54] /shop/ybkapi.php?act=ybkapi&op=wxnotify ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:42:24] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&order_sn=8001215810391412 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:43:00] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&order_sn=8001215068203461 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:43:40] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=47&token=123&cart_id=45 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:43:54] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&order_sn=8001216742209004 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:45:21] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:45:21] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 15:46:38] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:46:38] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 15:46:45] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:46:45] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 15:47:37] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:47:37] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 15:48:08] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:48:08] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 15:49:00] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:49:00] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 15:50:19] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=47&token=123&cart_id=44 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:50:55] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=47&token=123&cart_id=44 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:51:54] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:51:54] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 15:52:38] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:52:38] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 15:53:21] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:53:21] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 15:56:26] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&order_sn=8001215068203461 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:56:33] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&order_sn=8001215068203461 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:56:46] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&order_sn=8001216746551597 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:58:15] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:58:15] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 15:59:31] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:59:31] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 15:59:36] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:59:36] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 15:59:42] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:59:42] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 15:59:59] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 15:59:59] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 16:00:39] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:00:39] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 16:00:41] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:00:41] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 16:01:02] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:01:02] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 16:01:03] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:01:03] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 16:01:34] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:01:34] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 16:03:24] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:03:24] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 16:25:28] /shop/ybkapi.php?act=ybkapi&op=likewx ( act=ybkapi&op=likewx ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:26:12] /shop/ybkapi.php?act=ybkapi&op=likewx ( act=ybkapi&op=likewx ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:27:05] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:27:41] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:27:56] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:28:39] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:29:20] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:30:11] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:30:41] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:30:41] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown column 'order.pay_sn' in 'where clause'
+SELECT * FROM `33hao_order` WHERE order.pay_sn=out_trade_no LIMIT 1  
+[2016-12-16 16:32:18] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:32:18] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown column 'order.pay_sn' in 'where clause'
+SELECT * FROM `33hao_order` WHERE order.pay_sn=out_trade_no LIMIT 1  
+[2016-12-16 16:33:03] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:33:03] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown column 'order.pay_sn' in 'where clause'
+SELECT * FROM `33hao_order` WHERE order.pay_sn=out_trade_no LIMIT 1  
+[2016-12-16 16:34:35] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:34:35] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown column 'order.pay_sn' in 'where clause'
+SELECT * FROM `33hao_order` WHERE order.pay_sn=out_trade_no LIMIT 1  
+[2016-12-16 16:34:54] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:34:54] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown column 'order.pay_sn' in 'where clause'
+SELECT * FROM `33hao_order` WHERE order.pay_sn=out_trade_no LIMIT 1  
+[2016-12-16 16:35:00] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:35:00] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown column 'order.pay_sn' in 'where clause'
+SELECT * FROM `33hao_order` WHERE order.pay_sn=out_trade_no LIMIT 1  
+[2016-12-16 16:35:14] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:35:14] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown column 'order.pay_sn' in 'where clause'
+SELECT * FROM `33hao_order` WHERE order.pay_sn=out_trade_no LIMIT 1  
+[2016-12-16 16:35:22] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:35:22] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown column 'order.pay_sn' in 'where clause'
+SELECT * FROM `33hao_order` WHERE order.pay_sn=out_trade_no LIMIT 1  
+[2016-12-16 16:36:14] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:36:14] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown column 'order.pay_sn' in 'where clause'
+SELECT * FROM `33hao_order` WHERE order.pay_sn=out_trade_no LIMIT 1  
+[2016-12-16 16:36:15] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:36:15] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown column 'order.pay_sn' in 'where clause'
+SELECT * FROM `33hao_order` WHERE order.pay_sn=out_trade_no LIMIT 1  
+[2016-12-16 16:36:48] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:36:48] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown column 'order.pay_sn' in 'where clause'
+SELECT * FROM `33hao_order` WHERE order.pay_sn=out_trade_no LIMIT 1  
+[2016-12-16 16:37:07] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:37:07] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown column 'order.pay_sn' in 'where clause'
+SELECT * FROM `33hao_order` WHERE order.pay_sn=out_trade_no LIMIT 1  
+[2016-12-16 16:37:32] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:37:32] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown column 'out_trade_no' in 'where clause'
+SELECT * FROM `33hao_order` WHERE pay_sn=out_trade_no LIMIT 1  
+[2016-12-16 16:37:33] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:37:33] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown column 'out_trade_no' in 'where clause'
+SELECT * FROM `33hao_order` WHERE pay_sn=out_trade_no LIMIT 1  
+[2016-12-16 16:37:52] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:40:32] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:40:34] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:40:35] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:43:59] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:44:11] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:44:39] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:45:00] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:45:27] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:45:32] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:45:39] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:46:19] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:46:25] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:46:31] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:47:06] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:47:22] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:47:34] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:47:45] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:48:37] /wxrecharge.php ( act=ybkapi&op=wxnotify ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:50:45] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 16:50:45] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  
+[2016-12-16 17:37:00] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-16 17:37:00] /shop/ybkapi.php?act=ybkapi&op=topay&member_id=47&token=123&method=wx&recharge=500 ( act=ybkapi&op=topay ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and order.buyer_id =47 LIMIT 1' at line 1
+SELECT order.pay_sn,order.order_amount,order_goods.goods_name FROM `33hao_order` AS `order` LEFT JOIN `33hao_order_goods` AS `order_goods` ON order.order_id=order_goods.order_id WHERE order.order_sn= and order.buyer_id =47 LIMIT 1  

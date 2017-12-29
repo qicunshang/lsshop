@@ -1,0 +1,18 @@
+[2015-12-12 00:59:44] /mobile/index.php?act=goods&op=goods_list&keyword=&area_id=&groupbuy=1&page=10&curpage=1 ( act=goods&op=goods_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( is_book = '0' ) AND ( goods_promotion_type IN ('1') ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-12 00:59:46] /mobile/index.php?act=goods&op=goods_list&keyword=&area_id=&groupbuy=1&page=10&curpage=1 ( act=goods&op=goods_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( is_book = '0' ) AND ( goods_promotion_type IN ('1') ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-12 00:59:53] /mobile/index.php?act=goods&op=goods_list&keyword=&area_id=&gift=1&groupbuy=1&page=10&curpage=1 ( act=goods&op=goods_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( is_book = '0' ) AND ( have_gift = '1' ) AND ( goods_promotion_type IN ('1') ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-12 00:59:57] /mobile/index.php?act=goods&op=goods_list&keyword=&area_id=&page=10&curpage=1 ( act=goods&op=goods_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-12 00:59:59] /mobile/index.php?act=goods&op=goods_list&keyword=&area_id=&page=10&curpage=1 ( act=goods&op=goods_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( is_book = '0' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  
+[2015-12-12 01:00:03] /mobile/index.php?act=goods&op=goods_list&keyword=&area_id=4&page=10&curpage=1 ( act=goods&op=goods_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT count(distinct CONCAT(goods_commonid)) AS nc_count FROM `33hao_goods` WHERE ( is_book = '0' ) AND ( areaid_1 = '4' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) LIMIT 1  

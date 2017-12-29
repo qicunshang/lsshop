@@ -1,0 +1,42 @@
+[2015-11-08 13:04:46] /admin/index.php?act=mb_special&op=goods_list&keyword=123&keyword2=2016 ( act=mb_special&op=goods_list ) 
+ERR: Db Error: Unknown column '10' in 'order clause'
+SELECT goods_id FROM `33hao_groupbuy` WHERE ( goods_name LIKE '%%' ) ORDER BY 10 LIMIT 0,10  
+[2015-11-08 13:04:47] /admin/index.php?act=mb_special&op=goods_list&keyword=123&keyword2=2016 ( act=mb_special&op=goods_list ) 
+ERR: Db Error: Unknown column '10' in 'order clause'
+SELECT goods_id FROM `33hao_groupbuy` WHERE ( goods_name LIKE '%%' ) ORDER BY 10 LIMIT 0,10  
+[2015-11-08 13:04:50] /admin/index.php?act=mb_special&op=goods_list&keyword=%E8%A1%A3%E6%9C%8D&keyword2=2016 ( act=mb_special&op=goods_list ) 
+ERR: Db Error: Unknown column '10' in 'order clause'
+SELECT goods_id FROM `33hao_groupbuy` WHERE ( goods_name LIKE '%%' ) ORDER BY 10 LIMIT 0,10  
+[2015-11-08 13:04:54] /admin/index.php?act=mb_special&op=goods_list&keyword=%E5%A5%B3%E8%A3%85&keyword2=2016 ( act=mb_special&op=goods_list ) 
+ERR: Db Error: Unknown column '10' in 'order clause'
+SELECT goods_id FROM `33hao_groupbuy` WHERE ( goods_name LIKE '%%' ) ORDER BY 10 LIMIT 0,10  
+[2015-11-08 13:05:09] /admin/index.php?act=mb_special&op=goods_list&keyword=%E9%98%BF%E8%83%B6&keyword2=2016 ( act=mb_special&op=goods_list ) 
+ERR: Db Error: Unknown column '10' in 'order clause'
+SELECT goods_id FROM `33hao_groupbuy` WHERE ( goods_name LIKE '%%' ) ORDER BY 10 LIMIT 0,10  
+[2015-11-08 13:05:15] /admin/index.php?act=mb_special&op=goods_list&keyword=%E9%98%BF%E8%83%B6&keyword2=2016 ( act=mb_special&op=goods_list ) 
+ERR: Db Error: Unknown column '10' in 'order clause'
+SELECT goods_id FROM `33hao_groupbuy` WHERE ( goods_name LIKE '%%' ) ORDER BY 10 LIMIT 0,10  
+[2015-11-08 21:24:38] /shop/index.php ( act=buy&op=add_addr ) 
+ERR: Db Error: Column 'area_info' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,city_id,area_info,address,tel_phone,mob_phone) VALUES ('2','546','154','39',NULL,'456456','','13465983301')
+[2015-11-08 21:24:44] /shop/index.php ( act=buy&op=add_addr ) 
+ERR: Db Error: Column 'area_info' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,city_id,area_info,address,tel_phone,mob_phone) VALUES ('2','546','143','39',NULL,'456456','','13465983301')
+[2015-11-08 21:24:55] /shop/index.php ( act=buy&op=add_addr ) 
+ERR: Db Error: Column 'area_info' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,city_id,area_info,address,tel_phone,mob_phone) VALUES ('2','546','143','39',NULL,'456456','','13465983301')
+[2015-11-08 21:25:26] /shop/index.php ( act=buy&op=add_addr ) 
+ERR: Db Error: Column 'area_info' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,city_id,area_info,address,tel_phone,mob_phone) VALUES ('2','546','37','36',NULL,'456456','','13465983301')
+[2015-11-08 21:28:24] /shop/index.php ( act=buy&op=add_addr ) 
+ERR: Db Error: Column 'area_info' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,city_id,area_info,address,tel_phone,mob_phone) VALUES ('2','werwer','37','36',NULL,'werewr','','13465983302')
+[2015-11-08 21:28:35] /shop/index.php ( act=buy&op=add_addr ) 
+ERR: Db Error: Column 'area_info' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,city_id,area_info,address,tel_phone,mob_phone) VALUES ('2','werwer','37','36',NULL,'werewr','','13465983302')
+[2015-11-08 21:30:20] /shop/index.php ( act=buy&op=add_addr ) 
+ERR: Db Error: Column 'area_info' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,city_id,area_info,address,tel_phone,mob_phone) VALUES ('2','werwer','37','36',NULL,'werewr','','13465983302')
+[2015-11-08 21:34:43] /shop/index.php ( act=buy&op=add_addr ) 
+ERR: Db Error: Column 'area_info' cannot be null
+INSERT  INTO `33hao_address` (member_id,true_name,area_id,city_id,area_info,address,tel_phone,mob_phone) VALUES ('2','546','37','36',NULL,'456456','','13465983301')

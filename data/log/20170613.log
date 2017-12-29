@@ -1,0 +1,18 @@
+[2017-06-13 16:50:51] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=coll ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-06-13 16:50:51] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=coll ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1000' at line 1
+SELECT fav_id FROM `33hao_favorites` WHERE member_id= LIMIT 1000  
+[2017-06-13 16:51:04] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=coll&member_id=1 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-06-13 16:51:24] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=coll&member_id=1 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-06-13 16:51:49] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=coll&member_id=1&ybk_page=1&ybk_limit=3 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2017-06-13 16:52:09] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=coll&member_id=1&goods_page=1&goods_limit=3 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  

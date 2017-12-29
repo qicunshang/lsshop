@@ -1,0 +1,15 @@
+[2016-01-13 15:45:43] /mobile/index.php?act=goods&op=goods_detail&goods_id=101693&key=bca4d4b19c38c87fedf05c95740f73ae ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452671143' ) AND ( voucher_t_store_id IN ('12') ) LIMIT 1000  
+[2016-01-13 15:45:56] /mobile/index.php?act=goods&op=goods_detail&goods_id=102070&key=bca4d4b19c38c87fedf05c95740f73ae ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452671156' ) AND ( voucher_t_store_id IN ('12') ) LIMIT 1000  
+[2016-01-13 15:46:23] /mobile/index.php?act=member_favorites&op=favorites_list&key=bca4d4b19c38c87fedf05c95740f73ae&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('102070','101693') ) AND ( is_book = '0' ) LIMIT 1000  
+[2016-01-13 15:46:30] /mobile/index.php?act=member_favorites&op=favorites_list&key=bca4d4b19c38c87fedf05c95740f73ae&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('102070','101693') ) AND ( is_book = '0' ) LIMIT 1000  
+[2016-01-13 15:46:41] /mobile/index.php?act=member_favorites&op=favorites_list&key=bca4d4b19c38c87fedf05c95740f73ae&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('102070','101693') ) AND ( is_book = '0' ) LIMIT 1000  

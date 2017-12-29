@@ -1,0 +1,18 @@
+[2016-09-07 09:29:51] /admin/index.php?act=ybk_class&op=ybk_class ( act=ybk_class&op=ybk_class ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `33hao_` ORDER BY ybk_sort asc,ybk_id asc LIMIT 1  
+[2016-09-07 09:29:51] /admin/index.php?act=ybk_class&op=ybk_class ( act=ybk_class&op=ybk_class ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT * FROM `33hao_` ORDER BY ybk_sort asc,ybk_id asc LIMIT 0,20  
+[2016-09-07 09:33:05] /admin/index.php?act=ybk_class&op=ybk_class ( act=ybk_class&op=ybk_class ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `33hao_` ORDER BY ybk_sort asc,ybk_id asc LIMIT 1  
+[2016-09-07 09:33:05] /admin/index.php?act=ybk_class&op=ybk_class ( act=ybk_class&op=ybk_class ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT * FROM `33hao_` ORDER BY ybk_sort asc,ybk_id asc LIMIT 0,20  
+[2016-09-07 09:36:26] /admin/index.php?act=ybk_class&op=ybk_class ( act=ybk_class&op=ybk_class ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `33hao_` ORDER BY ybk_sort asc,ybk_id asc LIMIT 1  
+[2016-09-07 09:36:26] /admin/index.php?act=ybk_class&op=ybk_class ( act=ybk_class&op=ybk_class ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT * FROM `33hao_` ORDER BY ybk_sort asc,ybk_id asc LIMIT 0,20  

@@ -1,0 +1,39 @@
+[2016-09-12 10:38:12] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-12 10:38:13] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-12 16:22:09] /shop/ybkapi.php?act=ybkapi&op=ybklist&ybk_price=asc ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'addtime' in 'order clause'
+SELECT * FROM `33hao_ybk_info` WHERE ( ybk_status = '1' ) ORDER BY addtime desc LIMIT 0,10  
+[2016-09-12 16:22:46] /shop/ybkapi.php?act=ybkapi&op=ybklist&ybk_price=asc ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'addtime' in 'order clause'
+SELECT * FROM `33hao_ybk_info` WHERE ( ybk_status = '1' ) ORDER BY addtime desc LIMIT 0,10  
+[2016-09-12 16:22:50] /shop/ybkapi.php?act=ybkapi&op=ybklist&ybk_price=desc ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'addtime' in 'order clause'
+SELECT * FROM `33hao_ybk_info` WHERE ( ybk_status = '1' ) ORDER BY addtime desc LIMIT 0,10  
+[2016-09-12 16:43:01] /shop/ybkapi.php?act=ybkapi&op=ybklist&ybk_limit=%27%27&ybk_price=asc&ybk_identity=2 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'\'' at line 1
+SELECT * FROM `33hao_ybk_info` WHERE ( ybk_status = '1' ) AND ( ybk_identity = '2' ) ORDER BY ybk_price asc LIMIT \'\'  
+[2016-09-12 16:43:12] /shop/ybkapi.php?act=ybkapi&op=ybklist&ybk_limit=%27/3$ ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'/3$' at line 1
+SELECT * FROM `33hao_ybk_info` WHERE ( ybk_status = '1' ) ORDER BY ybk_addtime desc LIMIT \'/3$  
+[2016-09-12 16:44:40] /shop/ybkapi.php?act=ybkapi&op=ybklist&ybk_limit=10ybk_price=asc&ybk_identity=2 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Undeclared variable: 10ybk_price
+SELECT * FROM `33hao_ybk_info` WHERE ( ybk_status = '1' ) AND ( ybk_identity = '2' ) ORDER BY ybk_addtime desc LIMIT 10ybk_price=asc  
+[2016-09-12 16:44:41] /shop/ybkapi.php?act=ybkapi&op=ybklist&ybk_limit=10ybk_price=asc&ybk_identity=2 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Undeclared variable: 10ybk_price
+SELECT * FROM `33hao_ybk_info` WHERE ( ybk_status = '1' ) AND ( ybk_identity = '2' ) ORDER BY ybk_addtime desc LIMIT 10ybk_price=asc  
+[2016-09-12 16:44:42] /shop/ybkapi.php?act=ybkapi&op=ybklist&ybk_limit=10ybk_price=asc&ybk_identity=2 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Undeclared variable: 10ybk_price
+SELECT * FROM `33hao_ybk_info` WHERE ( ybk_status = '1' ) AND ( ybk_identity = '2' ) ORDER BY ybk_addtime desc LIMIT 10ybk_price=asc  
+[2016-09-12 16:44:58] /shop/ybkapi.php?act=ybkapi&op=ybklist&ybk_limit=10ybk_price=asc&ybk_identity=2 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Undeclared variable: 10ybk_price
+SELECT * FROM `33hao_ybk_info` WHERE ( ybk_status = '1' ) AND ( ybk_identity = '2' ) ORDER BY ybk_addtime desc LIMIT 10ybk_price=asc  
+[2016-09-12 16:44:59] /shop/ybkapi.php?act=ybkapi&op=ybklist&ybk_limit=10ybk_price=asc&ybk_identity=2 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Undeclared variable: 10ybk_price
+SELECT * FROM `33hao_ybk_info` WHERE ( ybk_status = '1' ) AND ( ybk_identity = '2' ) ORDER BY ybk_addtime desc LIMIT 10ybk_price=asc  
+[2016-09-12 16:45:00] /shop/ybkapi.php?act=ybkapi&op=ybklist&ybk_limit=10ybk_price=asc&ybk_identity=2 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Undeclared variable: 10ybk_price
+SELECT * FROM `33hao_ybk_info` WHERE ( ybk_status = '1' ) AND ( ybk_identity = '2' ) ORDER BY ybk_addtime desc LIMIT 10ybk_price=asc  

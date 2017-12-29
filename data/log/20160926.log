@@ -1,0 +1,93 @@
+[2016-09-26 08:18:42] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 08:36:17] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 08:36:17] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 08:49:04] /shop/ybkapi.php?act=ybkapi&op=subscribeList&member_id=1 ( act=ybkapi&op=subscribelist ) 
+ERR: Db Error: Unknown column 'ybk_subscribe.type' in 'on clause'
+SELECT ybk_subscribe.*,ybk_attr.attr_value,ybk_class.ybk_name FROM `33hao_ybk_subscribe` AS `ybk_subscribe` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_subscribe.type=ybk_class.ybk_id LEFT JOIN `33hao_ybk_class` AS `ybk_class` ON ybk_subscribe.subscribe_attr=ybk_attr.attr_id WHERE ( subscribe_uid = '1' ) AND ( subscribe_status = '1' ) LIMIT 1000  
+[2016-09-26 08:49:06] /shop/ybkapi.php?act=ybkapi&op=subscribeList&member_id=1 ( act=ybkapi&op=subscribelist ) 
+ERR: Db Error: Unknown column 'ybk_subscribe.type' in 'on clause'
+SELECT ybk_subscribe.*,ybk_attr.attr_value,ybk_class.ybk_name FROM `33hao_ybk_subscribe` AS `ybk_subscribe` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_subscribe.type=ybk_class.ybk_id LEFT JOIN `33hao_ybk_class` AS `ybk_class` ON ybk_subscribe.subscribe_attr=ybk_attr.attr_id WHERE ( subscribe_uid = '1' ) AND ( subscribe_status = '1' ) LIMIT 1000  
+[2016-09-26 08:49:31] /shop/ybkapi.php?act=ybkapi&op=subscribeList&member_id=40 ( act=ybkapi&op=subscribelist ) 
+ERR: Db Error: Unknown column 'ybk_subscribe.type' in 'on clause'
+SELECT ybk_subscribe.*,ybk_attr.attr_value,ybk_class.ybk_name FROM `33hao_ybk_subscribe` AS `ybk_subscribe` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_subscribe.type=ybk_class.ybk_id LEFT JOIN `33hao_ybk_class` AS `ybk_class` ON ybk_subscribe.subscribe_attr=ybk_attr.attr_id WHERE ( subscribe_uid = '40' ) AND ( subscribe_status = '1' ) LIMIT 1000  
+[2016-09-26 08:49:35] /shop/ybkapi.php?act=ybkapi&op=subscribeList&member_id=40 ( act=ybkapi&op=subscribelist ) 
+ERR: Db Error: Unknown column 'ybk_subscribe.type' in 'on clause'
+SELECT ybk_subscribe.*,ybk_attr.attr_value,ybk_class.ybk_name FROM `33hao_ybk_subscribe` AS `ybk_subscribe` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_subscribe.type=ybk_class.ybk_id LEFT JOIN `33hao_ybk_class` AS `ybk_class` ON ybk_subscribe.subscribe_attr=ybk_attr.attr_id WHERE ( subscribe_uid = '40' ) AND ( subscribe_status = '1' ) LIMIT 1000  
+[2016-09-26 08:50:13] /shop/ybkapi.php?act=ybkapi&op=subscribeList&member_id=40 ( act=ybkapi&op=subscribelist ) 
+ERR: Db Error: Unknown column 'ybk_class.ybk_id' in 'on clause'
+SELECT ybk_subscribe.*,ybk_attr.attr_value,ybk_class.ybk_name FROM `33hao_ybk_subscribe` AS `ybk_subscribe` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_subscribe.subscribe_type=ybk_class.ybk_id LEFT JOIN `33hao_ybk_class` AS `ybk_class` ON ybk_subscribe.subscribe_attr=ybk_attr.attr_id WHERE ( subscribe_uid = '40' ) AND ( subscribe_status = '1' ) LIMIT 1000  
+[2016-09-26 08:51:54] /shop/ybkapi.php?act=ybkapi&op=subscribeList&member_id=40 ( act=ybkapi&op=subscribelist ) 
+ERR: Db Error: Unknown column 'ybk_class.ybk_id' in 'on clause'
+SELECT ybk_subscribe.*,ybk_attr.attr_value,ybk_class.ybk_name FROM `33hao_ybk_subscribe` AS `ybk_subscribe` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_subscribe.subscribe_type=ybk_class.ybk_id LEFT JOIN `33hao_ybk_class` AS `ybk_class` ON ybk_subscribe.subscribe_attr=ybk_attr.attr_id WHERE ( subscribe_uid = '40' ) AND ( subscribe_status = '1' ) LIMIT 1000  
+[2016-09-26 08:51:56] /shop/ybkapi.php?act=ybkapi&op=subscribeList&member_id=40 ( act=ybkapi&op=subscribelist ) 
+ERR: Db Error: Unknown column 'ybk_class.ybk_id' in 'on clause'
+SELECT ybk_subscribe.*,ybk_attr.attr_value,ybk_class.ybk_name FROM `33hao_ybk_subscribe` AS `ybk_subscribe` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_subscribe.subscribe_type=ybk_class.ybk_id LEFT JOIN `33hao_ybk_class` AS `ybk_class` ON ybk_subscribe.subscribe_attr=ybk_attr.attr_id WHERE ( subscribe_uid = '40' ) AND ( subscribe_status = '1' ) LIMIT 1000  
+[2016-09-26 09:04:00] /shop/ybkapi.php?act=ybkapi&op=delsubscribe&member_id=1 ( act=ybkapi&op=delsubscribe ) 
+ERR: Db Error: Table 'shop.33hao_subscribe' doesn't exist
+DELETE  FROM `33hao_subscribe` WHERE ( subscribe_uid = '1' ) AND ( subscribe_id = NULL )
+[2016-09-26 09:04:27] /shop/ybkapi.php?act=ybkapi&op=delsubscribe&member_id=1&subscribe_id=3 ( act=ybkapi&op=delsubscribe ) 
+ERR: Db Error: Table 'shop.33hao_subscribe' doesn't exist
+DELETE  FROM `33hao_subscribe` WHERE ( subscribe_uid = '1' ) AND ( subscribe_id = '3' )
+[2016-09-26 09:05:44] /shop/ybkapi.php?act=ybkapi&op=delsubscribe&member_id=40&subscribe_id=3 ( act=ybkapi&op=delsubscribe ) 
+ERR: Db Error: Table 'shop.33hao_subscribe' doesn't exist
+DELETE  FROM `33hao_subscribe` WHERE ( subscribe_uid = '40' ) AND ( subscribe_id = '3' )
+[2016-09-26 09:05:53] /shop/ybkapi.php?act=ybkapi&op=delsubscribe&member_id=40&subscribe_id=3 ( act=ybkapi&op=delsubscribe ) 
+ERR: Db Error: Table 'shop.33hao_subscribe' doesn't exist
+DELETE  FROM `33hao_subscribe` WHERE ( subscribe_uid = '40' ) AND ( subscribe_id = '3' )
+[2016-09-26 09:08:10] /shop/ybkapi.php?act=ybkapi&op=delsubscribe&member_id=40&subscribe_id=3 ( act=ybkapi&op=delsubscribe ) 
+ERR: Db Error: Table 'shop.33hao_subscribe' doesn't exist
+DELETE  FROM `33hao_subscribe` WHERE ( subscribe_uid = '40' ) AND ( subscribe_id = '3' )
+[2016-09-26 09:08:12] /shop/ybkapi.php?act=ybkapi&op=delsubscribe&member_id=40&subscribe_id=3 ( act=ybkapi&op=delsubscribe ) 
+ERR: Db Error: Table 'shop.33hao_subscribe' doesn't exist
+DELETE  FROM `33hao_subscribe` WHERE ( subscribe_uid = '40' ) AND ( subscribe_id = '3' )
+[2016-09-26 09:12:11] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 10:03:11] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 10:03:12] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 10:43:14] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 10:43:27] /index.php?act=login&op=register&ref_url= ( act=login&op=register ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 10:43:31] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 10:43:36] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 10:43:39] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 10:43:42] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 10:45:15] /index.php?act=login&op=index ( act=login&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 10:45:26] /shop/index.php?act=login&op=login&inajax=1 ( act=login&op=login ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 10:45:32] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 11:43:17] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 11:43:33] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-26 14:38:48] /shop/index.php?act=goods&op=index&goods_id=101429 ( act=goods&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  

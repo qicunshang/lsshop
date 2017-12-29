@@ -1,0 +1,15 @@
+[2016-01-05 23:48:40] /mobile/index.php?act=goods&op=goods_detail&goods_id=102264&key=2a2816ca97eb9bf417abc2a80fc3d4bf ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452008920' ) AND ( voucher_t_store_id IN ('16') ) LIMIT 1000  
+[2016-01-05 23:48:44] /mobile/index.php?act=goods&op=goods_detail&goods_id=102263&key=2a2816ca97eb9bf417abc2a80fc3d4bf ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452008924' ) AND ( voucher_t_store_id IN ('16') ) LIMIT 1000  
+[2016-01-05 23:48:44] /mobile/index.php?act=goods&op=goods_detail&goods_id=102262&key=2a2816ca97eb9bf417abc2a80fc3d4bf ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452008924' ) AND ( voucher_t_store_id IN ('16') ) LIMIT 1000  
+[2016-01-05 23:59:00] /mobile/index.php?act=goods&op=goods_detail&goods_id=102264&key=2a2816ca97eb9bf417abc2a80fc3d4bf ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452009540' ) AND ( voucher_t_store_id IN ('16') ) LIMIT 1000  
+[2016-01-05 23:59:06] /mobile/index.php?act=goods&op=goods_detail&goods_id=102244&key=2a2816ca97eb9bf417abc2a80fc3d4bf ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452009546' ) AND ( voucher_t_store_id IN ('16') ) LIMIT 1000  

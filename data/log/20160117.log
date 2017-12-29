@@ -1,0 +1,18 @@
+[2016-01-17 17:46:54] /shop/index.php?act=pointshop&op=index ( act=pointshop&op=index ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_state = '1' ) AND ( voucher_t_gettype = '1' ) AND ( voucher_t_end_date > '1453024014' ) ORDER BY voucher_t_recommend desc,voucher_t_id desc LIMIT 1000  
+[2016-01-17 17:47:27] /shop/index.php?act=pointshop&op=index ( act=pointshop&op=index ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_state = '1' ) AND ( voucher_t_gettype = '1' ) AND ( voucher_t_end_date > '1453024047' ) ORDER BY voucher_t_recommend desc,voucher_t_id desc LIMIT 1000  
+[2016-01-17 17:47:36] /shop/index.php?act=pointshop&op=index ( act=pointshop&op=index ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_state = '1' ) AND ( voucher_t_gettype = '1' ) AND ( voucher_t_end_date > '1453024056' ) ORDER BY voucher_t_recommend desc,voucher_t_id desc LIMIT 1000  
+[2016-01-17 17:49:52] /shop/index.php?act=pointshop&op=index ( act=pointshop&op=index ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_state = '1' ) AND ( voucher_t_gettype = '1' ) AND ( voucher_t_end_date > '1453024192' ) ORDER BY voucher_t_recommend desc,voucher_t_id desc LIMIT 1000  
+[2016-01-17 17:54:47] /shop/index.php?act=pointshop&op=index ( act=pointshop&op=index ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_state = '1' ) AND ( voucher_t_gettype = '1' ) AND ( voucher_t_end_date > '1453024487' ) ORDER BY voucher_t_recommend desc,voucher_t_id desc LIMIT 1000  
+[2016-01-17 18:29:48] /shop/index.php?act=pointshop&op=index ( act=pointshop&op=index ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_state = '1' ) AND ( voucher_t_gettype = '1' ) AND ( voucher_t_end_date > '1453026588' ) ORDER BY voucher_t_recommend desc,voucher_t_id desc LIMIT 1000  

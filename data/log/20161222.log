@@ -1,0 +1,153 @@
+[2016-12-22 15:30:54] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&coll=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:30:54] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&coll=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Column 'goods_name' in field list is ambiguous
+SELECT count(member_id),goods_id,goods_name,goods_price,goods_salenum,goods_image FROM `33hao_goods` AS `goods` LEFT JOIN `33hao_favorites` AS `favorites` ON goods.goods_id=favorites.fav.id WHERE ( store_id = '1' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY count(member_id) ORDER BY count(member_id) desc,goods_addtime desc LIMIT 0,10  
+[2016-12-22 15:30:55] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:30:55] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:31:56] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&coll=fav ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:31:56] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&coll=fav ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Column 'goods_name' in field list is ambiguous
+SELECT count(member_id),goods_id,goods_name,goods_price,goods_salenum,goods_image FROM `33hao_goods` AS `goods` LEFT JOIN `33hao_favorites` AS `favorites` ON goods.goods_id=favorites.fav.id WHERE ( store_id = '1' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY count(member_id) ORDER BY count(member_id) ,goods_addtime desc LIMIT 0,10  
+[2016-12-22 15:31:57] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&coll=fav ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:31:57] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&coll=fav ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Column 'goods_name' in field list is ambiguous
+SELECT count(member_id),goods_id,goods_name,goods_price,goods_salenum,goods_image FROM `33hao_goods` AS `goods` LEFT JOIN `33hao_favorites` AS `favorites` ON goods.goods_id=favorites.fav.id WHERE ( store_id = '1' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY count(member_id) ORDER BY count(member_id) ,goods_addtime desc LIMIT 0,10  
+[2016-12-22 15:32:05] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:32:05] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Column 'goods_name' in field list is ambiguous
+SELECT count(member_id),goods_id,goods_name,goods_price,goods_salenum,goods_image FROM `33hao_goods` AS `goods` LEFT JOIN `33hao_favorites` AS `favorites` ON goods.goods_id=favorites.fav.id WHERE ( store_id = '1' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY count(member_id) ORDER BY count(member_id) desc,goods_addtime desc LIMIT 0,10  
+[2016-12-22 15:32:15] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:32:15] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Column 'goods_name' in field list is ambiguous
+SELECT count(member_id),goods_id,goods_name,goods_price,goods_salenum,goods_image FROM `33hao_goods` AS `goods` LEFT JOIN `33hao_favorites` AS `favorites` ON goods.goods_id=favorites.fav.id WHERE ( store_id = '1' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY count(member_id) ORDER BY count(member_id) desc,goods_addtime desc LIMIT 0,10  
+[2016-12-22 15:32:28] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:32:28] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Column 'goods_name' in field list is ambiguous
+SELECT count(member_id),goods_id,goods_name,goods_price,goods_salenum,goods_image FROM `33hao_goods` AS `goods` LEFT JOIN `33hao_favorites` AS `favorites` ON goods.goods_id=favorites.fav.id WHERE ( store_id = '1' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY count(member_id) ORDER BY count(member_id) desc LIMIT 0,10  
+[2016-12-22 15:36:31] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:37:07] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:48:36] /shop/ybkapi.php?act=ybkapi&op=orderlist ( act=ybkapi&op=orderlist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:48:47] /shop/ybkapi.php?act=ybkapi&op=orderlist&member_id=47&token=123 ( act=ybkapi&op=orderlist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:49:56] /shop/ybkapi.php?act=ybkapi&op=orderlist&member_id=47&token=123 ( act=ybkapi&op=orderlist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:56:41] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:56:41] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE store_id=1 AND goods_state=1 AND goods_verify=1 limit(0,10)' at line 1
+select count(member_id),goods_id,goods_name,goods_price,goods_salenum,goods_image from 33hao_favorites left join 33hao_goods on 33hao_favorites.fav_id=33hao_goods.goods_id group by goods_id order by count(member_id) desc WHERE store_id=1 AND goods_state=1 AND goods_verify=1 limit(0,10)
+[2016-12-22 15:57:20] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 15:57:20] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 33hao_goods.store_id=1 AND 33hao_goods.goods_state=1 AND 33hao_goods.goods' at line 1
+select count(member_id),goods_id,goods_name,goods_price,goods_salenum,goods_image from 33hao_favorites left join 33hao_goods on 33hao_favorites.fav_id=33hao_goods.goods_id group by goods_id order by count(member_id) desc WHERE 33hao_goods.store_id=1 AND 33hao_goods.goods_state=1 AND 33hao_goods.goods_verify=1 limit(0,10)
+[2016-12-22 16:07:32] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:07:32] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(0,10)' at line 1
+select count(member_id),goods_id,goods_name,goods_price,goods_salenum,goods_image from 33hao_favorites left join 33hao_goods on 33hao_favorites.fav_id=33hao_goods.goods_id WHERE 33hao_goods.store_id=1 AND 33hao_goods.goods_state=1 AND 33hao_goods.goods_verify=1 group by goods_id order by count(member_id) desc limit(0,10)
+[2016-12-22 16:07:48] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:07:48] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Column 'goods_name' in field list is ambiguous
+select count(member_id),goods_id,goods_name,goods_price,goods_salenum,goods_image from 33hao_favorites left join 33hao_goods on 33hao_favorites.fav_id=33hao_goods.goods_id WHERE 33hao_goods.store_id=1 AND 33hao_goods.goods_state=1 AND 33hao_goods.goods_verify=1 group by goods_id order by count(member_id) desc limit 0,10
+[2016-12-22 16:11:30] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:11:45] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:16:27] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:16:27] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'count(member_id) desc limit 0,10' at line 1
+select count(member_id),33hao_goods.goods_id,33hao_goods.goods_name,33hao_goods.goods_price,33hao_goods.goods_salenum,33hao_goods.goods_image from 33hao_favorites left join 33hao_goods on 33hao_favorites.fav_id=33hao_goods.goods_id WHERE 33hao_goods.store_id=1 AND 33hao_goods.goods_state=1 AND 33hao_goods.goods_verify=1 group by goods_id order by count(member_id) count(member_id) desc limit 0,10
+[2016-12-22 16:16:44] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:16:44] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'count(member_id) desc limit 0,10' at line 1
+select count(member_id),33hao_goods.goods_id,33hao_goods.goods_name,33hao_goods.goods_price,33hao_goods.goods_salenum,33hao_goods.goods_image from 33hao_favorites left join 33hao_goods on 33hao_favorites.fav_id=33hao_goods.goods_id WHERE 33hao_goods.store_id=1 AND 33hao_goods.goods_state=1 AND 33hao_goods.goods_verify=1 group by goods_id order by count(member_id) count(member_id) desc limit 0,10
+[2016-12-22 16:17:07] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:17:16] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=5&fav=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:22:38] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=4&goods_price=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:22:43] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=4&goods_price=asc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:24:39] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=3&goods_price=asc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:24:43] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=3&goods_price=desc ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:25:37] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=3&goods_price=desc&class=%E4%BA%A7%E5%9C%B0&sp_value_id=244 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:26:01] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=3&goods_price=desc&class=%E4%BA%A7%E5%9C%B0&sp_value_id=439 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:26:08] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=3&goods_price=asc&class=%E4%BA%A7%E5%9C%B0&sp_value_id=439 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:26:16] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=3&goods_price=asc&class=%E4%BA%A7%E5%9C%B0&sp_value_id=438 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:26:27] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=3&goods_price=asc&class=%E4%BA%A7%E5%9C%B0&sp_value_id=437 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:26:31] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=3&goods_price=asc&class=%E4%BA%A7%E5%9C%B0&sp_value_id=436 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:26:39] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=3&goods_price=asc&class=%E4%BA%A7%E5%9C%B0&sp_value_id=433 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:34:11] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=3&goods_price=asc&class=%E4%BA%A7%E5%9C%B0&sp_value_id=433 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:34:13] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=3&goods_price=asc&class=%E4%BA%A7%E5%9C%B0&sp_value_id=433 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:34:21] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=3&goods_price=asc&class=%E4%BA%A7%E5%9C%B0&sp_value_id=439 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:34:32] /shop/ybkapi.php?act=ybkapi&op=goodslist&type=3&goods_price=asc&class=%E4%BA%A7%E5%9C%B0&sp_value_id=439 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-22 16:54:14] /ali.php&order_sn=8001220247794314&member_id=47 ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  

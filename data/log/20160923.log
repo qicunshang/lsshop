@@ -1,0 +1,87 @@
+[2016-09-23 08:33:56] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-23 08:37:14] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-23 08:37:15] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-23 09:33:52] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=1&idcard=130626199310123193 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_ybk_member` SET ybk_member_id='1',ybk_member_status='0',ybk_idcard='130626199310123193',ybk_identity_pic='' WHERE ( member_id = '1' )
+[2016-09-23 09:38:52] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=1&idcard=130626199310123193 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '1' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('1','0','130626199310123193','')
+[2016-09-23 09:38:54] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=1&idcard=130626199310123193 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '1' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('1','0','130626199310123193','')
+[2016-09-23 09:40:03] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=1&idcard=130626199310123193 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '1' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('1','0','130626199310123193','')
+[2016-09-23 09:40:11] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=1&idcard=130626199310123193 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '1' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('1','0','130626199310123193','')
+[2016-09-23 09:40:11] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=1&idcard=130626199310123193 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_ybk_member` SET ybk_member_id='1',ybk_member_status='0',ybk_idcard='130626199310123193',ybk_identity_pic='' WHERE ( member_id = '1' )
+[2016-09-23 09:41:29] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=1&idcard=130626199310123193 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_ybk_member` SET ybk_member_id='1',ybk_member_status='0',ybk_idcard='130626199310123193',ybk_identity_pic='' WHERE ( member_id = '1' )
+[2016-09-23 09:41:29] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=1&idcard=130626199310123193 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '1' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('1','0','130626199310123193','')
+[2016-09-23 09:41:31] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=1&idcard=130626199310123193 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_ybk_member` SET ybk_member_id='1',ybk_member_status='0',ybk_idcard='130626199310123193',ybk_identity_pic='' WHERE ( member_id = '1' )
+[2016-09-23 09:41:31] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=1&idcard=130626199310123193 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '1' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('1','0','130626199310123193','')
+[2016-09-23 09:42:04] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=1&idcard=13062619931012319 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_ybk_member` SET ybk_member_id='1',ybk_member_status='0',ybk_idcard='13062619931012319',ybk_identity_pic='' WHERE ( member_id = '1' )
+[2016-09-23 09:42:04] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=1&idcard=13062619931012319 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '1' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('1','0','13062619931012319','')
+[2016-09-23 09:42:06] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=1&idcard=13062619931012319 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Unknown column 'member_id' in 'where clause'
+UPDATE `33hao_ybk_member` SET ybk_member_id='1',ybk_member_status='0',ybk_idcard='13062619931012319',ybk_identity_pic='' WHERE ( member_id = '1' )
+[2016-09-23 09:42:06] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=1&idcard=13062619931012319 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '1' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('1','0','13062619931012319','')
+[2016-09-23 09:45:14] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=2&idcard=13062619931012319 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '2' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('2','0','13062619931012319','')
+[2016-09-23 09:46:05] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=3&idcard=13062619931012319 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '3' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('3','0','13062619931012319','')
+[2016-09-23 09:47:20] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=99&idcard=13062619931012319 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '99' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('99','0','13062619931012319','')
+[2016-09-23 09:47:41] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=99&idcard=13062619931012319 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '99' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('99','0','13062619931012319','')
+[2016-09-23 09:47:52] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=99&idcard=130626199310123193 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '99' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('99','0','130626199310123193','')
+[2016-09-23 09:48:11] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=99&idcard=130626199310123193 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '99' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('99','0','130626199310123193','')
+[2016-09-23 09:48:15] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=99&idcard=130626199310123191 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '99' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('99','0','130626199310123191','')
+[2016-09-23 09:49:23] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=21&idcard=130626199310123191 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '21' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('21','0','130626199310123191','')
+[2016-09-23 11:51:27] /shop/ybkapi.php?act=ybkapi&op=updateMemberInfo&member_id=21&idcard=130626199310123191 ( act=ybkapi&op=updatememberinfo ) 
+ERR: Db Error: Duplicate entry '21' for key 'ybk_member_id'
+INSERT  INTO `33hao_ybk_member` (ybk_member_id,ybk_member_status,ybk_idcard,ybk_identity_pic) VALUES ('21','0','130626199310123191','')
+[2016-09-23 15:14:32] /shop/ybkapi.php?act=ybkapi&op=ybklist&ybk_collect_uid=1 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'ybk_member_id' in 'where clause'
+SELECT * FROM `33hao_ybk_collect` WHERE ybk_member_id LIMIT 1000  
+[2016-09-23 15:15:35] /shop/ybkapi.php?act=ybkapi&op=ybklist&ybk_collect_uid=1 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'ybk_member_id' in 'where clause'
+SELECT * FROM `33hao_ybk_collect` WHERE ( ybk_member_id = '1' ) LIMIT 1000  
+[2016-09-23 15:15:38] /shop/ybkapi.php?act=ybkapi&op=ybklist&ybk_collect_uid=1 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'ybk_member_id' in 'where clause'
+SELECT * FROM `33hao_ybk_collect` WHERE ( ybk_member_id = '1' ) LIMIT 1000  

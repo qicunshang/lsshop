@@ -1,0 +1,135 @@
+[2016-09-21 08:46:37] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-21 08:46:58] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-21 08:46:59] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-21 10:23:51] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474424631','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','',NULL)
+[2016-09-21 10:23:54] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474424634','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','',NULL)
+[2016-09-21 10:27:49] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES (NULL,'1','1','1474424869','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','',NULL)
+[2016-09-21 10:28:19] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES (NULL,'1','1','1474424899','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','',NULL)
+[2016-09-21 10:29:03] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES (NULL,'1','1','1474424943','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:29:06] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES (NULL,'1','1','1474424946','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:29:10] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES (NULL,'1','1','1474424950','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:29:21] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474424961','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:29:24] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474424964','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:31:41] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425101','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:31:42] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425102','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:31:53] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425113','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:31:55] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425115','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:32:53] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425173','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:33:28] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425208','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:34:25] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425265','5','1','1','1','6','10000.00','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:36:14] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425374','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:38:28] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425508','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:38:29] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425509','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:40:20] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425620','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:40:34] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+INSERT  INTO `33hao_` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425634','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:46:27] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_mobile' in 'field list'
+INSERT  INTO `33hao_ybk_trade` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425987','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:46:28] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_mobile' in 'field list'
+INSERT  INTO `33hao_ybk_trade` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425988','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:46:29] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_mobile' in 'field list'
+INSERT  INTO `33hao_ybk_trade` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474425989','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:47:03] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_mobile' in 'field list'
+INSERT  INTO `33hao_ybk_trade` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474426023','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:47:03] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info' at line 1
+INSERT  INTO  (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474426023','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:47:04] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info' at line 1
+INSERT  INTO  (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474426023','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:47:22] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_mobile' in 'field list'
+INSERT  INTO `33hao_ybk_trade` (trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES ('1','1','1474426042','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:47:42] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_mobile' in 'field list'
+INSERT  INTO `33hao_ybk_trade` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES (NULL,'1','1','1474426062','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:47:43] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_mobile' in 'field list'
+INSERT  INTO `33hao_ybk_trade` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES (NULL,'1','1','1474426063','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:52:04] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_mobile' in 'field list'
+REPLACE  INTO `33hao_ybk_trade` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES (NULL,'1','1','1474426324','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:52:05] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_mobile' in 'field list'
+REPLACE  INTO `33hao_ybk_trade` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES (NULL,'1','1','1474426325','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:52:06] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_mobile' in 'field list'
+REPLACE  INTO `33hao_ybk_trade` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES (NULL,'1','1','1474426326','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:52:08] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_mobile' in 'field list'
+REPLACE  INTO `33hao_ybk_trade` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES (NULL,'1','1','1474426328','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 10:52:09] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_mobile' in 'field list'
+REPLACE  INTO `33hao_ybk_trade` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES (NULL,'1','1','1474426329','5','1','1','1','6','10000','20','0','1','金币','2','','','13800138000','','')
+[2016-09-21 11:44:35] /shop/ybkapi.php?act=ybkapi&op=changeybkstatus&member_id=1&ybk_id=1&ybk_status=1 ( act=ybkapi&op=changeybkstatus ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_status in(3,4)' at line 1
+UPDATE 33hao_ybk_info SET ybk_status=1,ybk_addtime=1474429475 WHERE ybk_id=1 and ybk_member_id= and ybk_status in(3,4)
+[2016-09-21 11:44:37] /shop/ybkapi.php?act=ybkapi&op=changeybkstatus&member_id=1&ybk_id=1&ybk_status=1 ( act=ybkapi&op=changeybkstatus ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_status in(3,4)' at line 1
+UPDATE 33hao_ybk_info SET ybk_status=1,ybk_addtime=1474429477 WHERE ybk_id=1 and ybk_member_id= and ybk_status in(3,4)
+[2016-09-21 11:45:22] /shop/ybkapi.php?act=ybkapi&op=changeybkstatus&member_id=1&ybk_id=1&ybk_status=1 ( act=ybkapi&op=changeybkstatus ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ybk_status in(3,4)' at line 1
+UPDATE 33hao_ybk_info SET ybk_status=1,ybk_addtime=1474429522 WHERE ybk_id=1 and ybk_member_id= and ybk_status in(3,4)
+[2016-09-21 13:33:03] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Unknown column 'member_mobile' in 'field list'
+REPLACE  INTO `33hao_ybk_trade` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,member_mobile,member_qq,weixin_info) VALUES (NULL,'1','1','1474435983','5','1','1','1','6','2000','100','100','1','金币','1','','','13800138000','','')
+[2016-09-21 13:50:01] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+REPLACE  INTO `33hao_` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,ybk_member_phone,ybk_member_qq,ybk_member_weixin) VALUES (NULL,'1','1','1474437001','5','1','1','1','6','2000','100','100','1','金币','1','','','13800138000','','')
+[2016-09-21 13:50:03] /shop/ybkapi.php?act=ybkapi&op=neworder&member_id=1&ybk_id=1 ( act=ybkapi&op=neworder ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+REPLACE  INTO `33hao_` (trade_id,trade_type,trade_buyer_id,trade_buytime,trade_cost,trade_identity_type,ybk_info_id,ybk_member_id,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_type,ybk_buymode,ybk_content,ybk_member_name,ybk_member_phone,ybk_member_qq,ybk_member_weixin) VALUES (NULL,'1','1','1474437003','5','1','1','1','6','2000','100','100','1','金币','1','','','13800138000','','')
+[2016-09-21 15:54:58] /shop/ybkapi.php?act=ybkapi&op=orderlist&member_id=1 ( act=ybkapi&op=orderlist ) 
+ERR: Db Error: Unknown column 'ybk_info.ybk_defpic' in 'field list'
+SELECT ybk_trade.*,ybk_info.ybk_defpic FROM `33hao_ybk_trade` AS `ybk_trade` LEFT JOIN `33hao_ybk_info` AS `ybk_info` ON ybk_trade.ybk_info_id=ybk_info.ybk_id WHERE ( trade_buyer_id = '1' ) AND ( trade_type = '1' ) LIMIT 1000  

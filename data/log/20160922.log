@@ -1,0 +1,153 @@
+[2016-09-22 08:18:25] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-22 08:34:33] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-22 08:47:57] /data/upload/shop/ybk_info/defalut.png ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-22 14:18:34] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:18:34] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:18:34] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:18:34] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:18:34] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:18:34] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:18:34] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:18:34] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:18:34] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:18:34] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:19:57] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:19:57] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:19:57] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:19:57] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:19:57] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:19:57] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:19:57] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:19:57] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:19:57] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:19:57] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:16] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:16] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:16] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:16] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:16] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:16] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:16] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:16] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:16] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:16] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:55] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:55] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:56] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:56] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:56] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:56] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:56] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:57] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:57] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 14:20:57] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-22 15:24:52] /shop/index.php?act=ybkapi&op=updateAddr&member_id=33&address_id=1&address=%E6%98%8C%E5%B9%B3 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: Unknown column '昌平' in 'field list'
+update 33hao_address set area_id=0,address=昌平,is_default="0" where address_id=1 and member_id=33
+[2016-09-22 15:25:17] /shop/index.php?act=ybkapi&op=updateAddr&member_id=33&address_id=1&address=%27%E6%98%8C%E5%B9%B3%27 ( act=ybkapi&op=updateaddr ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'昌平\',is_default="0" where address_id=1 and member_id=33' at line 1
+update 33hao_address set area_id=0,address=\'昌平\',is_default="0" where address_id=1 and member_id=33
+[2016-09-22 15:41:56] /shop/index.php?act=login&ref_url=%2Fshop%2Findex.php%3Fact%3Dmember_information%26op%3DupdateAddr ( act=login&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-22 16:57:27] /shop/ybkapi.php?act=ybkapi&op=subscribe&subscribe_price=1000,12000 ( act=ybkapi&op=subscribe ) 
+ERR: Db Error: Column 'subscribe_uid' cannot be null
+INSERT  INTO `33hao_ybk_subscribe` (subscribe_uid,subscribe_identity,subscribe_keyword,subscribe_type,subscribe_attr,subscribe_price,subscribe_city) VALUES (NULL,NULL,NULL,NULL,NULL,'1000,12000',NULL)
+[2016-09-22 16:58:34] /shop/ybkapi.php?act=ybkapi&op=subscribe&subscribe_price=1000,12000&member_id=1&subscribe_identity=1&subscribe_keyword=%E7%8C%B4%E5%B9%B4&subscribe_type%20=2&subscribe_attr%20=1&subscribe_city=%E5%8C%97%E4%BA%AC ( act=ybkapi&op=subscribe ) 
+ERR: Db Error: Column 'subscribe_type' cannot be null
+INSERT  INTO `33hao_ybk_subscribe` (subscribe_uid,subscribe_identity,subscribe_keyword,subscribe_type,subscribe_attr,subscribe_price,subscribe_city) VALUES ('1','1','猴年',NULL,NULL,'1000,12000','北京')
+[2016-09-22 17:01:02] /shop/ybkapi.php?act=ybkapi&op=subscribe&subscribe_price=1000,12000&member_id=1&subscribe_identity=1&subscribe_keyword=%E7%8C%B4%E5%B9%B4&subscribe_type%20=2&subscribe_attr%20=1&subscribe_city=%E5%8C%97%E4%BA%AC ( act=ybkapi&op=subscribe ) 
+ERR: Db Error: Column 'subscribe_type' cannot be null
+INSERT  INTO `33hao_ybk_subscribe` (subscribe_uid,subscribe_identity,subscribe_keyword,subscribe_type,subscribe_attr,subscribe_price,subscribe_city) VALUES ('1','1','猴年',NULL,NULL,'1000,12000','北京')
+[2016-09-22 17:01:04] /shop/ybkapi.php?act=ybkapi&op=subscribe&subscribe_price=1000,12000&member_id=1&subscribe_identity=1&subscribe_keyword=%E7%8C%B4%E5%B9%B4&subscribe_type%20=2&subscribe_attr%20=1&subscribe_city=%E5%8C%97%E4%BA%AC ( act=ybkapi&op=subscribe ) 
+ERR: Db Error: Column 'subscribe_type' cannot be null
+INSERT  INTO `33hao_ybk_subscribe` (subscribe_uid,subscribe_identity,subscribe_keyword,subscribe_type,subscribe_attr,subscribe_price,subscribe_city) VALUES ('1','1','猴年',NULL,NULL,'1000,12000','北京')
+[2016-09-22 17:02:01] /shop/ybkapi.php?act=ybkapi&op=subscribe&subscribe_price=1000,12000&member_id=1&subscribe_identity=1&subscribe_keyword=%E7%8C%B4%E5%B9%B4&subscribe_type%20=2&subscribe_attr%20=1&subscribe_city=%E5%8C%97%E4%BA%AC ( act=ybkapi&op=subscribe ) 
+ERR: Db Error: Column 'subscribe_type' cannot be null
+INSERT  INTO `33hao_ybk_subscribe` (subscribe_uid,subscribe_identity,subscribe_keyword,subscribe_type,subscribe_attr,subscribe_price,subscribe_city) VALUES ('1','1','猴年',NULL,NULL,'1000,12000','北京')

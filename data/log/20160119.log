@@ -1,0 +1,153 @@
+[2016-01-19 11:45:53] /mobile/index.php?act=goods&op=goods_list&keyword=%E8%A1%A3&page=10&curpage=1&keyword=%E8%A1%A3 ( act=goods&op=goods_list ) 
+ERR: Db Error: Unknown column 'goods_id' in 'order clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_goods_common` WHERE ( store_id = '1' ) AND ( goods_state = '1' ) AND ( goods_verify = '1' ) GROUP BY nc_distinct ORDER BY is_own_shop desc,goods_id desc LIMIT 1  
+[2016-01-19 11:45:55] /mobile/index.php?act=goods&op=goods_detail&goods_id=42&key=0eaece499bdf67eb98046697464ea264 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1453175155' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2016-01-19 11:51:05] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_id = '1' ) AND ( buyer_id = '2' ) AND ( order_type = '1' ) LIMIT 1  
+[2016-01-19 11:51:20] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_id = '1' ) AND ( buyer_id = '2' ) AND ( order_type = '1' ) LIMIT 1  
+[2016-01-19 11:57:39] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_id = '1' ) AND ( buyer_id = '2' ) AND ( order_type = '1' ) LIMIT 1  
+[2016-01-19 11:58:03] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_id = '1' ) AND ( buyer_id = '2' ) AND ( order_type = '1' ) LIMIT 1  
+[2016-01-19 11:58:29] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_id = '1' ) AND ( buyer_id = '2' ) AND ( order_type = '1' ) LIMIT 1  
+[2016-01-19 11:59:42] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_id = '1' ) AND ( buyer_id = '2' ) AND ( order_type = '1' ) LIMIT 1  
+[2016-01-19 12:00:50] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_id = '1' ) AND ( buyer_id = '2' ) AND ( order_type = '1' ) LIMIT 1  
+[2016-01-19 12:01:24] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_id = '1' ) AND ( buyer_id = '2' ) AND ( order_type = '1' ) LIMIT 1  
+[2016-01-19 12:10:24] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '2' ) LIMIT 1  
+[2016-01-19 12:10:24] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '2' ) ORDER BY order_id desc LIMIT 0,20  
+[2016-01-19 12:25:56] /mobile/index.php?act=member_refund&op=get_refund_info&key=0eaece499bdf67eb98046697464ea264&refund_id=1 ( act=member_refund&op=get_refund_info ) 
+ERR: Db Error: Table 'v4.33hao_refund_detail' doesn't exist
+SELECT * FROM `33hao_refund_detail` WHERE ( refund_id = '1' ) LIMIT 1  
+[2016-01-19 12:29:53] /mobile/index.php?act=member_refund&op=get_refund_info&key=0eaece499bdf67eb98046697464ea264&refund_id=1 ( act=member_refund&op=get_refund_info ) 
+ERR: Db Error: Table 'v4.33hao_refund_detail' doesn't exist
+SELECT * FROM `33hao_refund_detail` WHERE ( refund_id = '1' ) LIMIT 1  
+[2016-01-19 12:30:01] /mobile/index.php?act=member_refund&op=get_refund_info&key=0eaece499bdf67eb98046697464ea264&refund_id=1 ( act=member_refund&op=get_refund_info ) 
+ERR: Db Error: Table 'v4.33hao_refund_detail' doesn't exist
+SELECT * FROM `33hao_refund_detail` WHERE ( refund_id = '1' ) LIMIT 1  
+[2016-01-19 12:32:12] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '2' ) LIMIT 1  
+[2016-01-19 12:32:12] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '2' ) ORDER BY order_id desc LIMIT 0,20  
+[2016-01-19 12:32:17] /mobile/index.php?act=goods&op=goods_detail&goods_id=42&key=0eaece499bdf67eb98046697464ea264 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1453177937' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2016-01-19 12:33:18] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_id = '2' ) AND ( buyer_id = '2' ) AND ( order_type = '1' ) LIMIT 1  
+[2016-01-19 12:33:33] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_id = '2' ) AND ( buyer_id = '2' ) AND ( order_type = '1' ) LIMIT 1  
+[2016-01-19 12:33:39] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_id = '2' ) AND ( buyer_id = '2' ) AND ( order_type = '1' ) LIMIT 1  
+[2016-01-19 12:33:51] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_id = '2' ) AND ( buyer_id = '2' ) AND ( order_type = '1' ) LIMIT 1  
+[2016-01-19 12:34:06] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '2' ) LIMIT 1  
+[2016-01-19 12:34:06] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '2' ) ORDER BY order_id desc LIMIT 0,20  
+[2016-01-19 12:42:41] /mobile/index.php?act=member_refund&op=get_refund_info&key=0eaece499bdf67eb98046697464ea264&refund_id=1 ( act=member_refund&op=get_refund_info ) 
+ERR: Db Error: Table 'v4.33hao_refund_detail' doesn't exist
+SELECT * FROM `33hao_refund_detail` WHERE ( refund_id = '1' ) LIMIT 1  
+[2016-01-19 12:42:47] /mobile/index.php?act=member_return&op=get_return_info&key=0eaece499bdf67eb98046697464ea264&return_id=2 ( act=member_return&op=get_return_info ) 
+ERR: Db Error: Table 'v4.33hao_refund_detail' doesn't exist
+SELECT * FROM `33hao_refund_detail` WHERE ( refund_id = '2' ) LIMIT 1  
+[2016-01-19 12:42:58] /mobile/index.php?act=member_refund&op=get_refund_info&key=0eaece499bdf67eb98046697464ea264&refund_id=1 ( act=member_refund&op=get_refund_info ) 
+ERR: Db Error: Table 'v4.33hao_refund_detail' doesn't exist
+SELECT * FROM `33hao_refund_detail` WHERE ( refund_id = '1' ) LIMIT 1  
+[2016-01-19 12:43:05] /mobile/index.php?act=member_return&op=get_return_info&key=0eaece499bdf67eb98046697464ea264&return_id=2 ( act=member_return&op=get_return_info ) 
+ERR: Db Error: Table 'v4.33hao_refund_detail' doesn't exist
+SELECT * FROM `33hao_refund_detail` WHERE ( refund_id = '2' ) LIMIT 1  
+[2016-01-19 12:43:50] /mobile/index.php?act=member_return&op=get_return_info&key=0eaece499bdf67eb98046697464ea264&return_id=2 ( act=member_return&op=get_return_info ) 
+ERR: Db Error: Table 'v4.33hao_refund_detail' doesn't exist
+SELECT * FROM `33hao_refund_detail` WHERE ( refund_id = '2' ) LIMIT 1  
+[2016-01-19 13:06:41] /mobile/index.php?act=member_return&op=get_return_info&key=0eaece499bdf67eb98046697464ea264&return_id=2 ( act=member_return&op=get_return_info ) 
+ERR: Db Error: Table 'v4.33hao_refund_detail' doesn't exist
+SELECT * FROM `33hao_refund_detail` WHERE ( refund_id = '2' ) LIMIT 1  
+[2016-01-19 13:07:43] /mobile/index.php?act=member_return&op=get_return_info&key=0eaece499bdf67eb98046697464ea264&return_id=2 ( act=member_return&op=get_return_info ) 
+ERR: Db Error: Table 'v4.33hao_refund_detail' doesn't exist
+SELECT * FROM `33hao_refund_detail` WHERE ( refund_id = '2' ) LIMIT 1  
+[2016-01-19 13:08:10] /mobile/index.php?act=member_return&op=get_return_info&key=0eaece499bdf67eb98046697464ea264&return_id=2 ( act=member_return&op=get_return_info ) 
+ERR: Db Error: Table 'v4.33hao_refund_detail' doesn't exist
+SELECT * FROM `33hao_refund_detail` WHERE ( refund_id = '2' ) LIMIT 1  
+[2016-01-19 13:08:17] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '2' ) LIMIT 1  
+[2016-01-19 13:08:17] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '2' ) ORDER BY order_id desc LIMIT 0,20  
+[2016-01-19 13:08:39] /mobile/index.php?act=goods&op=goods_detail&goods_id=42&key=0eaece499bdf67eb98046697464ea264 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1453180119' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2016-01-19 13:24:09] /mobile/index.php?act=goods&op=goods_detail&goods_id=42&key=0eaece499bdf67eb98046697464ea264 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1453181049' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2016-01-19 13:24:18] /mobile/index.php?act=goods&op=goods_evaluate&goods_id=42&type=4&curpage=1&page=10 ( act=goods&op=goods_evaluate ) 
+ERR: Db Error: Unknown column 'geval_image_again' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_evaluate_goods` WHERE ( geval_goodsid = '42' ) AND ( (geval_image <> '') OR (geval_image_again <> '') ) LIMIT 1  
+[2016-01-19 13:24:18] /mobile/index.php?act=goods&op=goods_evaluate&goods_id=42&type=4&curpage=1&page=10 ( act=goods&op=goods_evaluate ) 
+ERR: Db Error: Unknown column 'geval_image_again' in 'where clause'
+SELECT * FROM `33hao_evaluate_goods` WHERE ( geval_goodsid = '42' ) AND ( (geval_image <> '') OR (geval_image_again <> '') ) ORDER BY geval_id desc LIMIT 0,10  
+[2016-01-19 13:24:20] /mobile/index.php?act=goods&op=goods_evaluate&goods_id=42&type=4&curpage=1&page=10 ( act=goods&op=goods_evaluate ) 
+ERR: Db Error: Unknown column 'geval_image_again' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_evaluate_goods` WHERE ( geval_goodsid = '42' ) AND ( (geval_image <> '') OR (geval_image_again <> '') ) LIMIT 1  
+[2016-01-19 13:24:20] /mobile/index.php?act=goods&op=goods_evaluate&goods_id=42&type=4&curpage=1&page=10 ( act=goods&op=goods_evaluate ) 
+ERR: Db Error: Unknown column 'geval_image_again' in 'where clause'
+SELECT * FROM `33hao_evaluate_goods` WHERE ( geval_goodsid = '42' ) AND ( (geval_image <> '') OR (geval_image_again <> '') ) ORDER BY geval_id desc LIMIT 0,10  
+[2016-01-19 13:27:12] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '2' ) LIMIT 1  
+[2016-01-19 13:27:12] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '2' ) ORDER BY order_id desc LIMIT 0,20  
+[2016-01-19 13:28:06] /mobile/index.php?act=member_favorites&op=favorites_list&key=0eaece499bdf67eb98046697464ea264&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN('') ) AND ( is_book = '0' ) LIMIT 1000  
+[2016-01-19 13:28:15] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '2' ) LIMIT 1  
+[2016-01-19 13:28:15] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '2' ) ORDER BY order_id desc LIMIT 0,20  
+[2016-01-19 13:28:24] /mobile/index.php?act=goods&op=goods_detail&goods_id=42&key=0eaece499bdf67eb98046697464ea264 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1453181304' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2016-01-19 13:28:34] /mobile/index.php?act=member_favorites&op=favorites_list&key=0eaece499bdf67eb98046697464ea264&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('42') ) AND ( is_book = '0' ) LIMIT 1000  
+[2016-01-19 13:28:38] /mobile/index.php?act=member_favorites&op=favorites_list&key=0eaece499bdf67eb98046697464ea264&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('42') ) AND ( is_book = '0' ) LIMIT 1000  
+[2016-01-19 13:28:46] /mobile/index.php?act=member_favorites&op=favorites_list&key=0eaece499bdf67eb98046697464ea264&curpage=1&page=10 ( act=member_favorites&op=favorites_list ) 
+ERR: Db Error: Unknown column 'is_book' in 'where clause'
+SELECT goods_id,goods_name,goods_price,goods_image,store_id FROM `33hao_goods` WHERE ( goods_id IN ('42') ) AND ( is_book = '0' ) LIMIT 1000  
+[2016-01-19 13:29:48] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '2' ) LIMIT 1  
+[2016-01-19 13:29:48] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '2' ) ORDER BY order_id desc LIMIT 0,20  

@@ -1,0 +1,150 @@
+[2016-09-13 08:33:51] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-13 08:33:52] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-13 09:12:26] /shop/index.php?act=ybkapi&op=ybkcoll ( act=ybkapi&op=ybkcoll ) 
+ERR: Db Error: Column 'member_id' cannot be null
+INSERT  INTO `33hao_ybk_collect` (member_id,ybk_id) VALUES (NULL,NULL)
+[2016-09-13 09:23:13] /shop/index.php?act=ybkapi&op=ybklist&ybk_id ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_info` WHERE ( id = '' ) ORDER BY ybk_addtime desc LIMIT 10  
+[2016-09-13 09:23:18] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_info` WHERE ( id = '' ) ORDER BY ybk_addtime desc LIMIT 10  
+[2016-09-13 09:23:21] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_info` WHERE ( id = '' ) ORDER BY ybk_addtime desc LIMIT 10  
+[2016-09-13 09:23:22] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_info` WHERE ( id = '' ) ORDER BY ybk_addtime desc LIMIT 10  
+[2016-09-13 09:23:23] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_info` WHERE ( id = '' ) ORDER BY ybk_addtime desc LIMIT 10  
+[2016-09-13 09:24:48] /shop/index.php?act=ybkapi&op=ybklist&ybk_id=1,5,2,3 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_info` WHERE ( id IN ('1','5','2','3') ) ORDER BY ybk_addtime desc LIMIT 10  
+[2016-09-13 09:24:50] /shop/index.php?act=ybkapi&op=ybklist&ybk_id=1,5,2,3 ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'id' in 'where clause'
+SELECT * FROM `33hao_ybk_info` WHERE ( id IN ('1','5','2','3') ) ORDER BY ybk_addtime desc LIMIT 10  
+[2016-09-13 09:25:53] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-13 09:25:56] /index.php?act=login&op=index ( act=login&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-13 09:26:03] /shop/index.php?act=login&op=login&inajax=1 ( act=login&op=login ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-13 09:26:14] /shop/index.php?act=login&op=login&inajax=1 ( act=login&op=login ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-13 09:26:18] /shop/index.php?act=login&op=login&inajax=1 ( act=login&op=login ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-13 09:26:29] /shop/index.php?act=login&op=login&inajax=1 ( act=login&op=login ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-13 09:26:49] /shop/index.php?act=login&op=login&inajax=1 ( act=login&op=login ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-13 09:26:49] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-13 09:27:03] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-13 10:09:05] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'b.collect.id' in 'order clause'
+SELECT a.* FROM 33hao_ybk_info as a INNER JOIN 33hao_ybk_collect as b ON a.ybk_id=b.ybk_id WHERE member_id=1 ORDER BY b.collect.id DESC 
+[2016-09-13 10:09:11] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'b.collect.id' in 'order clause'
+SELECT a.* FROM 33hao_ybk_info as a INNER JOIN 33hao_ybk_collect as b ON a.ybk_id=b.ybk_id WHERE member_id=1 ORDER BY b.collect.id DESC 
+[2016-09-13 10:09:13] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Unknown column 'b.collect.id' in 'order clause'
+SELECT a.* FROM 33hao_ybk_info as a INNER JOIN 33hao_ybk_collect as b ON a.ybk_id=b.ybk_id WHERE member_id=1 ORDER BY b.collect.id DESC 
+[2016-09-13 12:50:02] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Table 'shop.33hao_ybk_info as a' doesn't exist
+SELECT a.ybk_id,a.ybk_identity,a.ybk_viewed,a.ybk_city,a.ybk_title,a.ybk_price,a.ybk_num,b.attr_value,c.method FROM `33hao_ybk_info as a` AS `ybk_info as a`,`33hao_ybk_attr as b` AS `ybk_attr as b`,`33hao_ybk_buymode as c` AS `ybk_buymode as c` WHERE ( ybk_status = '1' ) ORDER BY ybk_addtime desc LIMIT 10  
+[2016-09-13 12:50:43] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Table 'shop.33hao_ybk_info as a' doesn't exist
+SELECT a.ybk_id,a.ybk_identity,a.ybk_viewed,a.ybk_city,a.ybk_title,a.ybk_price,a.ybk_num,b.attr_value,c.method FROM `33hao_ybk_info as a` AS `ybk_info as a`,`33hao_ybk_attr as b` AS `ybk_attr as b`,`33hao_ybk_buymode as c` AS `ybk_buymode as c` WHERE ( ybk_status = '1' ) ORDER BY ybk_addtime desc LIMIT 10  
+[2016-09-13 12:50:45] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Table 'shop.33hao_ybk_info as a' doesn't exist
+SELECT a.ybk_id,a.ybk_identity,a.ybk_viewed,a.ybk_city,a.ybk_title,a.ybk_price,a.ybk_num,b.attr_value,c.method FROM `33hao_ybk_info as a` AS `ybk_info as a`,`33hao_ybk_attr as b` AS `ybk_attr as b`,`33hao_ybk_buymode as c` AS `ybk_buymode as c` WHERE ( ybk_status = '1' ) ORDER BY ybk_addtime desc LIMIT 10  
+[2016-09-13 12:55:37] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: Table 'shop.33hao_ybk_info as a' doesn't exist
+SELECT a.ybk_id,a.ybk_identity,a.ybk_viewed,a.ybk_city,a.ybk_title,a.ybk_price,a.ybk_num,b.attr_value,c.method FROM `33hao_ybk_info as a` AS `ybk_info as a` LEFT JOIN `33hao_ybk_attr as b` AS `ybk_attr as b` ON a.ybk_attr=b.attr_id LEFT JOIN `33hao_ybk_buymode as c` AS `ybk_buymode as c` ON a.ybk_buymode=c.method WHERE ( ybk_status = '1' ) ORDER BY ybk_addtime desc LIMIT 10  
+[2016-09-13 13:39:47] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: FUNCTION ybk_collect.count does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method,ybk_collect.count(ybk_id) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id LEFT JOIN `33hao_ybk_collect` AS `ybk_collect` ON ybk_info.ybk_buymode=ybk_collect.ybk_id WHERE ( ybk_status = '1' ) ORDER BY ybk_info.ybk_addtime desc LIMIT 10  
+[2016-09-13 13:40:09] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method,ybk_collect.count(*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id LEFT JOIN `33hao_ybk_collect` AS `ybk_collect` ON ybk_info.ybk_buymode=ybk_collect.ybk_id WHERE ( ybk_status = '1' ) ORDER BY ybk_info.ybk_addtime desc LIMIT 10  
+[2016-09-13 13:40:10] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method,ybk_collect.count(*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id LEFT JOIN `33hao_ybk_collect` AS `ybk_collect` ON ybk_info.ybk_buymode=ybk_collect.ybk_id WHERE ( ybk_status = '1' ) ORDER BY ybk_info.ybk_addtime desc LIMIT 10  
+[2016-09-13 13:40:12] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method,ybk_collect.count(*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id LEFT JOIN `33hao_ybk_collect` AS `ybk_collect` ON ybk_info.ybk_buymode=ybk_collect.ybk_id WHERE ( ybk_status = '1' ) ORDER BY ybk_info.ybk_addtime desc LIMIT 10  
+[2016-09-13 13:40:13] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method,ybk_collect.count(*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id LEFT JOIN `33hao_ybk_collect` AS `ybk_collect` ON ybk_info.ybk_buymode=ybk_collect.ybk_id WHERE ( ybk_status = '1' ) ORDER BY ybk_info.ybk_addtime desc LIMIT 10  
+[2016-09-13 13:40:39] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method,ybk_collect.count(*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id LEFT JOIN `33hao_ybk_collect` AS `ybk_collect` ON ybk_info.ybk_buymode=ybk_collect.ybk_id LEFT JOIN `33hao_ybk_collect` AS `ybk_collect` ON  WHERE ( ybk_status = '1' ) ORDER BY ybk_info.ybk_addtime desc LIMIT 10  
+[2016-09-13 13:41:08] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method,ybk_collect.count(*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id LEFT JOIN `33hao_ybk_collect` AS `ybk_collect` ON ybk_info.ybk_buymode=ybk_collect.ybk_id WHERE ( ybk_status = '1' ) ORDER BY ybk_info.ybk_addtime desc LIMIT 10  
+[2016-09-13 13:41:52] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method,ybk_collect.count(*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id LEFT JOIN `33hao_ybk_collect` AS `ybk_collect` ON ybk_info.ybk_id=ybk_collect.ybk_id WHERE ( ybk_status = '1' ) ORDER BY ybk_info.ybk_addtime desc LIMIT 10  
+[2016-09-13 13:41:54] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method,ybk_collect.count(*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id LEFT JOIN `33hao_ybk_collect` AS `ybk_collect` ON ybk_info.ybk_id=ybk_collect.ybk_id WHERE ( ybk_status = '1' ) ORDER BY ybk_info.ybk_addtime desc LIMIT 10  
+[2016-09-13 13:42:15] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method,ybk_collect.count(*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id LEFT JOIN `33hao_ybk_collect` AS `ybk_collect` ON ybk_info.ybk_id=ybk_collect.ybk_id WHERE ( ybk_status = '1' ) ORDER BY ybk_info.ybk_addtime desc LIMIT 10  
+[2016-09-13 13:42:17] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ' at line 1
+SELECT ybk_info.*,ybk_attr.attr_value,ybk_buymode.method,ybk_collect.count(*) FROM `33hao_ybk_info` AS `ybk_info` LEFT JOIN `33hao_ybk_attr` AS `ybk_attr` ON ybk_info.ybk_attr=ybk_attr.attr_id LEFT JOIN `33hao_ybk_buymode` AS `ybk_buymode` ON ybk_info.ybk_buymode=ybk_buymode.mode_id LEFT JOIN `33hao_ybk_collect` AS `ybk_collect` ON ybk_info.ybk_id=ybk_collect.ybk_id WHERE ( ybk_status = '1' ) ORDER BY ybk_info.ybk_addtime desc LIMIT 10  
+[2016-09-13 17:35:37] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-13 17:35:37] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-13 17:35:37] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-13 17:35:37] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-13 17:35:37] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-13 17:35:37] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-13 17:35:37] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-13 17:35:37] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-13 17:35:37] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-13 17:35:37] /shop/index.php?act=ybkapi&op=ybklist ( act=ybkapi&op=ybklist ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['ybk_id']' at line 1
+SELECT COUNT(*) FROM 33hao_ybk_trade WHERE ybk_info_id = Array['ybk_id']
+[2016-09-13 18:26:31] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-09-13 18:29:15] /shop/index.php?act=ybkapi&op=newinfo&member_id=123 ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Unknown column 'ybk_deadtime' in 'field list'
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadtime,ybk_content,ybk_pic,ybk_defpic) VALUES (NULL,NULL,NULL,NULL,'0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1473762555','0',NULL,NULL,NULL)
+[2016-09-13 18:29:20] /shop/index.php?act=ybkapi&op=newinfo ( act=ybkapi&op=newinfo ) 
+ERR: Db Error: Unknown column 'ybk_deadtime' in 'field list'
+INSERT  INTO `33hao_ybk_info` (ybk_id,ybk_identity,ybk_type,ybk_member_id,ybk_status,ybk_viewed,ybk_city,ybk_title,ybk_price,ybk_num,ybk_lessnum,ybk_attr,ybk_buymode,ybk_addtime,ybk_deadtime,ybk_content,ybk_pic,ybk_defpic) VALUES (NULL,NULL,NULL,NULL,'0','0',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'1473762560','0',NULL,NULL,NULL)

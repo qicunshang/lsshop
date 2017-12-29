@@ -1,0 +1,54 @@
+[2016-01-08 18:51:21] /mobile/index.php?act=goods&op=goods_detail&goods_id=102004&key=acf1dee939dbf9a51358c18dfb9f743e ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1452250281' ) AND ( voucher_t_store_id IN ('15') ) LIMIT 1000  
+[2016-01-08 22:41:09] /mobile/index.php?act=connect&op=get_sms_captcha&type=1&phone=13798327301&sec_val=erfh&sec_key=c114728e ( act=connect&op=get_sms_captcha ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_ip = '127.0.0.1' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 22:43:53] /mobile/index.php?act=connect&op=get_sms_captcha&type=1&phone=18778991260&sec_val=b74m&sec_key=c114728e ( act=connect&op=get_sms_captcha ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_ip = '127.0.0.1' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 22:43:53] /mobile/index.php?act=connect&op=get_sms_captcha&type=1&phone=18778991260&sec_val=b74m&sec_key=c114728e ( act=connect&op=get_sms_captcha ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+INSERT  INTO `33hao_sms_log` (log_phone,log_captcha,log_ip,log_msg,log_type,add_time) VALUES ('18778991260','306900','127.0.0.1','【好商城v3-b12】您于2016-01-08申请注册会员，动态码：306900。','1','1452264233')
+[2016-01-08 22:44:45] /mobile/index.php?act=connect&op=check_sms_captcha&type=1&phone=18778991260&captcha=564694 ( act=connect&op=check_sms_captcha ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = '18778991260' ) AND ( log_captcha = '564694' ) AND ( log_type = '3' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 22:44:51] /mobile/index.php?act=connect&op=sms_register ( act=connect&op=sms_register ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = '18778991260' ) AND ( log_captcha = '564694' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 22:44:57] /mobile/index.php?act=connect&op=sms_register ( act=connect&op=sms_register ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = '18778991260' ) AND ( log_captcha = '564694' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 22:45:04] /mobile/index.php?act=connect&op=sms_register ( act=connect&op=sms_register ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = '18778991260' ) AND ( log_captcha = '564694' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 22:45:09] /mobile/index.php?act=connect&op=sms_register ( act=connect&op=sms_register ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = '18778991260' ) AND ( log_captcha = '564694' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 22:56:13] /mobile/index.php?act=connect&op=sms_register ( act=connect&op=sms_register ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = '18778991260' ) AND ( log_captcha = '564694' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 22:57:19] /mobile/index.php?act=connect&op=sms_register ( act=connect&op=sms_register ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = '18778991260' ) AND ( log_captcha = '564694' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 23:06:05] /mobile/index.php?act=connect&op=sms_register ( act=connect&op=sms_register ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = '18778991260' ) AND ( log_captcha = '564694' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 23:06:33] /mobile/index.php?act=connect&op=sms_register ( act=connect&op=sms_register ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = '18778991260' ) AND ( log_captcha = '564694' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 23:18:55] /mobile/index.php?act=connect&op=sms_register ( act=connect&op=sms_register ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = '18778991260' ) AND ( log_captcha = '564694' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 23:25:48] /mobile/index.php?act=connect&op=sms_register ( act=connect&op=sms_register ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = '18778991260' ) AND ( log_captcha = '564694' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 23:29:44] /mobile/index.php?act=connect&op=sms_register ( act=connect&op=sms_register ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = '18778991260' ) AND ( log_captcha = '564694' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 23:30:03] /mobile/index.php?act=connect&op=sms_register ( act=connect&op=sms_register ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = '18778991260' ) AND ( log_captcha = '564694' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  
+[2016-01-08 23:30:38] /mobile/index.php?act=connect&op=sms_register ( act=connect&op=sms_register ) 
+ERR: Db Error: Table 'test.33hao_sms_log' doesn't exist
+SELECT * FROM `33hao_sms_log` WHERE ( log_phone = '18778991260' ) AND ( log_captcha = '564694' ) AND ( log_type = '1' ) ORDER BY log_id desc LIMIT 1  

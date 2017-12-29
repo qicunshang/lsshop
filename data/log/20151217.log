@@ -1,0 +1,27 @@
+[2015-12-17 23:56:28] /mobile/index.php?act=goods&op=goods_detail&goods_id=49&key=a1bae127f42f1ae8f3c3ad23f9321527 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1450367788' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2015-12-17 23:57:28] /mobile/index.php?act=goods&op=goods_detail&goods_id=49&key=a1bae127f42f1ae8f3c3ad23f9321527 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1450367848' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2015-12-17 23:57:37] /mobile/index.php?act=goods&op=goods_detail&goods_id=49&key=a1bae127f42f1ae8f3c3ad23f9321527 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1450367857' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2015-12-17 23:58:04] /mobile/index.php?act=goods&op=goods_evaluate&goods_id=49&type=4&curpage=1&page=10 ( act=goods&op=goods_evaluate ) 
+ERR: Db Error: Unknown column 'geval_image_again' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_evaluate_goods` WHERE ( geval_goodsid = '49' ) AND ( (geval_image <> '') OR (geval_image_again <> '') ) LIMIT 1  
+[2015-12-17 23:58:04] /mobile/index.php?act=goods&op=goods_evaluate&goods_id=49&type=4&curpage=1&page=10 ( act=goods&op=goods_evaluate ) 
+ERR: Db Error: Unknown column 'geval_image_again' in 'where clause'
+SELECT * FROM `33hao_evaluate_goods` WHERE ( geval_goodsid = '49' ) AND ( (geval_image <> '') OR (geval_image_again <> '') ) ORDER BY geval_id desc LIMIT 0,10  
+[2015-12-17 23:58:04] /mobile/index.php?act=goods&op=goods_evaluate&goods_id=49&type=5&curpage=1&page=10 ( act=goods&op=goods_evaluate ) 
+ERR: Db Error: Unknown column 'geval_content_again' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_evaluate_goods` WHERE ( geval_goodsid = '49' ) AND ( geval_content_again <> '' ) LIMIT 1  
+[2015-12-17 23:58:04] /mobile/index.php?act=goods&op=goods_evaluate&goods_id=49&type=5&curpage=1&page=10 ( act=goods&op=goods_evaluate ) 
+ERR: Db Error: Unknown column 'geval_content_again' in 'where clause'
+SELECT * FROM `33hao_evaluate_goods` WHERE ( geval_goodsid = '49' ) AND ( geval_content_again <> '' ) ORDER BY geval_id desc LIMIT 0,10  
+[2015-12-17 23:58:05] /mobile/index.php?act=goods&op=goods_detail&goods_id=49&key=a1bae127f42f1ae8f3c3ad23f9321527 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1450367885' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2015-12-17 23:58:55] /mobile/index.php?act=goods&op=goods_detail&goods_id=49&key=a1bae127f42f1ae8f3c3ad23f9321527 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1450367935' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  

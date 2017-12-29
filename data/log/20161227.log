@@ -1,0 +1,552 @@
+[2016-12-27 09:02:27] / ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:02:28] /favicon.ico ( act=index&op=index ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:03:02] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18204867065564899825_1482800581951&_=1482800582418 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:16:50] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18205971193815366157_1482801410212&_=1482801410644 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:18:34] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery1820711707970808378_1482801514133&_=1482801514696 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:19:19] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18208890691353830339_1482801558356&_=1482801558905 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:19:49] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery1820696762675069887_1482801588312&_=1482801588866 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:20:22] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18201423601384946539_1482801622056&_=1482801622550 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:20:48] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18207381173652967173_1482801647365&_=1482801647896 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:21:13] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery1820655538215865463_1482801672897&_=1482801673396 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:21:44] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18206045713248326624_1482801703228&_=1482801703693 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:22:30] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery182008590507806004499_1482801749529&_=1482801750111 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:22:59] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18201982981019087422_1482801778399&_=1482801778907 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:23:25] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18207677107196259556_1482801804358&_=1482801804938 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:24:23] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18207337988604288695_1482801862877&_=1482801863364 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:24:47] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18202184733059390932_1482801886139&_=1482801886652 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:26:17] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery182024422083612965306_1482801976089&_=1482801976629 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:26:35] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18205664632082515666_1482801994555&_=1482801995110 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:27:41] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18205491942571605765_1482802060648&_=1482802061175 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:28:14] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18207716379609889554_1482802094026&_=1482802094533 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:28:36] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery1820014032686115993731_1482802115532&_=1482802116059 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:29:07] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18207061560747864596_1482802146446&_=1482802146940 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:29:34] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18206576272812318178_1482802173709&_=1482802174240 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:30:20] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18205536203443724264_1482802219265&_=1482802219786 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:30:58] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18203697053459947104_1482802257244&_=1482802257803 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:31:17] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18205372095407660661_1482802276365&_=1482802276896 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:31:36] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18205517765114078349_1482802295312&_=1482802295809 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:33:01] /shop/index.php?act=store_goods_add&op=save_goods ( act=store_goods_add&op=save_goods ) 
+ERR: Db Error: Unknown column 'goods_type' in 'field list'
+INSERT  INTO `33hao_goods` (goods_commonid,goods_name,goods_jingle,goods_type,rebate,store_id,store_name,gc_id,gc_id_1,gc_id_2,gc_id_3,brand_id,goods_price,goods_promotion_price,goods_marketprice,goods_serial,goods_storage_alarm,goods_spec,goods_storage,goods_image,goods_state,goods_verify,goods_addtime,goods_edittime,areaid_1,areaid_2,color_id,transport_id,goods_freight,goods_vat,goods_commend,goods_stcids,is_virtual,virtual_indate,virtual_limit,virtual_invalid_refund,is_fcode,is_appoint,is_presell,is_own_shop) VALUES ('100106','测试修改白酒','好东西','乳酪','20','1','官方旗舰店','630','593','598','630','','111','111','111','','0','N;','222','1_05360596002899862.jpg','1','1','1482802380','1482802380','0','0','0','0','0','0','1','','0','0','0','0','0','0','0','1')
+[2016-12-27 09:37:03] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18205056166505886993_1482802622443&_=1482802622864 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:47:00] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18208731167390581273_1482803220172&_=1482803220696 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:48:14] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery182044089136504531423_1482803294011&_=1482803294559 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:50:22] /shop/index.php?act=store_goods_add&op=save_goods ( act=store_goods_add&op=save_goods ) 
+ERR: Db Error: Unknown column 'goods_type' in 'field list'
+INSERT  INTO `33hao_goods` (goods_commonid,goods_name,goods_jingle,goods_type,rebate,store_id,store_name,gc_id,gc_id_1,gc_id_2,gc_id_3,brand_id,goods_price,goods_promotion_price,goods_marketprice,goods_serial,goods_storage_alarm,goods_spec,goods_storage,goods_image,goods_state,goods_verify,goods_addtime,goods_edittime,areaid_1,areaid_2,color_id,transport_id,goods_freight,goods_vat,goods_commend,goods_stcids,is_virtual,virtual_indate,virtual_limit,virtual_invalid_refund,is_fcode,is_appoint,is_presell,is_own_shop) VALUES ('100107','测试红酒1','西拉子多种','西拉子','20','1','官方旗舰店','630','593','598','630','','111','111','111','','0','N;','222','1_05361463920316868.jpg','1','1','1482803422','1482803422','0','0','0','0','0','0','1','','0','0','0','0','0','0','0','1')
+[2016-12-27 09:53:02] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery1820632546519527088_1482803581655&_=1482803582062 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:53:34] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery182043304893921679954_1482803613531&_=1482803613974 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:55:05] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18201511060595735435_1482803705081&_=1482803705659 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:55:36] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18206380631921445987_1482803735722&_=1482803736287 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:56:22] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18203004982199999351_1482803781646&_=1482803782187 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:56:49] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18206967928401096115_1482803808801&_=1482803809317 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:57:15] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery182024518965990232144_1482803835146&_=1482803835644 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:57:50] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18205686414990460658_1482803869894&_=1482803870412 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 09:59:06] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18207571442917370814_1482803945534&_=1482803946008 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:00:07] /shop/index.php?act=index&op=json_area_show&area_id=0&callback=jQuery18205249050050030921_1482804006588&_=1482804007078 ( act=index&op=json_area_show ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:00:21] /shop/index.php?act=store_goods_online&op=edit_save_goods&inajax=1 ( act=store_goods_online&op=edit_save_goods ) 
+ERR: Db Error: Unknown column 'goods_type' in 'field list'
+INSERT  INTO `33hao_goods` (goods_commonid,goods_name,goods_jingle,goods_type,rebate,store_id,store_name,gc_id,gc_id_1,gc_id_2,gc_id_3,brand_id,goods_price,goods_promotion_price,goods_marketprice,goods_serial,goods_storage_alarm,goods_spec,goods_storage,goods_image,goods_state,goods_verify,goods_addtime,goods_edittime,areaid_1,areaid_2,color_id,transport_id,goods_freight,goods_vat,goods_commend,goods_stcids,is_virtual,virtual_indate,virtual_limit,virtual_invalid_refund,is_fcode,is_appoint,is_presell,is_own_shop) VALUES ('100107','测试红酒1','西拉子多种','西拉子','20','1','官方旗舰店','630','593','598','630','0','111','111','111','','0','N;','222','1_05361463920316868.jpg','1','1','1482804021','1482804021','0','0','0','0','0','0','1','','0','0','0','0','0','0','0','1')
+[2016-12-27 10:00:39] /shop/index.php?act=index&op=json_area_show&area_id=0&callback=jQuery182026807177801870474_1482804039152&_=1482804039578 ( act=index&op=json_area_show ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:02:14] /shop/index.php?act=index&op=json_area_show&area_id=0&callback=jQuery18205995450514976199_1482804133891&_=1482804134395 ( act=index&op=json_area_show ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:02:48] /shop/index.php?act=index&op=json_area_show&area_id=0&callback=jQuery18207490204907927377_1482804167766&_=1482804168299 ( act=index&op=json_area_show ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:03:18] /shop/index.php?act=index&op=json_area_show&area_id=0&callback=jQuery182019700460860233393_1482804197794&_=1482804198280 ( act=index&op=json_area_show ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:05:41] /shop/index.php?act=index&op=json_area_show&area_id=0&callback=jQuery18209778888036010001_1482804340796&_=1482804341285 ( act=index&op=json_area_show ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:05:44] /shop/index.php?act=index&op=json_area_show&area_id=0&callback=jQuery18209530873323407525_1482804344127&_=1482804344657 ( act=index&op=json_area_show ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:06:30] /shop/index.php?act=index&op=json_area_show&area_id=0&callback=jQuery182048261200695874495_1482804390181&_=1482804390686 ( act=index&op=json_area_show ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:07:47] /shop/index.php?act=index&op=json_area_show&area_id=0&callback=jQuery182043346225333545096_1482804466795&_=1482804467429 ( act=index&op=json_area_show ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:08:10] /shop/index.php?act=index&op=json_area_show&area_id=0&callback=jQuery18206660230691553852_1482804489701&_=1482804490249 ( act=index&op=json_area_show ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:08:45] /shop/index.php?act=index&op=json_area_show&area_id=0&callback=jQuery18204418814573847132_1482804524875&_=1482804525452 ( act=index&op=json_area_show ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:09:14] /shop/index.php?act=store_goods_online&op=edit_save_goods&inajax=1 ( act=store_goods_online&op=edit_save_goods ) 
+ERR: Db Error: Unknown column 'goods_type' in 'field list'
+INSERT  INTO `33hao_goods` (goods_commonid,goods_name,goods_jingle,goods_type,rebate,store_id,store_name,gc_id,gc_id_1,gc_id_2,gc_id_3,brand_id,goods_price,goods_promotion_price,goods_marketprice,goods_serial,goods_storage_alarm,goods_spec,goods_storage,goods_image,goods_state,goods_verify,goods_addtime,goods_edittime,areaid_1,areaid_2,color_id,transport_id,goods_freight,goods_vat,goods_commend,goods_stcids,is_virtual,virtual_indate,virtual_limit,virtual_invalid_refund,is_fcode,is_appoint,is_presell,is_own_shop) VALUES ('100107','测试红酒1','西拉子多种','西拉子','20','1','官方旗舰店','630','593','598','630','0','111','111','111','','0','N;','222','1_05361485462545491.jpg','1','1','1482804554','1482804554','0','0','0','0','0','0','1','','0','0','0','0','0','0','0','1')
+[2016-12-27 10:09:34] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18200021145943330177497_1482804574010&_=1482804574445 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:09:59] /shop/index.php?act=store_goods_add&op=save_goods ( act=store_goods_add&op=save_goods ) 
+ERR: Db Error: Unknown column 'goods_type' in 'field list'
+INSERT  INTO `33hao_goods` (goods_commonid,goods_name,goods_jingle,goods_type,rebate,store_id,store_name,gc_id,gc_id_1,gc_id_2,gc_id_3,brand_id,goods_price,goods_promotion_price,goods_marketprice,goods_serial,goods_storage_alarm,goods_spec,goods_storage,goods_image,goods_state,goods_verify,goods_addtime,goods_edittime,areaid_1,areaid_2,color_id,transport_id,goods_freight,goods_vat,goods_commend,goods_stcids,is_virtual,virtual_indate,virtual_limit,virtual_invalid_refund,is_fcode,is_appoint,is_presell,is_own_shop) VALUES ('100108','测试红酒2','222','222','222','1','官方旗舰店','630','593','598','630','','222','222','222','','0','N;','222','1_05361485462545491.jpg','1','1','1482804599','1482804599','0','0','0','0','0','0','1','','0','0','0','0','0','0','0','1')
+[2016-12-27 10:32:12] /shop/index.php?act=index&op=json_area_show&area_id=0&callback=jQuery18207556378722366689_1482805931501&_=1482805931939 ( act=index&op=json_area_show ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:32:21] /shop/index.php?act=store_goods_online&op=edit_save_goods&inajax=1 ( act=store_goods_online&op=edit_save_goods ) 
+ERR: Db Error: Unknown column 'goods_type' in 'field list'
+INSERT  INTO `33hao_goods` (goods_commonid,goods_name,goods_jingle,goods_type,rebate,store_id,store_name,gc_id,gc_id_1,gc_id_2,gc_id_3,brand_id,goods_price,goods_promotion_price,goods_marketprice,goods_serial,goods_storage_alarm,goods_spec,goods_storage,goods_image,goods_state,goods_verify,goods_addtime,goods_edittime,areaid_1,areaid_2,color_id,transport_id,goods_freight,goods_vat,goods_commend,goods_stcids,is_virtual,virtual_indate,virtual_limit,virtual_invalid_refund,is_fcode,is_appoint,is_presell,is_own_shop) VALUES ('100108','测试红酒2','222','222','222','1','官方旗舰店','630','593','598','630','0','222','222','222','','0','N;','222','1_05361485462545491.jpg','1','1','1482805941','1482805941','0','0','0','0','0','0','1','','0','0','0','0','0','0','0','1')
+[2016-12-27 10:33:06] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery1820626668529728807_1482805985539&_=1482805985952 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:34:06] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18208826927292047809_1482806045923&_=1482806046513 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:34:42] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18209090809926490293_1482806081451&_=1482806082006 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:38:37] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery1820512200640519302_1482806316700&_=1482806317125 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:39:43] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery182014375635293854339_1482806382488&_=1482806383023 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:40:57] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18208259939124276492_1482806456496&_=1482806456923 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:41:02] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery182034181994104474445_1482806462107&_=1482806462553 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:41:14] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18204543646835234515_1482806473954&_=1482806474519 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:41:53] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18205781009000964275_1482806512986&_=1482806513516 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:43:55] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18206641047899921398_1482806634310&_=1482806634842 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:45:08] /shop/index.php?act=store_goods_add&op=save_goods ( act=store_goods_add&op=save_goods ) 
+ERR: Db Error: Unknown column 'goods_type' in 'field list'
+INSERT  INTO `33hao_goods` (goods_commonid,goods_name,goods_jingle,goods_type,rebate,store_id,store_name,gc_id,gc_id_1,gc_id_2,gc_id_3,brand_id,goods_price,goods_promotion_price,goods_marketprice,goods_serial,goods_storage_alarm,goods_spec,goods_storage,goods_image,goods_state,goods_verify,goods_addtime,goods_edittime,areaid_1,areaid_2,color_id,transport_id,goods_freight,goods_vat,goods_commend,goods_stcids,is_virtual,virtual_indate,virtual_limit,virtual_invalid_refund,is_fcode,is_appoint,is_presell,is_own_shop) VALUES ('100109','正式红酒2 23° 冰酒 法国 ewrewrew ewrewrew 乳酪','西拉子','西拉子','20','1','官方旗舰店','630','593','598','630','','222','222','222','','0','a:6:{i:436;s:4:\"23°\";i:447;s:6:\"冰酒\";i:458;s:6:\"法国\";i:467;s:8:\"ewrewrew\";i:468;s:8:\"ewrewrew\";i:478;s:6:\"乳酪\";}','2222','1_05361486025732772.jpg','1','1','1482806708','1482806708','0','0','0','0','0','0','1','','0','0','0','0','0','0','0','1')
+[2016-12-27 10:46:34] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18204412337117015752_1482806794297&_=1482806794709 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:47:44] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery182023237136102922828_1482806864213&_=1482806864768 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:47:59] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18209370543727676963_1482806878263&_=1482806878800 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:48:56] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery1820016749366602571536_1482806935566&_=1482806936098 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:49:51] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery182023773325801403822_1482806991029&_=1482806991530 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:50:31] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery182038955568297805754_1482807031077&_=1482807031652 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:50:41] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18206997172650132829_1482807041096&_=1482807041659 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:51:40] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery182039041000165754625_1482807099602&_=1482807100118 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:53:12] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18208701423553392047_1482807191885&_=1482807192418 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 10:53:56] /shop/index.php?act=store_goods_add&op=save_goods ( act=store_goods_add&op=save_goods ) 
+ERR: Db Error: Unknown column 'goods_type' in 'field list'
+INSERT  INTO `33hao_goods` (goods_commonid,goods_name,goods_jingle,goods_type,rebate,store_id,store_name,gc_id,gc_id_1,gc_id_2,gc_id_3,brand_id,goods_price,goods_promotion_price,goods_marketprice,goods_serial,goods_storage_alarm,goods_spec,goods_storage,goods_image,goods_state,goods_verify,goods_addtime,goods_edittime,areaid_1,areaid_2,color_id,transport_id,goods_freight,goods_vat,goods_commend,goods_stcids,is_virtual,virtual_indate,virtual_limit,virtual_invalid_refund,is_fcode,is_appoint,is_presell,is_own_shop) VALUES ('100110','正式红酒3 23° 冰酒 法国 ewrewrew ewrewrew 乳酪','','西拉子','20','1','官方旗舰店','630','593','598','630','','222.00','222.00','222','','0','a:6:{i:436;s:4:\"23°\";i:447;s:6:\"冰酒\";i:458;s:6:\"法国\";i:467;s:8:\"ewrewrew\";i:468;s:8:\"ewrewrew\";i:478;s:6:\"乳酪\";}','222','1_05361486025732772.jpg','1','1','1482807236','1482807236','0','0','0','0','0','0','1','','0','0','0','0','0','0','0','1')
+[2016-12-27 10:59:59] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=260&member_id=263 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:00:12] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=260&member_id=1 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:00:15] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=260 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:02:13] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=260 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:02:16] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=261 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:06:10] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=261 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:06:10] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=261 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT * FROM `33hao_` WHERE ( goods_commonid = '100098' ) LIMIT 1  
+[2016-12-27 11:06:38] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=261 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:06:38] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=261 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown column 'goods.goods_id' in 'field list'
+SELECT goods.goods_id,goods.goods_spec,goods.goods_commonid,goods.goods_name,goods.goods_price,goods.goods_marketprice,goods.goods_storage,goods.goods_salenum,goods.goods_image,goods_images.goods_image FROM `33hao_goods_common` AS `goods_common` LEFT JOIN `33hao_goods_images` AS `goods_images` ON goods.goods_commonid=goods_images.goods_commonid WHERE ( goods_id = '261' ) ORDER BY is_default desc LIMIT 1000  
+[2016-12-27 11:08:39] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=261 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:09:10] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=261 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:09:20] /shop/ybkapi.php?act=ybkapi&op=good&goods_id=261 ( act=ybkapi&op=good ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:09:36] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:09:36] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown table 'goods_common'
+SELECT goods_common.*,goods_images.goods_image FROM `33hao_goods` AS `goods` LEFT JOIN `33hao_goods_images` AS `goods_images` ON goods_common.goods_commonid=goods_images.goods_commonid WHERE ( goods_id = '261' ) ORDER BY is_default desc LIMIT 1000  
+[2016-12-27 11:09:43] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:09:43] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown table 'goods_common'
+SELECT goods_common.*,goods_images.goods_image FROM `33hao_goods` AS `goods` LEFT JOIN `33hao_goods_images` AS `goods_images` ON goods_common.goods_commonid=goods_images.goods_commonid WHERE ( goods_id = '100110' ) ORDER BY is_default desc LIMIT 1000  
+[2016-12-27 11:10:10] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:10:10] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown table 'goods_common'
+SELECT goods_common.*,goods_images.goods_image FROM `33hao_goods` AS `goods` LEFT JOIN `33hao_goods_images` AS `goods_images` ON goods_common.goods_commonid=goods_images.goods_commonid WHERE ( goods_commonid = '100110' ) ORDER BY is_default desc LIMIT 1000  
+[2016-12-27 11:14:35] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:14:35] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown table 'goods_common'
+SELECT goods_common.*,goods_images.goods_image FROM `33hao_goods` AS `goods` LEFT JOIN `33hao_goods_images` AS `goods_images` ON goods_common.goods_commonid=goods_images.goods_commonid WHERE ( goods_commonid = '100110' ) ORDER BY is_default desc LIMIT 1000  
+[2016-12-27 11:14:57] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:14:57] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Column 'goods_commonid' in where clause is ambiguous
+SELECT goods_common.*,goods_images.goods_image FROM `33hao_goods_common` AS `goods_common` LEFT JOIN `33hao_goods_images` AS `goods_images` ON goods_common.goods_commonid=goods_images.goods_commonid WHERE ( goods_commonid = '100110' ) ORDER BY is_default desc LIMIT 1000  
+[2016-12-27 11:14:58] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:14:58] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Column 'goods_commonid' in where clause is ambiguous
+SELECT goods_common.*,goods_images.goods_image FROM `33hao_goods_common` AS `goods_common` LEFT JOIN `33hao_goods_images` AS `goods_images` ON goods_common.goods_commonid=goods_images.goods_commonid WHERE ( goods_commonid = '100110' ) ORDER BY is_default desc LIMIT 1000  
+[2016-12-27 11:15:12] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:15:12] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Column 'goods_commonid' in where clause is ambiguous
+SELECT goods_common.*,goods_images.goods_image FROM `33hao_goods_common` AS `goods_common` LEFT JOIN `33hao_goods_images` AS `goods_images` ON goods_common.goods_commonid=goods_images.goods_commonid WHERE ( goods_commonid = '100110' ) ORDER BY is_default desc LIMIT 1000  
+[2016-12-27 11:15:19] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:15:19] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT * FROM `33hao_` WHERE ( goods_commonid = '100095' ) LIMIT 1  
+[2016-12-27 11:16:34] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:16:34] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT * FROM `33hao_` WHERE ( goods_commonid = '100095' ) LIMIT 1  
+[2016-12-27 11:16:45] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:16:45] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Column 'goods_commonid' in where clause is ambiguous
+SELECT goods_common.*,goods_images.goods_image FROM `33hao_goods_common` AS `goods_common` LEFT JOIN `33hao_goods_images` AS `goods_images` ON goods_common.goods_commonid=goods_images.goods_commonid WHERE ( goods_commonid = '100110' ) ORDER BY is_default desc LIMIT 1000  
+[2016-12-27 11:17:18] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:17:18] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Column 'goods_commonid' in where clause is ambiguous
+SELECT goods_common.*,goods_images.goods_image FROM `33hao_goods_common` AS `goods_common` LEFT JOIN `33hao_goods_images` AS `goods_images` ON goods_common.goods_commonid=goods_images.goods_commonid WHERE goods_commonid=100110 ORDER BY is_default desc LIMIT 1000  
+[2016-12-27 11:17:32] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:17:32] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Column 'goods_commonid' in where clause is ambiguous
+SELECT goods_common.*,goods_images.goods_image FROM `33hao_goods_common` AS `goods_common` LEFT JOIN `33hao_goods_images` AS `goods_images` ON goods_common.goods_commonid=goods_images.goods_commonid WHERE goods_commonid=100110 ORDER BY is_default desc LIMIT 1000  
+[2016-12-27 11:17:34] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:17:34] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Column 'goods_commonid' in where clause is ambiguous
+SELECT goods_common.*,goods_images.goods_image FROM `33hao_goods_common` AS `goods_common` LEFT JOIN `33hao_goods_images` AS `goods_images` ON goods_common.goods_commonid=goods_images.goods_commonid WHERE goods_commonid=100110 ORDER BY is_default desc LIMIT 1000  
+[2016-12-27 11:17:45] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:17:45] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Column 'goods_commonid' in where clause is ambiguous
+SELECT goods_common.*,goods_images.goods_image FROM `33hao_goods_common` AS `goods_common` LEFT JOIN `33hao_goods_images` AS `goods_images` ON goods_common.goods_commonid=goods_images.goods_commonid WHERE goods_commonid=100110 ORDER BY is_default desc LIMIT 1000  
+[2016-12-27 11:17:59] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:19:27] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:19:27] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown table 'goods_common'
+SELECT goods_common.*,goods_images.goods_image FROM `33hao_goods` AS `goods` LEFT JOIN `33hao_goods_images` AS `goods_images` ON goods_common.goods_commonid=goods_images.goods_commonid WHERE ( goods_common.goods_commonid = '100110' ) ORDER BY is_default desc LIMIT 1000  
+[2016-12-27 11:19:40] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:21:03] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100107 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:22:19] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:24:26] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100098 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:25:11] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100098 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:25:11] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100098 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT * FROM `33hao_` WHERE ( goods_commonid = '100098' ) LIMIT 1  
+[2016-12-27 11:25:38] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100098 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:25:38] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100098 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT * FROM `33hao_` WHERE ( goods_commonid = NULL ) LIMIT 1  
+[2016-12-27 11:25:57] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100098 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:27:03] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100098 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:27:08] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100098 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:27:47] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100098 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:27:47] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=261&goods_id=100098 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Table 'shop.33hao_' doesn't exist
+SELECT * FROM `33hao_` WHERE ( goods_commonid = '100098' ) LIMIT 1  
+[2016-12-27 11:31:55] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery18208249185457025399_1482809515051&_=1482809515483 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:32:17] /shop/index.php?act=store_goods_add&op=save_goods ( act=store_goods_add&op=save_goods ) 
+ERR: Db Error: Unknown column 'rebate' in 'field list'
+INSERT  INTO `33hao_goods` (goods_commonid,goods_name,goods_jingle,rebate,store_id,store_name,gc_id,gc_id_1,gc_id_2,gc_id_3,brand_id,goods_price,goods_promotion_price,goods_marketprice,goods_serial,goods_storage_alarm,goods_spec,goods_storage,goods_image,goods_state,goods_verify,goods_addtime,goods_edittime,areaid_1,areaid_2,color_id,transport_id,goods_freight,goods_vat,goods_commend,goods_stcids,is_virtual,virtual_indate,virtual_limit,virtual_invalid_refund,is_fcode,is_appoint,is_presell,is_own_shop) VALUES ('100111','222 23° 冰酒 法国 ewrewrew ewrewrew 乳酪','','','1','官方旗舰店','630','593','598','630','','222','222','222','','0','a:6:{i:436;s:4:\"23°\";i:447;s:6:\"冰酒\";i:458;s:6:\"法国\";i:467;s:8:\"ewrewrew\";i:468;s:8:\"ewrewrew\";i:478;s:6:\"乳酪\";}','222','1_05361486025732772.jpg','1','1','1482809537','1482809537','0','0','0','0','0','0','1','','0','0','0','0','0','0','0','1')
+[2016-12-27 11:34:36] /shop/index.php?act=index&op=json_area_show&area_id=0&callback=jQuery18208222600309087603_1482809676069&_=1482809676522 ( act=index&op=json_area_show ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:34:46] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery1820512970691632858_1482809685452&_=1482809685893 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:36:46] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery182014941030889745965_1482809806202&_=1482809806676 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 11:37:56] /shop/index.php?act=store_goods_add&op=save_goods ( act=store_goods_add&op=save_goods ) 
+ERR: Db Error: Unknown column 'rebate' in 'field list'
+INSERT  INTO `33hao_goods` (goods_commonid,goods_name,goods_jingle,rebate,store_id,store_name,gc_id,gc_id_1,gc_id_2,gc_id_3,brand_id,goods_price,goods_promotion_price,goods_marketprice,goods_serial,goods_storage_alarm,goods_spec,goods_storage,goods_image,goods_state,goods_verify,goods_addtime,goods_edittime,areaid_1,areaid_2,color_id,transport_id,goods_freight,goods_vat,goods_commend,goods_stcids,is_virtual,virtual_indate,virtual_limit,virtual_invalid_refund,is_fcode,is_appoint,is_presell,is_own_shop) VALUES ('100115','222 23° 冰酒 法国 ewrewrew ewrewrew 乳酪','','222','1','官方旗舰店','630','593','598','630','','222','222','222','','0','a:6:{i:436;s:4:\"23°\";i:447;s:6:\"冰酒\";i:458;s:6:\"法国\";i:467;s:8:\"ewrewrew\";i:468;s:8:\"ewrewrew\";i:478;s:6:\"乳酪\";}','222','1_05361486025732772.jpg','1','1','1482809876','1482809876','0','0','0','0','0','0','1','','0','0','0','0','0','0','0','1')
+[2016-12-27 11:38:07] /shop/index.php?act=store_goods_add&op=save_goods ( act=store_goods_add&op=save_goods ) 
+ERR: Db Error: Unknown column 'rebate' in 'field list'
+INSERT  INTO `33hao_goods` (goods_commonid,goods_name,goods_jingle,rebate,store_id,store_name,gc_id,gc_id_1,gc_id_2,gc_id_3,brand_id,goods_price,goods_promotion_price,goods_marketprice,goods_serial,goods_storage_alarm,goods_spec,goods_storage,goods_image,goods_state,goods_verify,goods_addtime,goods_edittime,areaid_1,areaid_2,color_id,transport_id,goods_freight,goods_vat,goods_commend,goods_stcids,is_virtual,virtual_indate,virtual_limit,virtual_invalid_refund,is_fcode,is_appoint,is_presell,is_own_shop) VALUES ('100116','222 23° 冰酒 法国 ewrewrew ewrewrew 乳酪','','222','1','官方旗舰店','630','593','598','630','','222','222','222','','0','a:6:{i:436;s:4:\"23°\";i:447;s:6:\"冰酒\";i:458;s:6:\"法国\";i:467;s:8:\"ewrewrew\";i:468;s:8:\"ewrewrew\";i:478;s:6:\"乳酪\";}','222','1_05361486025732772.jpg','1','1','1482809887','1482809887','0','0','0','0','0','0','1','','0','0','0','0','0','0','0','1')
+[2016-12-27 11:40:47] /shop/index.php?act=index&op=json_area&src=cache&callback=jQuery182013580169791717955_1482810046485&_=1482810046931 ( act=index&op=json_area ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:11:31] /shop/ybkapi.php?act=ybkapi&op=goodslist&member_id=47 ( act=ybkapi&op=goodslist ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:11:36] /shop/ybkapi.php?act=ybkapi&op=goods ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:11:49] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:11:54] /shop/ybkapi.php?act=ybkapi&op=goods&goods_id=100110 ( act=ybkapi&op=goods ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:13:44] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=100112 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:14:11] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=100118 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:14:14] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=100118 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:14:26] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=278 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:15:48] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=278 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:16:36] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=278 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:17:02] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=278 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:17:24] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=278 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:21:09] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=278 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:22:57] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=278 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:25:16] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=278 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:35:42] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:36:08] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:41:00] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:42:46] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:43:47] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:44:08] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:48:42] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:49:07] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:49:54] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:50:08] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:50:27] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:50:29] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:50:37] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:50:49] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:51:22] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:52:12] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:52:25] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:53:16] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:55:03] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:55:29] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:56:24] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:56:38] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:56:51] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 13:57:03] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=268 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 14:01:25] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=278 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
+[2016-12-27 14:03:42] /shop/ybkapi.php?act=ybkapi&op=goodsinfo&goods_id=278 ( act=ybkapi&op=goodsinfo ) 
+ERR: Db Error: Unknown character set: 'gbk'
+SELECT * FROM `33hao_web_channel` WHERE ( channel_show = '1' ) ORDER BY convert(channel_name using gbk) asc,channel_id desc LIMIT 1000  
