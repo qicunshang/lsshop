@@ -1154,7 +1154,7 @@ class BaseSellerControl extends Control {
                 array('name' => '评价管理', 'act'=>'store_evaluate', 'op'=>'list'),
                 array('name' => '售卖区域', 'act'=>'store_transport', 'op'=>'index'),
             )),
-            'promotion' => array('name' => '促销', 'child' => array(
+            /*'promotion' => array('name' => '促销', 'child' => array(
                 array('name' => '抢购管理', 'act'=>'store_groupbuy', 'op'=>'index'),
                 array('name' => '限时折扣', 'act'=>'store_promotion_xianshi', 'op'=>'xianshi_list'),
                 array('name' => '满即送', 'act'=>'store_promotion_mansong', 'op'=>'mansong_list'),
@@ -1162,6 +1162,9 @@ class BaseSellerControl extends Control {
                 array('name' => '推荐展位', 'act' => 'store_promotion_booth', 'op' => 'booth_goods_list'),
                 array('name' => '代金券管理', 'act'=>'store_voucher', 'op'=>'templatelist'),
                 array('name' => '活动管理', 'act'=>'store_activity', 'op'=>'store_activity'),
+            )),*/
+            'promotion' => array('name' => '会员管理', 'child' => array(
+                array('name' => '会员列表', 'act'=>'fenxiao_member', 'op'=>'member'),
             )),
             'store' => array('name' => '店铺', 'child' => array(
                 array('name' => '店铺设置', 'act'=>'store_setting', 'op'=>'store_setting'),

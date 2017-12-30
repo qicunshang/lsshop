@@ -8,7 +8,7 @@
 
 
 defined('InShopNC') or exit('Access Invalid!');
-class store_promotion_xianshiControl extends BaseSellerControl {
+class fenxiaoControl extends BaseSellerControl {
 
     const LINK_XIANSHI_LIST = 'index.php?act=store_promotion_xianshi&op=xianshi_list';
     const LINK_XIANSHI_MANAGE = 'index.php?act=store_promotion_xianshi&op=xianshi_manage&xianshi_id=';
@@ -63,7 +63,7 @@ class store_promotion_xianshiControl extends BaseSellerControl {
     /**
      * 分销会员列表
      **/
-    public function fenxiao_memberList1Op() {
+    public function memberList1Op() {
         $model_xianshi_quota = Model('p_xianshi_quota');
         $model_xianshi = Model('p_xianshi');
 
@@ -95,7 +95,7 @@ class store_promotion_xianshiControl extends BaseSellerControl {
      * 分销会员列表
      *
      * */
-    public function fenxiao_memberListOp(){
+    public function memberListOp(){
         $lang	= Language::getLangContent();
         $model_member = Model('member');
         /**
