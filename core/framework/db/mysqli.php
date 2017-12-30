@@ -87,7 +87,8 @@ class Db{
 	public static function query($sql, $host = 'master'){
 		self::connect($host);
 		if (C('debug')) addUpTime('queryStartTime');
-		echo '<script>console.log("'.$sql.'");</script>';
+		//TODO sql语句
+		//echo '<script>console.log("'.$sql.'");</script>';
 		$query = self::$link[$host]->query($sql);
 		if (C('debug')) addUpTime('queryEndTime');
 		if ($query === false){

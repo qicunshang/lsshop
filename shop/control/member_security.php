@@ -88,7 +88,9 @@ class member_securityControl extends BaseMemberControl {
 
         $model_member = Model('member');
 
+
         if (chksubmit(false,true)) {
+            Tpl::showpage('member_security.'.$_POST['type']);die();
             if (!in_array($_POST['type'],array('modify_pwd','modify_mobile','modify_email','modify_paypwd','pd_cash'))) {
                 redirect('index.php?act=member_security&op=index');
             }
@@ -117,6 +119,14 @@ class member_securityControl extends BaseMemberControl {
             }
 
         } else {
+            $member_info = $this->member_info;
+            if (!$member_info){
+                $member_info = $model_member->getMemberInfo(array('member_id'=>$_SESSION['member_id']),'member_email,member_email_bind,member_mobile,member_mobile_bind');
+            }
+            Tpl::output('member_info',$member_info);
+
+            Tpl::showpage('member_security.auth');die();
+
             if (!in_array($_GET['type'],array('modify_pwd','modify_mobile','modify_email','modify_paypwd','pd_cash'))) {
                 redirect('index.php?act=member_security&op=index');
             }

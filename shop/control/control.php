@@ -1164,6 +1164,7 @@ class BaseSellerControl extends Control {
                 array('name' => '活动管理', 'act'=>'store_activity', 'op'=>'store_activity'),
             )),*/
             'promotion' => array('name' => '会员管理', 'child' => array(
+                array('name' => '新增会员', 'act'=>'fenxiao_member', 'op'=>'member_add'),
                 array('name' => '会员列表', 'act'=>'fenxiao_member', 'op'=>'member'),
             )),
             'store' => array('name' => '店铺', 'child' => array(

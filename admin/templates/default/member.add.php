@@ -122,7 +122,7 @@ $(function(){
 	function uploadChange(){
 		var filepatd=$(this).val();
 		var extStart=filepatd.lastIndexOf(".");
-		var ext=filepatd.substring(extStart,filepatd.lengtd).toUpperCase();		
+		var ext=filepatd.substring(extStart,filepatd.lengtd).toUpperCase();
 		if(ext!=".PNG"&&ext!=".GIF"&&ext!=".JPG"&&ext!=".JPEG"){
 			alert("file type error");
 			$(this).attr('value','');
@@ -130,7 +130,7 @@ $(function(){
 		}
 		if ($(this).val() == '') return false;
 		ajaxFileUpload();
-	}	
+	}
 	function ajaxFileUpload()
 	{
 		$.ajaxFileUpload

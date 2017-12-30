@@ -117,6 +117,7 @@ class fenxiao_memberControl extends BaseSellerControl{
 	 * 会员修改
 	 */
 	public function member_editOp(){
+		Language::read('fenxiao_member');
 		$lang	= Language::getLangContent();
 		$model_member = Model('member');
 		/**
@@ -156,7 +157,7 @@ class fenxiao_memberControl extends BaseSellerControl{
 				$update_array['member_email_bind'] 	= intval($_POST['memberemailbind']);
 				$update_array['member_mobile_bind'] 	= intval($_POST['membermobilebind']);
 
-			
+
 				if (!empty($_POST['member_avatar'])){
 					$update_array['member_avatar'] = $_POST['member_avatar'];
 				}
@@ -169,18 +170,19 @@ class fenxiao_memberControl extends BaseSellerControl{
 				if ($result){
 					$url = array(
 					array(
-					'url'=>'index.php?act=member&op=member',
+					'url'=>'index.php?act=fenxiao_member&op=member',
 					'msg'=>$lang['member_edit_back_to_list'],
 					),
 					array(
-					'url'=>'index.php?act=member&op=member_edit&member_id='.intval($_POST['member_id']),
+					'url'=>'index.php?act=fenxiao_member&op=member_edit&member_id='.intval($_POST['member_id']),
 					'msg'=>$lang['member_edit_again'],
 					),
 					);
-					$this->log(L('nc_edit,member_index_name').'[ID:'.$_POST['member_id'].']',1);
-					showMessage($lang['member_edit_succ'],$url);
+					//$this->log(L('nc_edit,member_index_name').'[ID:'.$_POST['member_id'].']',1);
+                    redirect('index.php?act=fenxiao_member&op=member_edit&member_id='.intval($_POST['member_id']));
+					//showMessage($lang['member_edit_succ'],$url);
 				}else {
-					showMessage($lang['member_edit_fail']);
+                    redirect('index.php?act=fenxiao_member&op=member_edit&member_id='.intval($_POST['member_id']));
 				}
 			}
 		}
@@ -191,64 +193,79 @@ class fenxiao_memberControl extends BaseSellerControl{
 		Tpl::showpage('member.edit');
 	}
 
+
+	/*
+	 *
+	 * */
+	public function changePassWordOp(){
+        Tpl::showpage('member_security.'.$_POST['type']);die();
+    }
+
 	/**
 	 * 新增会员
 	 */
 	public function member_addOp(){
-		$lang	= Language::getLangContent();
-		$model_member = Model('member');
-		/**
-		 * 保存
-		 */
-		if (chksubmit()){
-			/**
-			 * 验证
-			 */
-			$obj_validate = new Validate();
-			$obj_validate->validateparam = array(
-			    array("input"=>$_POST["member_name"], "require"=>"true", "message"=>$lang['member_add_name_null']),
-			    array("input"=>$_POST["member_passwd"], "require"=>"true", "message"=>'密码不能为空'),
-			    array("input"=>$_POST["member_email"], "require"=>"true", 'validator'=>'Email', "message"=>$lang['member_edit_valid_email'])
-			);
-			$error = $obj_validate->validate();
-			if ($error != ''){
-				showMessage($error);
-			}else {
-				$insert_array = array();
-				$insert_array['member_name']	= trim($_POST['member_name']);
-				$insert_array['member_passwd']	= trim($_POST['member_passwd']);
-				$insert_array['member_email']	= trim($_POST['member_email']);
-				$insert_array['member_truename']= trim($_POST['member_truename']);
-				$insert_array['member_sex'] 	= trim($_POST['member_sex']);
-				$insert_array['member_qq'] 		= trim($_POST['member_qq']);
-				$insert_array['member_ww']		= trim($_POST['member_ww']);
-                //默认允许举报商品
-                $insert_array['inform_allow'] 	= '1';
-				if (!empty($_POST['member_avatar'])){
-					$insert_array['member_avatar'] = trim($_POST['member_avatar']);
-				}
-
-				$result = $model_member->addMember($insert_array);
-				if ($result){
-					$url = array(
-					array(
-					'url'=>'index.php?act=member&op=member',
-					'msg'=>$lang['member_add_back_to_list'],
-					),
-					array(
-					'url'=>'index.php?act=member&op=member_add',
-					'msg'=>$lang['member_add_again'],
-					),
-					);
-					$this->log(L('nc_add,member_index_name').'[	'.$_POST['member_name'].']',1);
-					showMessage($lang['member_add_succ'],$url);
-				}else {
-					showMessage($lang['member_add_fail']);
-				}
-			}
-		}
+        Language::read('fenxiao_member');
+        $lang	= Language::getLangContent();
 		Tpl::showpage('member.add');
 	}
+
+
+	/**
+     * save
+     *
+	 * */
+	public function member_saveOp(){
+	    $arr = ['msg'=> '编辑成功', 'url'=> 'index.php?act=fenxiao_member&op=member'];
+        Tpl::output('arr',$arr);
+        Tpl::showpage('showMsg');die();
+        Language::read('fenxiao_member');
+        $lang	= Language::getLangContent();
+        $model_member = Model('member');
+        //验证
+        $obj_validate = new Validate();
+        $obj_validate->validateparam = array(
+            array("input"=>$_POST["member_name"], "require"=>"true", "message"=>$lang['member_add_name_null']),
+            array("input"=>$_POST["member_passwd"], "require"=>"true", "message"=>'密码不能为空'),
+            array("input"=>$_POST["member_email"], "require"=>"true", 'validator'=>'Email', "message"=>$lang['member_edit_valid_email'])
+        );
+        $error = $obj_validate->validate();
+        if ($error != ''){
+            showMessage($error);
+        }else {
+            $insert_array = array();
+            $insert_array['member_name']	= trim($_POST['member_name']);
+            $insert_array['member_passwd']	= trim($_POST['member_passwd']);
+            $insert_array['member_email']	= trim($_POST['member_email']);
+            $insert_array['member_truename']= trim($_POST['member_truename']);
+            $insert_array['member_sex'] 	= trim($_POST['member_sex']);
+            $insert_array['member_qq'] 		= trim($_POST['member_qq']);
+            $insert_array['member_ww']		= trim($_POST['member_ww']);
+            //默认允许举报商品
+            $insert_array['inform_allow'] 	= '1';
+            if (!empty($_POST['member_avatar'])){
+                $insert_array['member_avatar'] = trim($_POST['member_avatar']);
+            }
+            $result = $model_member->addMember($insert_array);
+            if ($result){
+                $url = array(
+                    array(
+                        'url'=>'index.php?act=fenxiao_member&op=member',
+                        'msg'=>$lang['member_add_back_to_list'],
+                    ),
+                    array(
+                        'url'=>'index.php?act=fenxiao_member&op=member_add',
+                        'msg'=>$lang['member_add_again'],
+                    ),
+                );
+                //$this->log(L('nc_add,member_index_name').'[	'.$_POST['member_name'].']',1);
+                showMessage($lang['member_add_succ'],$url);
+            }else {
+                showMessage($lang['member_add_fail']);
+            }
+        }
+    }
+
 
 	/**
 	 * ajax操作
@@ -285,5 +302,9 @@ class fenxiao_memberControl extends BaseSellerControl{
 				break;
 		}
 	}
+
+	/**
+	 * 修改密码
+	 * */
 
 }

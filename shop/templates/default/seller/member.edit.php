@@ -1,17 +1,6 @@
 <?php defined('InShopNC') or exit('Access Invalid!');?>
 
 <div class="page">
-  <div class="fixed-bar">
-    <div class="item-title">
-      <h3><?php echo $lang['member_index_manage']?></h3>
-      <ul class="tab-base">
-        <li><a href="index.php?act=member&op=member" ><span><?php echo $lang['nc_manage']?></span></a></li>
-        <li><a href="index.php?act=member&op=member_add" ><span><?php echo $lang['nc_new']?></span></a></li>
-        <li><a href="JavaScript:void(0);" class="current"><span><?php echo $lang['nc_edit'];?></span></a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="fixed-empty"></div>
   <form id="user_form" enctype="multipart/form-data" method="post">
     <input type="hidden" name="form_submit" value="ok" />
     <input type="hidden" name="member_id" value="<?php echo $output['member_array']['member_id'];?>" />
@@ -154,7 +143,7 @@
                 <label for="inviter_id2" class="cb-disable <?php if($output['member_array']['inviter_id'] != null){ ?>selected<?php } ?>" ><span>否</span></label>
                 <input id="inviter_id1" name="inviter_id" <?php if($output['member_array']['inviter_id'] == '1'){ ?>checked="checked"<?php } ?>  value="1" type="radio">
                 <input id="inviter_id2" name="inviter_id" <?php if($output['member_array']['inviter_id'] == '2'){ ?>checked="checked"<?php } ?> value="2" type="radio"></td>
-            <td class="vatop tips"><?php if($output['member_array']['inviter_id'] != null){echo '<a href="index.php?act=member&op=member_edit&member_id='.$output['member_array']['inviter_id'].'">查看上级用户</a>';}else{echo '该用户为顶级推荐人';}?></td>
+            <td class="vatop tips"><?php if($output['member_array']['inviter_id'] != null){echo '<a href="index.php?act=fenxiao_member&op=member_edit&member_id='.$output['member_array']['inviter_id'].'">查看上级用户</a>';}else{echo '该用户为顶级推荐人';}?></td>
         </tr>
 
 
@@ -308,6 +297,7 @@ $(function(){
 		)
 	};
 $("#submitBtn").click(function(){
+    $("#user_form").submit();
     if($("#user_form").valid()){
      $("#user_form").submit();
 	}
@@ -325,7 +315,7 @@ $("#submitBtn").click(function(){
                 required : true,
                 email : true,
 				remote   : {
-                    url :'index.php?act=member&op=ajax&branch=check_email',
+                    url :'index.php?act=fenxiao_member&op=ajax&branch=check_email',
                     type:'get',
                     data:{
                         user_name : function(){

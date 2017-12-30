@@ -1,6 +1,5 @@
 <?php defined('InShopNC') or exit('Access Invalid!');?>
 
-<link href="http://www.shop.com/shop/templates/default/css/skin_0.css" rel="stylesheet" type="text/css" id="cssfile2" />
 <div class="page">
   <form method="get" name="formSearch" id="formSearch">
     <input type="hidden" value="fenxiao" name="act">
@@ -112,7 +111,7 @@
           <td class="align-center"><?php echo $v['member_exppoints'];?></td>
           <td class="align-center"><?php echo $v['member_grade'];?></td>
           <td class="align-center"><?php echo $v['member_state'] == 1?'允许':'禁止'; ?></td>
-          <td class="align-center"><a href="index.php?act=member&op=member_edit&member_id=<?php echo $v['member_id']; ?>"><?php echo $lang['nc_edit']?></a></td>
+          <td class="align-center"><a href="index.php?act=fenxiao_member&op=member_edit&member_id=<?php echo $v['member_id']; ?>"><?php echo $lang['nc_edit']?></a></td>
         </tr>
         <?php } ?>
         <?php }else { ?>
