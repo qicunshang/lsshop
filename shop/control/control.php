@@ -1044,6 +1044,54 @@ class BaseSellerControl extends Control {
             Tpl::output('seller_quicklink', $_SESSION['seller_quicklink']);
 
             $this->checkStoreMsg();
+
+            /**
+             * Important!!!
+             * 商家、分销会员、直销会员-权限鉴别
+             * 商家拥有所有权限
+             * */
+            //直销会员和分销会员拥有的权限所属控制器
+            $auth = [
+                'fenxiao' => [
+                    'seller_center.*',
+                    'fenxiao_member.member',
+                    'fenxiao_member.member_add',
+                    'fenxiao_member.member_edit',
+                    'qrcode.showqrcode',
+                    'seller_logout.*',
+                ],
+                'zhixiao' => [
+                    'seller_center.*',
+                    'fenxiao_member.member',
+                    'fenxiao_member.member_add',
+                    'fenxiao_member.member_edit',
+                    'qrcode.showqrcode',
+                    'seller_logout.*',
+                ],
+            ];
+            $user_type = $_SESSION['user_type'];
+            if($user_type != 'store'){
+                //默认权限为无
+                $is_auth = false;
+                foreach ($auth as $key=>$value){
+                    if($user_type == $key){
+                        foreach ($value as $k=>$v){
+                            $act_op = explode('.', $v);
+                            //判断控制器和操作是否存在，不存在则没有该权限
+                            if($act_op[0] == $_GET['act']){
+                                $is_auth = true;
+                            }elseif ($act_op[0] == '*' || $act_op[0] == $_GET['op']){
+                                $is_auth = true;
+                            }
+                        }
+                    }
+                }
+                if(!$is_auth){
+                    $arr = ['msg'=> '没有权限', 'url'=> 'index.php?act=seller_center&op=index'];
+                    Tpl::output('arr',$arr);
+                    Tpl::showpage('showMsg');die();
+                }
+            }
         }
     }
 

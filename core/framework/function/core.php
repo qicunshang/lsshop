@@ -11,6 +11,58 @@
 
 //defined('InShopNC') or exit('Access Invalid!');
 
+
+//curl函数,获取接口数据
+function request($url,$https=true,$method='get',$data=null){
+    //1.初始化url
+    $ch = curl_init($url);
+    //2.设置相关的参数
+    //字符串不直接输出,进行一个变量的存储
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    //判断是否为https请求
+    if($https === true){
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+    }
+    //判断是否为post请求
+    if($method == 'post'){
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+    }
+    //3.发送请求
+    $str = curl_exec($ch);
+    //4.关闭连接
+    curl_close($ch);
+    //返回请求到的结果
+    return $str;
+}
+
+//打印数组
+function dump($var, $echo=true, $label=null, $strict=true) {
+    $label = ($label === null) ? '' : rtrim($label) . ' ';
+    if (!$strict) {
+        if (ini_get('html_errors')) {
+            $output = print_r($var, true);
+            $output = '<pre>' . $label . htmlspecialchars($output, ENT_QUOTES) . '</pre>';
+        } else {
+            $output = $label . print_r($var, true);
+        }
+    } else {
+        ob_start();
+        var_dump($var);
+        $output = ob_get_clean();
+        if (!extension_loaded('xdebug')) {
+            $output = preg_replace('/\]\=\>\n(\s+)/m', '] => ', $output);
+            $output = '<pre>' . $label . htmlspecialchars($output, ENT_QUOTES) . '</pre>';
+        }
+    }
+    if ($echo) {
+        echo($output);
+        return null;
+    }else
+        return $output;
+}
+
 /**
  * 产生验证码
  *
@@ -18,37 +70,7 @@
  * @return string
  */
 
-//curl函数,获取接口数据
-function request($url,$https=true,$method='get',$data=null){
-  //1.初始化url
-  $ch = curl_init($url);
-  //2.设置相关的参数
-  //字符串不直接输出,进行一个变量的存储
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-  //判断是否为https请求
-  if($https === true){
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-  }
-  //判断是否为post请求
-  if($method == 'post'){
-    curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-  }
-  //3.发送请求
-  $str = curl_exec($ch);
-  //4.关闭连接
-  curl_close($ch);
-  //返回请求到的结果
-  return $str;
-}
 
-//打印数组
-function dump($obj){
-	echo "<pre>";
-	var_dump($obj);
-	echo "</pre>";
-}
 
 function makeSeccode($nchash){
 	$seccode = random(6, 1);

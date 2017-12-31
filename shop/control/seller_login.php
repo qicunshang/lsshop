@@ -39,18 +39,52 @@ class seller_loginControl extends BaseSellerControl {
         } else {
             showDialog('非法提交','','error');
         }
-
         $model_seller = Model('seller');
         $seller_info = $model_seller->getSellerInfo(array('seller_name' => $_POST['seller_name']));
-        if($seller_info) {
 
-            $model_member = Model('member');
-            $member_info = $model_member->getMemberInfo(
-                array(
-                    'member_id' => $seller_info['member_id'],
-                    'member_passwd' => md5($_POST['password'])
-                )
-            );
+        /**
+         * diy:
+         * 如果是直销或者分销会员
+         * */
+        $huiyuan_flag = false;
+        $model_member = Model('member');
+        if(!$seller_info){
+            $condition = array();
+            $condition['member_name'] = $_POST['seller_name'];
+            $condition['member_passwd'] = md5($_POST['password']);
+            $member_info = $model_member->getMemberInfo($condition);
+            if($member_info) {
+                //如果store_id不为null，则是直销或者分销会员
+                //分销会员没有邀请人inviter_id，直销会员有
+                if ($member_info['store_id']) {
+                    //分销或直销会员
+                    $huiyuan_flag = true;
+                    $seller_info = $model_seller->getSellerInfo(array('seller_id' => $member_info['store_id']));
+                    if ($member_info['inviter_id']) {
+                        //直销会员
+                        $_SESSION['user_type'] = 'zhixiao';
+                    } else {
+                        //分销会员
+                        $_SESSION['user_type'] = 'fenxiao';
+                    }
+                }else{
+                    showMessage('您没有该权限', '', '', 'error');die();
+                }
+            }
+        }
+        //如果是商家
+        if($seller_info || $huiyuan_flag) {
+            $_SESSION['user_type'] = 'store';
+            //如果不是直销会员或分销会员则单独查询一次商家信息
+            if(!$huiyuan_flag){
+                $model_member = Model('member');
+                $member_info = $model_member->getMemberInfo(
+                    array(
+                        'member_id' => $seller_info['member_id'],
+                        'member_passwd' => md5($_POST['password'])
+                    )
+                );
+            }
             if($member_info) {
                 // 更新卖家登陆时间
                 $model_seller->editSeller(array('last_login_time' => TIMESTAMP), array('seller_id' => $seller_info['seller_id']));
@@ -100,10 +134,10 @@ class seller_loginControl extends BaseSellerControl {
                 $this->recordSellerLog('登录成功');
                 redirect('index.php?act=seller_center');
             } else {
-                showMessage('用户名密码错误', '', '', 'error');
+                showMessage('用户名密码错误-2', '', '', 'error');
             }
         } else {
-            showMessage('用户名密码错误', '', '', 'error');
+            showMessage('用户名密码错误-0', '', '', 'error');
         }
     }
 }

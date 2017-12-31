@@ -216,9 +216,6 @@ class fenxiao_memberControl extends BaseSellerControl{
      *
 	 * */
 	public function member_saveOp(){
-	    $arr = ['msg'=> '编辑成功', 'url'=> 'index.php?act=fenxiao_member&op=member'];
-        Tpl::output('arr',$arr);
-        Tpl::showpage('showMsg');die();
         Language::read('fenxiao_member');
         $lang	= Language::getLangContent();
         $model_member = Model('member');
@@ -259,8 +256,15 @@ class fenxiao_memberControl extends BaseSellerControl{
                     ),
                 );
                 //$this->log(L('nc_add,member_index_name').'[	'.$_POST['member_name'].']',1);
+
+                $arr = ['msg'=> '编辑成功', 'url'=> 'index.php?act=fenxiao_member&op=member'];
+                Tpl::output('arr',$arr);
+                Tpl::showpage('showMsg');die();
                 showMessage($lang['member_add_succ'],$url);
             }else {
+                $arr = ['msg'=> '编辑失败', 'url'=> 'index.php?act=fenxiao_member&op=member'];
+                Tpl::output('arr',$arr);
+                Tpl::showpage('showMsg');die();
                 showMessage($lang['member_add_fail']);
             }
         }

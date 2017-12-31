@@ -1,0 +1,12 @@
+[2017-12-31 18:10:27] /shop/index.php?act=seller_login&op=login ( act=seller_login&op=login ) 
+ERR: Db Error: Column 'log_seller_id' cannot be null
+INSERT  INTO `33hao_seller_log` (log_content,log_time,log_seller_id,log_seller_name,log_store_id,log_seller_ip,log_url,log_state) VALUES ('登录成功','1514715027',NULL,NULL,'0','127.0.0.1','seller_login&login','1')
+[2017-12-31 18:10:50] /shop/index.php?act=seller_login&op=login ( act=seller_login&op=login ) 
+ERR: Db Error: Column 'log_seller_id' cannot be null
+INSERT  INTO `33hao_seller_log` (log_content,log_time,log_seller_id,log_seller_name,log_store_id,log_seller_ip,log_url,log_state) VALUES ('登录成功','1514715050',NULL,NULL,'0','127.0.0.1','seller_login&login','1')
+[2017-12-31 18:15:54] /shop/index.php?act=seller_login&op=login ( act=seller_login&op=login ) 
+ERR: Db Error: Column 'log_seller_id' cannot be null
+INSERT  INTO `33hao_seller_log` (log_content,log_time,log_seller_id,log_seller_name,log_store_id,log_seller_ip,log_url,log_state) VALUES ('登录成功','1514715354',NULL,NULL,'0','127.0.0.1','seller_login&login','1')
+[2017-12-31 18:16:10] /shop/index.php?act=seller_login&op=login ( act=seller_login&op=login ) 
+ERR: Db Error: Column 'log_seller_id' cannot be null
+INSERT  INTO `33hao_seller_log` (log_content,log_time,log_seller_id,log_seller_name,log_store_id,log_seller_ip,log_url,log_state) VALUES ('登录成功','1514715370',NULL,NULL,'0','127.0.0.1','seller_login&login','1')
