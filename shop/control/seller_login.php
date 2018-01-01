@@ -74,9 +74,9 @@ class seller_loginControl extends BaseSellerControl {
         }
         //如果是商家
         if($seller_info || $huiyuan_flag) {
-            $_SESSION['user_type'] = 'store';
             //如果不是直销会员或分销会员则单独查询一次商家信息
             if(!$huiyuan_flag){
+                $_SESSION['user_type'] = 'store';
                 $model_member = Model('member');
                 $member_info = $model_member->getMemberInfo(
                     array(

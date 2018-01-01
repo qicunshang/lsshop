@@ -179,10 +179,22 @@ class fenxiao_memberControl extends BaseSellerControl{
 					),
 					);
 					//$this->log(L('nc_edit,member_index_name').'[ID:'.$_POST['member_id'].']',1);
-                    redirect('index.php?act=fenxiao_member&op=member_edit&member_id='.intval($_POST['member_id']));
+                    $arr = [
+                        'msg' => '操作成功',
+                        'url' => 'index.php?act=fenxiao_member&op=member_edit&member_id='.intval($_POST['member_id']),
+                    ];
+                    Tpl::output('arr',$arr);
+                    Tpl::showpage('showMsg');die();
+                    //redirect('index.php?act=fenxiao_member&op=member_edit&member_id='.intval($_POST['member_id']));
 					//showMessage($lang['member_edit_succ'],$url);
 				}else {
-                    redirect('index.php?act=fenxiao_member&op=member_edit&member_id='.intval($_POST['member_id']));
+                    $arr = [
+                        'msg' => '操作失败',
+                        'url' => 'index.php?act=fenxiao_member&op=member_edit&member_id='.intval($_POST['member_id']),
+                    ];
+                    Tpl::output('arr',$arr);
+                    Tpl::showpage('showMsg');die();
+                    //redirect('index.php?act=fenxiao_member&op=member_edit&member_id='.intval($_POST['member_id']));
 				}
 			}
 		}

@@ -1054,17 +1054,13 @@ class BaseSellerControl extends Control {
             $auth = [
                 'fenxiao' => [
                     'seller_center.*',
-                    'fenxiao_member.member',
-                    'fenxiao_member.member_add',
-                    'fenxiao_member.member_edit',
+                    'fenxiao_member.*',
                     'qrcode.showqrcode',
                     'seller_logout.*',
                 ],
                 'zhixiao' => [
                     'seller_center.*',
-                    'fenxiao_member.member',
-                    'fenxiao_member.member_add',
-                    'fenxiao_member.member_edit',
+                    'fenxiao_member.*',
                     'qrcode.showqrcode',
                     'seller_logout.*',
                 ],
