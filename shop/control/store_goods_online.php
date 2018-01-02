@@ -43,11 +43,21 @@ class store_goods_onlineControl extends BaseSellerControl {
         }
         $goods_list = $model_goods->getGoodsCommonOnlineList($where);
         Tpl::output('show_page', $model_goods->showpage());
-        Tpl::output('goods_list', $goods_list);
 
         // 计算库存
         $storage_array = $model_goods->calculateStorage($goods_list);
         Tpl::output('storage_array', $storage_array);
+
+        /**
+         * TODO 生成带用户id的商品二维码
+         * */
+        foreach($goods_list as $key=>$value){
+            $goods_list[$key]['inv_qrcode_url'] = BASE_SITE_URL.'/shop/index.php?'.urlencode('act=goods&op=index&goods_id='.$storage_array[$value['goods_commonid']]['goods_id'].'&inv_id='.$_SESSION['member_id']);
+        }
+
+        Tpl::output('goods_list', $goods_list);
+
+
 
         // 商品分类
         $store_goods_class = Model('store_goods_class')->getClassTree(array('store_id' => $_SESSION['store_id'], 'stc_state' => '1'));
@@ -76,7 +86,7 @@ class store_goods_onlineControl extends BaseSellerControl {
         $goodscommon_info['spec_name'] = unserialize($goodscommon_info['spec_name']);
         if ($goodscommon_info['mobile_body'] != '') {
             $goodscommon_info['mb_body'] = unserialize($goodscommon_info['mobile_body']);
-            // v3-b12
+            //v3-b12
 	    if (is_array($goodscommon_info['mb_body'])) {
                 $mobile_body = '[';
                 foreach ($goodscommon_info['mb_body'] as $val ) {

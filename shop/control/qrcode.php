@@ -14,9 +14,9 @@ class qrcodeControl extends BaseSellerControl {
 	 * 广告展示
 	 */
 	public function showQRcodeOp(){
-
+		//http://www.shop.com/wap/tmpl/member/register.html?inv_id=33
         $arr = [
-            'url' => urlencode('http://59.110.60.173/shop/index.php?act=seller_login%26op=show_login'),
+            'url' => BASE_SITE_URL.'/wap/tmpl/member/register.html?inv_id='.$_SESSION['member_id'],
         ];
         Tpl::output('arr',$arr);
         Tpl::showpage('qrcode');die();

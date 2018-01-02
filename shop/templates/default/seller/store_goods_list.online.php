@@ -3,7 +3,7 @@
 <div class="tabmenu">
   <?php include template('layout/submenu');?>
  <!--好商城V3-B11-->
-  <a title="批量生成商品二维码" class="ncsc-btn ncsc-btn-green" href="index.php?act=store_goods_online&amp;op=maker_qrcode" target="_blank" style="right:100px" onclick="return confirm('您确定要执行批量生成二维码吗？');">批量生成商品二维码</a>
+  <!--<a title="批量生成商品二维码" class="ncsc-btn ncsc-btn-green" href="index.php?act=store_goods_online&amp;op=maker_qrcode" target="_blank" style="right:100px" onclick="return confirm('您确定要执行批量生成二维码吗？');">批量生成商品二维码</a>-->
   <a href="<?php echo urlShop('store_goods_add');?>" class="ncsc-btn ncsc-btn-green" title="<?php echo $lang['store_goods_index_add_goods'];?>"> <?php echo $lang['store_goods_index_add_goods'];?></a></div>
 <form method="get" action="index.php">
   <table class="search-form">
@@ -51,9 +51,12 @@
     </tr>
     <?php if (!empty($output['goods_list'])) { ?>
     <tr>
+        <!-- TODO 权限过滤-->
+        <?php if($_SESSION['user_type'] == 'store'){?>
       <td class="tc"><input type="checkbox" id="all" class="checkall"/></td>
       <td colspan="20"><label for="all" ><?php echo $lang['nc_select_all'];?></label>
         <a href="javascript:void(0);" class="ncsc-btn-mini" nc_type="batchbutton" uri="<?php echo urlShop('store_goods_online', 'drop_goods');?>" name="commonid" confirm="<?php echo $lang['nc_ensure_del'];?>"><i class="icon-trash"></i><?php echo $lang['nc_del'];?></a> <a href="javascript:void(0);" class="ncsc-btn-mini" nc_type="batchbutton" uri="<?php echo urlShop('store_goods_online', 'goods_unshow');?>" name="commonid"><i class="icon-level-down"></i><?php echo $lang['store_goods_index_unshow'];?></a> <a href="javascript:void(0);" class="ncsc-btn-mini" nctype="batch" data-param="{url:'<?php echo urlShop('store_goods_online', 'edit_jingle');?>', sign:'jingle'}"><i></i>设置广告词</a> <a href="javascript:void(0);" class="ncsc-btn-mini" nctype="batch" data-param="{url:'<?php echo urlShop('store_goods_online', 'edit_plate');?>', sign:'plate'}"><i></i>设置关联版式</a></td>
+        <?php } ?>
     </tr>
     <?php } ?>
   </thead>
@@ -85,7 +88,9 @@
           <dd><?php echo $lang['store_goods_index_goods_no'].$lang['nc_colon'];?><?php echo $val['goods_serial'];?></dd>
           <dd class="serve"> <span class="<?php if ($val['goods_commend'] == 1) { echo 'open';}?>" title="店铺推荐商品"><i class="commend">荐</i></span> <span class="<?php if ($val['mobile_body'] != '') { echo 'open';}?>" title="手机端商品详情"><i class="icon-tablet"></i></span> <span class="" title="商品页面二维码"><i class="icon-qrcode"></i>
             <div class="QRcode"><a target="_blank" href="<?php echo goodsQRCode(array('goods_id' => $output['storage_array'][$val['goods_commonid']]['goods_id'], 'store_id' => $_SESSION['store_id']));?>">下载标签</a>
-              <p><img src="<?php echo goodsQRCode(array('goods_id' => $output['storage_array'][$val['goods_commonid']]['goods_id'], 'store_id' => $_SESSION['store_id']));?>"/></p>
+              <!--<p><img src="<?php /*echo goodsQRCode(array('goods_id' => $output['storage_array'][$val['goods_commonid']]['goods_id'], 'store_id' => $_SESSION['store_id']));*/?>"/></p>-->
+                <!--TODO 推广二维码-->
+                <p><img src="http://qr.liantu.com/api.php?text=<?php echo $val['inv_qrcode_url']?>"/></p>
             </div>
             </span>
             <?php if ($val['is_fcode'] ==1) {?>
@@ -96,17 +101,22 @@
       <td><span><?php echo $lang['currency'].$val['goods_price']; ?></span></td>
       <td><span <?php if ($output['storage_array'][$val['goods_commonid']]['alarm']) { echo 'style="color:red;"';}?>><?php echo $output['storage_array'][$val['goods_commonid']]['sum'].$lang['piece']; ?></span></td>
       <td class="goods-time"><?php echo @date('Y-m-d',$val['goods_addtime']);?></td>
-      <td class="nscs-table-handle"><?php if ($val['goods_lock'] == 0) {?>
-        <span><a href="<?php echo urlShop('store_goods_online', 'edit_goods', array('commonid' => $val['goods_commonid']));?>" class="btn-blue"><i class="icon-edit"></i>
-        <p><?php echo $lang['nc_edit'];?></p>
-        </a></span> <span><a href="javascript:void(0);" onclick="ajax_get_confirm('<?php echo $lang['nc_ensure_del'];?>', '<?php echo urlShop('store_goods_online', 'drop_goods', array('commonid' => $val['goods_commonid']));?>');" class="btn-red"><i class="icon-trash"></i>
-        <p><?php echo $lang['nc_del'];?></p>
-        </a></span>
-        <?php } else {?>
-        <span class="tip" title="该商品参加抢购活动期间不能进行编辑及删除等操作,可以编辑赠品和推荐组合"><a href="<?php if ($val['is_virtual'] ==1 ) {echo 'javascript:void(0);';} else {echo urlShop('store_goods_online', 'add_gift', array('commonid' => $val['goods_commonid']));}?>" class="btn-orange-current"><i class="icon-lock"></i>
-        <p>锁定</p>
-        </a></span>
-        <?php }?></td>
+        <!-- TODO 权限过滤 -->
+        <?php if($_SESSION['user_type'] == 'store'){?>
+          <td class="nscs-table-handle"><?php if ($val['goods_lock'] == 0) {?>
+            <span><a href="<?php echo urlShop('store_goods_online', 'edit_goods', array('commonid' => $val['goods_commonid']));?>" class="btn-blue"><i class="icon-edit"></i>
+            <p><?php echo $lang['nc_edit'];?></p>
+            </a></span> <span><a href="javascript:void(0);" onclick="ajax_get_confirm('<?php echo $lang['nc_ensure_del'];?>', '<?php echo urlShop('store_goods_online', 'drop_goods', array('commonid' => $val['goods_commonid']));?>');" class="btn-red"><i class="icon-trash"></i>
+            <p><?php echo $lang['nc_del'];?></p>
+            </a></span>
+            <?php } else {?>
+            <span class="tip" title="该商品参加抢购活动期间不能进行编辑及删除等操作,可以编辑赠品和推荐组合"><a href="<?php if ($val['is_virtual'] ==1 ) {echo 'javascript:void(0);';} else {echo urlShop('store_goods_online', 'add_gift', array('commonid' => $val['goods_commonid']));}?>" class="btn-orange-current"><i class="icon-lock"></i>
+            <p>锁定</p>
+            </a></span>
+            <?php }?></td>
+        <?php }else{ ?>
+            <td class="nscs-table-handle"><p><img width="100" src="http://qr.liantu.com/api.php?text=<?php echo $val['inv_qrcode_url']?>"/></p></td>
+        <?php }?>
     </tr>
     <tr style="display:none;">
       <td colspan="20"><div class="ncsc-goods-sku ps-container"></div></td>
@@ -121,10 +131,13 @@
   <tfoot>
     <?php  if (!empty($output['goods_list'])) { ?>
     <tr>
+        <!-- TODO 权限过滤-->
+        <?php if($_SESSION['user_type'] == 'store'){?>
       <th class="tc"><input type="checkbox" id="all2" class="checkall"/></th>
       <th colspan="10"><label for="all2"><?php echo $lang['nc_select_all'];?></label>
         <a href="javascript:void(0);" nc_type="batchbutton" uri="<?php echo urlShop('store_goods_online', 'drop_goods');?>" name="commonid" confirm="<?php echo $lang['nc_ensure_del'];?>" class="ncsc-btn-mini"><i class="icon-trash"></i><?php echo $lang['nc_del'];?></a> <a href="javascript:void(0);" nc_type="batchbutton" uri="<?php echo urlShop('store_goods_online', 'goods_unshow');?>" name="commonid" class="ncsc-btn-mini"><i class="icon-level-down"></i><?php echo $lang['store_goods_index_unshow'];?></a> <a href="javascript:void(0);" class="ncsc-btn-mini" nctype="batch" data-param="{url:'<?php echo urlShop('store_goods_online', 'edit_jingle');?>', sign:'jingle'}"><i></i>设置广告词</a> <a href="javascript:void(0);" class="ncsc-btn-mini" nctype="batch" data-param="{url:'<?php echo urlShop('store_goods_online', 'edit_plate');?>', sign:'plate'}"><i></i>设置关联版式</a> </th>
     </tr>
+        <?php } ?>
     <tr>
       <td colspan="20"><div class="pagination"> <?php echo $output['show_page']; ?> </div></td>
     </tr>
