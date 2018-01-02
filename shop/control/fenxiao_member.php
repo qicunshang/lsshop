@@ -95,6 +95,19 @@ class fenxiao_memberControl extends BaseSellerControl{
 		if (empty($order)) {
 		    $order = 'member_id desc';
 		}
+		/**
+		 * 根据权限取出对应可管理用户
+		 * */
+		$user_type = $_SESSION['user_type'];
+		if($user_type == 'store'){
+			$condition['store_id'] = $_SESSION['store_id'];
+		}elseif($user_type == 'fenxiao'){
+			$condition['inviter_id'] = $_SESSION['member_id'];
+		}elseif($user_type == 'zhixiao'){
+			$condition['inviter_id'] = $_SESSION['member_id'];
+		}
+
+
 		$member_list = $model_member->getMemberList($condition, '*', 10, $order);		
 		//整理会员信息
 		if (is_array($member_list)){

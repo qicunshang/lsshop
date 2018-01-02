@@ -1046,7 +1046,7 @@ class BaseSellerControl extends Control {
             $this->checkStoreMsg();
 
             /**
-             * Important!!!
+             * TODO Important!!!
              * 商家、分销会员、直销会员-权限鉴别
              * 商家拥有所有权限
              * */
@@ -1057,12 +1057,16 @@ class BaseSellerControl extends Control {
                     'fenxiao_member.*',
                     'qrcode.showqrcode',
                     'seller_logout.*',
+                    'qrcode.*',
+                    'store_goods_online.*',
                 ],
                 'zhixiao' => [
                     'seller_center.*',
                     'fenxiao_member.*',
                     'qrcode.showqrcode',
                     'seller_logout.*',
+                    'qrcode.*',
+                    'store_goods_online.*',
                 ],
             ];
             $user_type = $_SESSION['user_type'];
@@ -1179,6 +1183,7 @@ class BaseSellerControl extends Control {
     }
 
     private function _getMenuList() {
+        //TODO
         $menu_list = array(
             'goods' => array('name' => '商品', 'child' => array(
                 array('name' => '商品发布', 'act'=>'store_goods_add', 'op'=>'index'),
@@ -1236,10 +1241,14 @@ class BaseSellerControl extends Control {
                 array('name' => '实物结算', 'act'=>'store_bill', 'op'=>'index'),
                 array('name' => '虚拟结算', 'act'=>'store_vr_bill', 'op'=>'index'),
             )),
-            'message' => array('name' => '客服消息', 'child' => array(
+            /*'message' => array('name' => '客服消息', 'child' => array(
                 array('name' => '客服设置', 'act'=>'store_callcenter', 'op'=>'index'),
                 array('name' => '系统消息', 'act'=>'store_msg', 'op'=>'index'),
                 array('name' => '聊天记录查询', 'act'=>'store_im', 'op'=>'index'),
+            )),*/
+            'message' => array('name' => '二维码', 'child' => array(
+                array('name' => '推广注册二维码', 'act'=>'qrcode', 'op'=>'showQRcode'),
+                array('name' => '推广商品二维码', 'act'=>'store_goods_online', 'op'=>'index'),
             )),
             'account' => array('name' => '账号', 'child' => array(
                 array('name' => '账号列表', 'act'=>'store_account', 'op'=>'account_list'),

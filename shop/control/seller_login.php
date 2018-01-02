@@ -104,9 +104,13 @@ class seller_loginControl extends BaseSellerControl {
 
                 $_SESSION['grade_id'] = $store_info['grade_id'];
                 $_SESSION['seller_id'] = $seller_info['seller_id'];
-                $_SESSION['seller_name'] = $seller_info['seller_name'];
+                $_SESSION['seller_name'] = $member_info['member_name'];
                 $_SESSION['seller_is_admin'] = intval($seller_info['is_admin']);
                 $_SESSION['store_id'] = intval($seller_info['store_id']);
+
+                //TODO 邀请者ID
+                $_SESSION['inviter_id'] = $member_info['inviter_id'];
+
                 $_SESSION['store_name']	= $store_info['store_name'];
                 $_SESSION['is_own_shop'] = (bool) $store_info['is_own_shop'];
                 $_SESSION['bind_all_gc'] = (bool) $store_info['bind_all_gc'];
