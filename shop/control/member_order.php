@@ -378,7 +378,7 @@ class member_orderControl extends BaseMemberControl {
             if (!$if_allow) {
                 return callback(false,'无权操作');
             }
-            //查询返利金额
+            //TODO 查询返利金额
             $order_goods = Model('order_goods');
             $order_goods_info = $order_goods->where(array('order_id'=>$order_info['order_id']))->find();
             //dump($order_goods_info['goods_id']);
