@@ -1,4 +1,6 @@
 var goods_id = getQueryString("goods_id");
+var inv_id = getQueryString("inv_id");
+console.log(inv_id)
 var map_list = [];
 var map_index_id = "";
 var store_id;

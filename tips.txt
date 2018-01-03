@@ -8,9 +8,5 @@ pc后台：
 接入：
     微信、支付宝
     客服系统
-http://www.shop.com/mobile/index.php?act=login&op=register POST
-username	xiaohaha1
-password	123456
-password_confirm	123456
-email	936794508@qq.com
-client	wap
+http://www.shop.com/wap/tmpl/product_detail.html?goods_id=232
+wap goods url

@@ -7,3 +7,24 @@ SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( v
 [2018-01-03 16:19:30] /mobile/index.php?act=goods&op=goods_detail&goods_id=232&key=bd56b8bb68d0fd3402a7fb5348580928 ( act=goods&op=goods_detail ) 
 ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
 SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1514967570' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2018-01-03 17:09:41] /mobile/index.php?act=goods&op=goods_detail&goods_id=232&key=d8326bac051a4f35d40b3d68ec5ef532 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1514970581' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2018-01-03 17:09:58] /mobile/index.php?act=goods&op=goods_detail&goods_id=232&key=d8326bac051a4f35d40b3d68ec5ef532 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1514970598' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2018-01-03 17:11:58] /mobile/index.php?act=goods&op=goods_detail&goods_id=232&key=d8326bac051a4f35d40b3d68ec5ef532 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1514970718' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2018-01-03 17:12:57] /mobile/index.php?act=goods&op=goods_detail&goods_id=232&key=d8326bac051a4f35d40b3d68ec5ef532 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1514970777' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2018-01-03 17:14:52] /mobile/index.php?act=goods&op=goods_detail&goods_id=232%2526inv_id%3D1&key=d8326bac051a4f35d40b3d68ec5ef532 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1514970892' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2018-01-03 17:15:04] /mobile/index.php?act=goods&op=goods_detail&goods_id=232&key=d8326bac051a4f35d40b3d68ec5ef532 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1514970904' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2018-01-03 17:17:09] /mobile/index.php?act=goods&op=goods_detail&goods_id=232&key=d8326bac051a4f35d40b3d68ec5ef532 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1514971029' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  

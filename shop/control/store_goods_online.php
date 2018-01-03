@@ -52,7 +52,9 @@ class store_goods_onlineControl extends BaseSellerControl {
          * TODO 生成带用户id的商品二维码
          * */
         foreach($goods_list as $key=>$value){
-            $goods_list[$key]['inv_qrcode_url'] = BASE_SITE_URL.'/shop/index.php?'.urlencode('act=goods&op=index&goods_id='.$storage_array[$value['goods_commonid']]['goods_id'].'&inv_id='.$_SESSION['member_id']);
+            //pc端
+            //$goods_list[$key]['inv_qrcode_url'] = BASE_SITE_URL.'/shop/index.php?'.urlencode('act=goods&op=index&goods_id='.$storage_array[$value['goods_commonid']]['goods_id'].'&inv_id='.$_SESSION['member_id']);
+            $goods_list[$key]['inv_qrcode_url'] = BASE_SITE_URL.'/wap/tmpl/product_detail.html?goods_id='.$storage_array[$value['goods_commonid']]['goods_id'].'%26inv_id='.$_SESSION['member_id'];
         }
 
         Tpl::output('goods_list', $goods_list);
