@@ -86,6 +86,7 @@ function btnCheck(e) {
             t = false
         }
     });
+    t = true;
     if (t) {
         e.find(".btn").parent().addClass("ok")
     } else {

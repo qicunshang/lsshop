@@ -215,6 +215,7 @@ class memberModel extends Model {
 		$member_info['member_passwd']	= $register_info['password'];
 		$member_info['member_email']		= $register_info['email'];
 		//添加邀请人(推荐人)会员积分 by 33hao.com
+		$member_info['store_id']		= $register_info['store_id'];
 		$member_info['inviter_id']		= $register_info['inviter_id'];
 		$insert_id	= $this->addMember($member_info);
 		if($insert_id) {
@@ -278,6 +279,7 @@ class memberModel extends Model {
 		    $member_info['member_sinainfo']	= $param['member_sinainfo'];
 		    //添加邀请人(推荐人)会员积分 by 33hao.com
 		    $member_info['inviter_id']	        = $param['inviter_id'];
+		    $member_info['store_id']	        = $param['store_id'];
 			// v3-b12 手机注册登录绑定
 			if ($param['member_mobile_bind']) {
                 $member_info['member_mobile'] = $param['member_mobile'];

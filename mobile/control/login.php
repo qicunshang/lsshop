@@ -106,10 +106,11 @@ class loginControl extends mobileHomeControl {
         $register_info['password_confirm'] = $_POST['password_confirm'];
         $register_info['email'] = $_POST['email'];
 		//添加奖励积分 v3-b12
-		$register_info['inviter_id'] = intval(base64_decode($_COOKIE['uid']))/1;
+		$register_info['inviter_id'] = $_POST['inviter_id']?:null;
+		$register_info['store_id'] = $_POST['store_id']?:null;
         $member_info = $model_member->register($register_info);
         if(!isset($member_info['error'])) {
-	   process::addprocess('reg');
+	    process::addprocess('reg');
             $token = $this->_get_token($member_info['member_id'], $member_info['member_name'], $_POST['client']);
             if($token) {
                 output_data(array('username' => $member_info['member_name'], 'userid' => $member_info['member_id'], 'key' => $token));
