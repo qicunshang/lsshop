@@ -1,9 +1,10 @@
 $(function() {
     var e = getCookie("key");
     if (e) {
-        //window.location.href = WapSiteUrl + "/tmpl/member/member.html";
-        return
+        window.location.href = WapSiteUrl + "/tmpl/member/member.html";
+        //return
     }
+    console.log(123)
     var r = document.referrer;
     $.sValid.init({
         rules: {
@@ -30,11 +31,6 @@ $(function() {
     var a = true;
     $("#loginbtn").click(function() {
         if (!$(this).parent().hasClass("ok")) {
-            return false
-        }
-        if (a) {
-            a = false
-        } else {
             return false
         }
         var e = $("#username").val();
