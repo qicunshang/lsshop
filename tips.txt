@@ -1,6 +1,6 @@
 //TODO 未解决问题
 手机端- 用户通过推广二维码注册和通过推广二维码下单问题
-
+修改密码 短信验证码问题
 pc后台：
     权限过滤：物流信息添加（快递号）
     管理订单
@@ -10,3 +10,5 @@ pc后台：
     客服系统
 http://www.shop.com/wap/tmpl/product_detail.html?goods_id=232
 wap goods url
+
+http://www.shop.com/mobile/index.php?act=member_buy&op=buy_step1
