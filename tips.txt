@@ -8,7 +8,9 @@ pc后台：
 接入：
     微信、支付宝
     客服系统
-http://www.shop.com/wap/tmpl/product_detail.html?goods_id=232
-wap goods url
+已解决http://www.shop.com/wap/tmpl/product_detail.html?goods_id=232
+已解决http://www.shop.com/mobile/index.php?act=member_buy&op=buy_step1
 
-http://www.shop.com/mobile/index.php?act=member_buy&op=buy_step1
+数据库增加字段：
+    goods表 和 goods_common表
+    + rebate goods_type

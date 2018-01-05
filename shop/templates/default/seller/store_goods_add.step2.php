@@ -126,14 +126,16 @@
           <p class="hint">被邀请人购买商品，给邀请人的返利金额</p>
         </dd>
       </dl>
-      <dl>
-        <dt><i class="required">*</i>葡萄种类<?php echo $lang['nc_colon'];?></dt>
+      
+      <dl style="display: none;">
+        <dt><i class="required">*</i>商品种类<?php echo $lang['nc_colon'];?></dt>
         <dd>
-          <input name="goods_type" type="text" class="text w400" value="<?php echo $output['goods']['goods_type']; ?>" />
+          <input name="goods_type" type="text" class="text w400" value="线上商品" />
           <span></span>
           <p class="hint">葡萄种类最长不能超过140个汉字，多个种类请用","(英文逗号)分开</p>
         </dd>
       </dl>
+      
       <?php if(is_array($output['spec_list']) && !empty($output['spec_list'])){?>
       <?php $i = '0';?>
       <?php foreach ($output['spec_list'] as $k=>$val){?>
