@@ -22,7 +22,6 @@ class member_buyControl extends mobileMemberControl {
      */
     public function buy_step1Op() {
         $cart_id = explode(',', $_POST['cart_id']);
-
         $logic_buy = logic('buy');
 
         //得到会员等级
@@ -126,12 +125,14 @@ class member_buyControl extends mobileMemberControl {
         $buy_list['order_amount'] = ncPriceFormat(array_sum($store_total_list)-$result['rpt_info']['rpacket_price']);
         $buy_list['rpt_info'] = $result['rpt_info'] ? $result['rpt_info'] : array();
         $buy_list['address_api'] = $data_area ? $data_area : '';
+        $buy_list['inv_id'] = $_POST['inv_id'] ? $_POST['inv_id'] : '';
 
         foreach ($store_total_list as $store_id => $value) {
             $store_total_list[$store_id] = ncPriceFormat($value);
         }
         $buy_list['store_final_total_list'] = $store_total_list;
-
+        dumptofile($buy_list, 'dump.txt');
+        //die();
         output_data($buy_list);
     }
 
@@ -150,6 +151,8 @@ class member_buyControl extends mobileMemberControl {
         $param['pay_name'] = $_POST['pay_name'];
         $param['invoice_id'] = $_POST['invoice_id'];
         $param['rpt'] = $_POST['rpt'];
+        //TODO add inv_id
+        $param['inv_id'] = $_POST['inv_id'];
 
         //处理代金券
         $voucher = array();

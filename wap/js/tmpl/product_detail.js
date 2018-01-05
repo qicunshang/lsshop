@@ -353,6 +353,7 @@ $(function() {
                                 var o = {};
                                 o.key = e;
                                 o.cart_id = r + "|" + t;
+                                o.inv_id = getQueryString('inv_id');
                                 $.ajax({
                                     type: "post",
                                     url: ApiUrl + "/index.php?act=member_buy&op=buy_step1",
@@ -367,7 +368,11 @@ $(function() {
                                                 cancelBtn: false
                                             })
                                         } else {
-                                            location.href = WapSiteUrl + "/tmpl/order/buy_step1.html?goods_id=" + r + "&buynum=" + t
+                                            if(o.inv_id){
+                                                location.href = WapSiteUrl + "/tmpl/order/buy_step1.html?goods_id=" + r + "&buynum=" + t +"&inv_id=" + o.inv_id
+                                            }else{
+                                                location.href = WapSiteUrl + "/tmpl/order/buy_step1.html?goods_id=" + r + "&buynum=" + t
+                                            }
                                         }
                                     }
                                 })

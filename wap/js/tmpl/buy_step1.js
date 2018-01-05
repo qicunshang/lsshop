@@ -13,6 +13,8 @@ var message = {};
 var freight_hash, city_id, area_id;
 var area_info;
 var goods_id;
+var inv_id = getQueryString('inv_id');
+//console.log(inv_id);
 $(function() {
     $("#list-address-valve").click(function() {
         $.ajax({
@@ -101,7 +103,8 @@ $(function() {
                 key: key,
                 cart_id: cart_id,
                 ifcart: ifcart,
-                address_id: e
+                address_id: e,
+                inv_id: inv_id,
             },
             success: function(e) {
                 checkLogin(e.login);
@@ -458,7 +461,8 @@ $(function() {
                 fcode: fcode,
                 rcb_pay: rcb_pay,
                 rpt: rpt,
-                pay_message: e
+                pay_message: e,
+                inv_id: inv_id
             },
             dataType: "json",
             success: function(e) {

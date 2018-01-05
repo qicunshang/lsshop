@@ -438,6 +438,8 @@ class buyModel {
             $order['shipping_fee'] = $store_freight_total[$store_id];
             $order['goods_amount'] = $order['order_amount'] - $order['shipping_fee'];
             $order['order_from'] = 1;
+            //TODO add inv_id
+            $order['inv_id'] = $input['inv_id'];
             $order_id = $model_order->addOrder($order);
             if (!$order_id) {
                 throw new Exception('订单保存失败');
@@ -979,7 +981,6 @@ class buyModel {
      */
     public function buyStep2($post, $member_id, $member_name, $member_email) {
         $model_cart = Model('cart');
-
         //取得商品ID和购买数量
         $input_buy_items = $this->_parseItems($post['cart_id']);
 
@@ -1143,7 +1144,9 @@ class buyModel {
         $input['store_gc_id_commis_rate_list'] = $store_gc_id_commis_rate_list;
         $input['store_mansong_rule_list'] = $store_mansong_rule_list;
         $input['store_cart_list'] = $store_cart_list;
-	$input['input_city_id'] = $input_city_id;//货到付款 by 3 3 hao.com
+	    $input['input_city_id'] = $input_city_id;//货到付款 by 3 3 hao.com
+	    $input['inv_id'] = $post['inv_id'];//货到付款 by 3 3 hao.com
+        dump($input);die();
 
         try {
 

@@ -645,6 +645,7 @@ class buyLogic {
             $order['shipping_fee'] = $store_freight_total[$store_id];
             $order['goods_amount'] = $order['order_amount'] - $order['shipping_fee'];
             $order['order_from'] = $order_from;
+            $order['inv_id'] = $this->_post_data['inv_id'];
 			//如果支持方式为空时，默认为货到付款 33hao
 			if( $order['payment_code']=="")
 			{

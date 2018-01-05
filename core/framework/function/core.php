@@ -63,6 +63,18 @@ function dump($var, $echo=true, $label=null, $strict=true) {
         return $output;
 }
 
+
+/**
+ * 数据输出到文件
+ *
+ * */
+function dumptofile($param, $filename = null){
+	if(!$filename){
+		$filename = 'dump_' . date('Y_m_d_H_i_s', time()) . '.txt';
+	}
+	file_put_contents($filename, print_r($param, true));
+}
+
 /**
  * 产生验证码
  *

@@ -1,0 +1,162 @@
+Array
+(
+    [store_cart_list] => Array
+        (
+            [1] => Array
+                (
+                    [goods_list] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [goods_num] => 1
+                                    [goods_id] => 232
+                                    [goods_commonid] => 100086
+                                    [gc_id] => 617
+                                    [store_id] => 1
+                                    [goods_name] => 中华老字号 东阿阿胶桃花姬阿胶糕300g
+                                    [goods_price] => 95.00
+                                    [store_name] => 官方旗舰店
+                                    [goods_image] => 1_04423411880302392.png
+                                    [transport_id] => 0
+                                    [goods_freight] => 0.00
+                                    [goods_vat] => 0
+                                    [goods_storage] => 25
+                                    [goods_storage_alarm] => 0
+                                    [is_fcode] => 0
+                                    [have_gift] => 0
+                                    [state] => 1
+                                    [storage_state] => 1
+                                    [groupbuy_info] => Array
+                                        (
+                                            [groupbuy_id] => 3
+                                            [groupbuy_name] => 东阿阿胶桃花姬阿胶糕300g，芝麻香，核桃脆，上品阿胶，养颜
+                                            [start_time] => 1388997900
+                                            [end_time] => 1577721600
+                                            [goods_id] => 232
+                                            [goods_commonid] => 100086
+                                            [goods_name] => 中华老字号 东阿阿胶桃花姬阿胶糕300g
+                                            [store_id] => 1
+                                            [store_name] => 官方旗舰店
+                                            [goods_price] => 150.00
+                                            [groupbuy_price] => 95.00
+                                            [groupbuy_rebate] => 6.33
+                                            [virtual_quantity] => 0
+                                            [upper_limit] => 3
+                                            [buyer_count] => 16
+                                            [buy_quantity] => 16
+                                            [groupbuy_intro] => <img src="../data/upload/shop/store/goods/1/1_04423412221350722_1280.jpg" alt="image" />
+                                            [state] => 20
+                                            [recommended] => 1
+                                            [views] => 10
+                                            [class_id] => 0
+                                            [s_class_id] => 0
+                                            [groupbuy_image] => 1_04423413554692434.jpg
+                                            [groupbuy_image1] => 1_04423415305032356.jpg
+                                            [remark] => 闪电发货 48小时送达
+                                            [is_vr] => 0
+                                            [vr_city_id] => 
+                                            [vr_area_id] => 
+                                            [vr_mall_id] => 
+                                            [vr_class_id] => 
+                                            [vr_s_class_id] => 
+                                            [groupbuy_url] => http://www.shop.com/shop/index.php?act=show_groupbuy&op=groupbuy_detail&group_id=3
+                                            [goods_url] => http://www.shop.com/shop/index.php?act=goods&op=index&goods_id=232
+                                            [start_time_text] => 2014-01-06 16:45
+                                            [end_time_text] => 2019-12-31 00:00
+                                            [groupbuy_state_text] => 正常
+                                            [reviewable] => 0
+                                            [cancelable] => 1
+                                            [state_flag] => buy-now
+                                            [button_text] => 我要抢
+                                            [count_down_text] => 距抢购结束
+                                            [count_down] => 62583931
+                                        )
+
+                                    [xianshi_info] => 
+                                    [cart_id] => 232
+                                    [bl_id] => 0
+                                    [upper_limit] => 3
+                                    [groupbuy_id] => 3
+                                    [promotions_id] => 3
+                                    [ifgroupbuy] => 1
+                                    [goods_total] => 95.00
+                                    [goods_image_url] => http://www.shop.com/data/upload/shop/store/goods/1/1_04423411880302392_240.png
+                                )
+
+                        )
+
+                    [store_goods_total] => 95.00
+                    [store_mansong_rule_list] => 
+                    [store_voucher_info] => Array
+                        (
+                        )
+
+                    [store_voucher_list] => Array
+                        (
+                        )
+
+                    [store_name] => 官方旗舰店
+                )
+
+        )
+
+    [freight_hash] => RooGRZGM8eJwIhpBsabROX87Nv6V8sHdcgrFPaZLftL8Eo6xcf8l9xX8ree8s0EtHdgaclAX8raeMxqmndiWbR-cs2Sr79pxattaKZ-X5Lee6NWvXh5bYUS
+    [address_info] => Array
+        (
+            [address_id] => 15
+            [member_id] => 47
+            [true_name] => 刘帅
+            [area_id] => 37
+            [city_id] => 36
+            [area_info] => 北京 北京市 东城区
+            [address] => 颠三倒四
+            [tel_phone] => 
+            [mob_phone] => 13621286210
+            [is_default] => 0
+            [dlyp_id] => 0
+        )
+
+    [ifshow_offpay] => 
+    [vat_hash] => IMi7KHdlPCJuWDWh2jNun_TfjIIgjplcftJ
+    [inv_info] => Array
+        (
+            [content] => 不需要发票
+        )
+
+    [available_predeposit] => 
+    [available_rc_balance] => 
+    [rpt_list] => Array
+        (
+        )
+
+    [zk_list] => 
+    [order_amount] => 95.00
+    [rpt_info] => Array
+        (
+        )
+
+    [address_api] => Array
+        (
+            [state] => success
+            [content] => Array
+                (
+                    [1] => 0.00
+                )
+
+            [allow_offpay] => 1
+            [allow_offpay_batch] => Array
+                (
+                    [1] => 1
+                )
+
+            [offpay_hash] => Xnm-pIJfTFJ0qGcTJqqgLzAUvc2VnaCkkB0cIqC
+            [offpay_hash_batch] => jqZycqTDS2w2RQVUqsCdC5iNIEhHVqTT0qx9C5iKbAUTMYA
+        )
+
+    [inv_id] => 46
+    [store_final_total_list] => Array
+        (
+            [1] => 95.00
+        )
+
+)
