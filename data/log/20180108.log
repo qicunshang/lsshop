@@ -1,0 +1,105 @@
+[2018-01-08 09:07:32] /mobile/index.php?act=goods&op=goods_detail&goods_id=232&key=d8326bac051a4f35d40b3d68ec5ef532 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1515373652' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2018-01-08 11:06:10] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '47' ) LIMIT 1  
+[2018-01-08 11:06:10] /mobile/index.php?act=member_order&op=order_list&page=10&curpage=1 ( act=member_order&op=order_list ) 
+ERR: Db Error: Unknown column 'order_type' in 'where clause'
+SELECT * FROM `33hao_order` WHERE ( order_type = '3' ) AND ( order_state = '30' ) AND ( buyer_id = '47' ) ORDER BY order_id desc LIMIT 0,20  
+[2018-01-08 11:06:47] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( member_id = '1' )' at line 1
+UPDATE `33hao_member` SET member_points=member_points+ WHERE ( member_id = '1' )
+[2018-01-08 11:20:47] /mobile/index.php?act=goods&op=goods_detail&goods_id=232&key=d8326bac051a4f35d40b3d68ec5ef532 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1515381647' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2018-01-08 11:21:16] /mobile/index.php?act=goods&op=goods_detail&goods_id=54&key=d8326bac051a4f35d40b3d68ec5ef532 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1515381676' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2018-01-08 11:21:40] /mobile/index.php?act=goods&op=goods_detail&goods_id=54&key=d8326bac051a4f35d40b3d68ec5ef532 ( act=goods&op=goods_detail ) 
+ERR: Db Error: Unknown column 'voucher_t_gettype' in 'where clause'
+SELECT * FROM `33hao_voucher_template` WHERE ( voucher_t_gettype = '3' ) AND ( voucher_t_state = '1' ) AND ( voucher_t_end_date > '1515381700' ) AND ( voucher_t_store_id IN ('1') ) LIMIT 1000  
+[2018-01-08 11:36:36] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'goods' in 'where clause'
+SELECT * FROM `33hao_goods` WHERE ( goods = '232' ) LIMIT 1  
+[2018-01-08 11:36:36] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where member_id=46' at line 1
+update 33hao_member set available_predeposit=available_predeposit+ where member_id=46
+[2018-01-08 11:36:36] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'goods' in 'where clause'
+SELECT * FROM `33hao_goods` WHERE ( goods = '54' ) LIMIT 1  
+[2018-01-08 11:36:36] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where member_id=46' at line 1
+update 33hao_member set available_predeposit=available_predeposit+ where member_id=46
+[2018-01-08 11:36:36] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( member_id = '1' )' at line 1
+UPDATE `33hao_member` SET member_points=member_points+ WHERE ( member_id = '1' )
+[2018-01-08 11:37:48] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'goods' in 'where clause'
+SELECT * FROM `33hao_goods` WHERE ( goods = '232' ) LIMIT 1  
+[2018-01-08 11:37:48] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where member_id=46' at line 1
+update 33hao_member set available_predeposit=available_predeposit+ where member_id=46
+[2018-01-08 11:37:48] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'goods' in 'where clause'
+SELECT * FROM `33hao_goods` WHERE ( goods = '54' ) LIMIT 1  
+[2018-01-08 11:37:48] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where member_id=46' at line 1
+update 33hao_member set available_predeposit=available_predeposit+ where member_id=46
+[2018-01-08 11:37:48] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( member_id = '1' )' at line 1
+UPDATE `33hao_member` SET member_points=member_points+ WHERE ( member_id = '1' )
+[2018-01-08 11:38:19] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'goods' in 'where clause'
+SELECT * FROM `33hao_goods` WHERE ( goods = '232' ) LIMIT 1  
+[2018-01-08 11:38:19] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where member_id=46' at line 1
+update 33hao_member set available_predeposit=available_predeposit+ where member_id=46
+[2018-01-08 11:38:19] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'goods' in 'where clause'
+SELECT * FROM `33hao_goods` WHERE ( goods = '54' ) LIMIT 1  
+[2018-01-08 11:38:19] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where member_id=46' at line 1
+update 33hao_member set available_predeposit=available_predeposit+ where member_id=46
+[2018-01-08 11:38:19] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( member_id = '1' )' at line 1
+UPDATE `33hao_member` SET member_points=member_points+ WHERE ( member_id = '1' )
+[2018-01-08 11:39:18] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'goods' in 'where clause'
+SELECT * FROM `33hao_goods` WHERE ( goods = '232' ) LIMIT 1  
+[2018-01-08 11:39:18] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where member_id=46' at line 1
+update 33hao_member set available_predeposit=available_predeposit+ where member_id=46
+[2018-01-08 11:39:18] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: Unknown column 'goods' in 'where clause'
+SELECT * FROM `33hao_goods` WHERE ( goods = '54' ) LIMIT 1  
+[2018-01-08 11:39:18] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where member_id=46' at line 1
+update 33hao_member set available_predeposit=available_predeposit+ where member_id=46
+[2018-01-08 11:39:18] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( member_id = '1' )' at line 1
+UPDATE `33hao_member` SET member_points=member_points+ WHERE ( member_id = '1' )
+[2018-01-08 11:39:41] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where member_id=46' at line 1
+update 33hao_member set available_predeposit=available_predeposit+ where member_id=46
+[2018-01-08 11:39:41] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( member_id = '1' )' at line 1
+UPDATE `33hao_member` SET member_points=member_points+ WHERE ( member_id = '1' )
+[2018-01-08 11:39:53] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where member_id=46' at line 1
+update 33hao_member set available_predeposit=available_predeposit+ where member_id=46
+[2018-01-08 11:39:53] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( member_id = '1' )' at line 1
+UPDATE `33hao_member` SET member_points=member_points+ WHERE ( member_id = '1' )
+[2018-01-08 11:40:22] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where member_id=46' at line 1
+update 33hao_member set available_predeposit=available_predeposit+ where member_id=46
+[2018-01-08 11:40:22] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( member_id = '1' )' at line 1
+UPDATE `33hao_member` SET member_points=member_points+ WHERE ( member_id = '1' )
+[2018-01-08 11:41:00] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where member_id=46' at line 1
+update 33hao_member set available_predeposit=available_predeposit+ where member_id=46
+[2018-01-08 11:41:00] /mobile/index.php?act=member_order&op=order_receive ( act=member_order&op=order_receive ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( member_id = '1' )' at line 1
+UPDATE `33hao_member` SET member_points=member_points+ WHERE ( member_id = '1' )

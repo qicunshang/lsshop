@@ -8,24 +8,27 @@ Array
                         (
                             [0] => Array
                                 (
-                                    [goods_num] => 1
-                                    [goods_id] => 232
-                                    [goods_commonid] => 100086
-                                    [gc_id] => 617
+                                    [cart_id] => 4
+                                    [buyer_id] => 47
                                     [store_id] => 1
+                                    [store_name] => 官方旗舰店
+                                    [goods_id] => 232
                                     [goods_name] => 中华老字号 东阿阿胶桃花姬阿胶糕300g
                                     [goods_price] => 95.00
-                                    [store_name] => 官方旗舰店
+                                    [goods_num] => 1
                                     [goods_image] => 1_04423411880302392.png
+                                    [bl_id] => 0
+                                    [state] => 1
+                                    [storage_state] => 1
+                                    [goods_commonid] => 100086
+                                    [gc_id] => 617
                                     [transport_id] => 0
                                     [goods_freight] => 0.00
                                     [goods_vat] => 0
-                                    [goods_storage] => 25
+                                    [goods_storage] => 24
                                     [goods_storage_alarm] => 0
                                     [is_fcode] => 0
                                     [have_gift] => 0
-                                    [state] => 1
-                                    [storage_state] => 1
                                     [groupbuy_info] => Array
                                         (
                                             [groupbuy_id] => 3
@@ -42,8 +45,8 @@ Array
                                             [groupbuy_rebate] => 6.33
                                             [virtual_quantity] => 0
                                             [upper_limit] => 3
-                                            [buyer_count] => 16
-                                            [buy_quantity] => 16
+                                            [buyer_count] => 17
+                                            [buy_quantity] => 17
                                             [groupbuy_intro] => <img src="../data/upload/shop/store/goods/1/1_04423412221350722_1280.jpg" alt="image" />
                                             [state] => 20
                                             [recommended] => 1
@@ -69,12 +72,10 @@ Array
                                             [state_flag] => buy-now
                                             [button_text] => 我要抢
                                             [count_down_text] => 距抢购结束
-                                            [count_down] => 62583931
+                                            [count_down] => 62339913
                                         )
 
                                     [xianshi_info] => 
-                                    [cart_id] => 232
-                                    [bl_id] => 0
                                     [upper_limit] => 3
                                     [groupbuy_id] => 3
                                     [promotions_id] => 3
@@ -83,9 +84,38 @@ Array
                                     [goods_image_url] => http://www.shop.com/data/upload/shop/store/goods/1/1_04423411880302392_240.png
                                 )
 
+                            [1] => Array
+                                (
+                                    [cart_id] => 5
+                                    [buyer_id] => 47
+                                    [store_id] => 1
+                                    [store_name] => 官方旗舰店
+                                    [goods_id] => 54
+                                    [goods_name] => 新款 女款 拼接 不规则摆 长袖针织衫开衫 杏雨 粉色
+                                    [goods_price] => 99.00
+                                    [goods_num] => 1
+                                    [goods_image] => 1_04418254218437108.jpg
+                                    [bl_id] => 0
+                                    [state] => 1
+                                    [storage_state] => 1
+                                    [goods_commonid] => 100011
+                                    [gc_id] => 14
+                                    [transport_id] => 0
+                                    [goods_freight] => 0.00
+                                    [goods_vat] => 0
+                                    [goods_storage] => 55
+                                    [goods_storage_alarm] => 0
+                                    [is_fcode] => 0
+                                    [have_gift] => 0
+                                    [groupbuy_info] => 
+                                    [xianshi_info] => 
+                                    [goods_total] => 99.00
+                                    [goods_image_url] => http://www.shop.com/data/upload/shop/store/goods/1/1_04418254218437108_240.jpg
+                                )
+
                         )
 
-                    [store_goods_total] => 95.00
+                    [store_goods_total] => 194.00
                     [store_mansong_rule_list] => 
                     [store_voucher_info] => Array
                         (
@@ -100,7 +130,7 @@ Array
 
         )
 
-    [freight_hash] => RooGRZGM8eJwIhpBsabROX87Nv6V8sHdcgrFPaZLftL8Eo6xcf8l9xX8ree8s0EtHdgaclAX8raeMxqmndiWbR-cs2Sr79pxattaKZ-X5Lee6NWvXh5bYUS
+    [freight_hash] => OWUwRW85r6TK8A1CaXJ94X5p1MkvHuMzeKdZx5aW5HK1bW2ImyKcqRnX5ZG7mG2NzeOXKRqX5ZC72LcGTeQTJ9ocpk6IlXbRGubX4FoX25G7knIPDinYGA8
     [address_info] => Array
         (
             [address_id] => 15
@@ -117,7 +147,7 @@ Array
         )
 
     [ifshow_offpay] => 
-    [vat_hash] => IMi7KHdlPCJuWDWh2jNun_TfjIIgjplcftJ
+    [vat_hash] => v35CdybZrl_esWc50Z-.Gp0nar3TMb-z0Tf
     [inv_info] => Array
         (
             [content] => 不需要发票
@@ -130,7 +160,7 @@ Array
         )
 
     [zk_list] => 
-    [order_amount] => 95.00
+    [order_amount] => 194.00
     [rpt_info] => Array
         (
         )
@@ -149,14 +179,14 @@ Array
                     [1] => 1
                 )
 
-            [offpay_hash] => Xnm-pIJfTFJ0qGcTJqqgLzAUvc2VnaCkkB0cIqC
-            [offpay_hash_batch] => jqZycqTDS2w2RQVUqsCdC5iNIEhHVqTT0qx9C5iKbAUTMYA
+            [offpay_hash] => UZN8GbZZECJTGa7EmFd9a-RpawPcD1Ajs8wZ6RA
+            [offpay_hash_batch] => KUCf7ES9_BW1E_l95dTHrmBn_5Py7nDDddYnrmBkS1C-Q-9
         )
 
-    [inv_id] => 46
+    [inv_id] => 
     [store_final_total_list] => Array
         (
-            [1] => 95.00
+            [1] => 194.00
         )
 
 )

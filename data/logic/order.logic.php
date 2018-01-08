@@ -132,7 +132,37 @@ class orderLogic {
             Model('exppoints')->saveExppointsLog('order',array('exp_memberid'=>$order_info['buyer_id'],'exp_membername'=>$order_info['buyer_name'],'orderprice'=>$order_info['order_amount'],'order_sn'=>$order_info['order_sn'],'order_id'=>$order_info['order_id']),true);
 			//邀请人获得返利积分 by 33ha o .com
 			$model_member = Model('member');
-			$inviter_id = $model_member->table('member')->getfby_member_id($member_id,'inviter_id');
+
+            /**
+             * TODO 直销会员或分销会员获得返利
+             * */
+            if($order_info['inv_id']){
+                //查询该商品的返利额度
+                $order_goods_model = Model('order_goods');
+                $order_goods_list = $order_goods_model
+                    ->table('order_goods')
+                    ->where(array(
+                        'order_id' => $order_id,
+                    ))
+                    ->select();
+
+                //遍历订单中商品
+                $goods_model = Model('goods');
+                foreach($order_goods_list as $key=>$value){
+                    $goods_info = $goods_model
+                        ->table('goods')
+                        ->where(array(
+                            'goods_id' => $value['goods_id']
+                        ))
+                        ->find();
+                    //增加推广者余额
+                    $sql = 'update 33hao_member set available_predeposit=available_predeposit+'.$goods_info['rebate'].' where member_id='.$order_info['inv_id'];
+                    $model_member ->execute($sql);
+                }
+            }
+
+
+            $inviter_id = $model_member->table('member')->getfby_member_id($member_id,'inviter_id');
 			$inviter_name = $model_member->table('member')->getfby_member_id($inviter_id,'member_name');
 			$rebate_amount = ceil(0.01 * $order_info['order_amount'] * $GLOBALS['setting_config']['points_rebate']);
 			//v3-b12
