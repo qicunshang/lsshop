@@ -157,7 +157,18 @@ class orderLogic {
                         ->find();
                     //增加推广者余额
                     $sql = 'update 33hao_member set available_predeposit=available_predeposit+'.$goods_info['rebate'].' where member_id='.$order_info['inv_id'];
-                    $model_member ->execute($sql);
+                    $res = $model_member ->execute($sql);
+                    if($res){
+                        $recent = Model('ybk_deposit');
+                        $recent->insert(
+                            [
+                                'member_id'     => $order_info['inv_id'],
+                                'deposit_money' => $goods_info['rebate'],
+                                'deposit_method'=> '17',
+                                'deposit_time'  => time(),
+                            ]
+                        );
+                    }
                 }
             }
 

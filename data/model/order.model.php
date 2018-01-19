@@ -102,6 +102,7 @@ class orderModel extends Model {
      * @param string $limit
      * @param unknown $extend 追加返回那些表的信息,如array('order_common','order_goods','store')
      * @return Ambigous <multitype:boolean Ambigous <string, mixed> , unknown>
+     * TODO 返利
      */
     public function getOrderList($condition, $pagesize = '', $field = '*', $order = 'order_id desc', $limit = '', $extend = array(), $master = false){
         $list = $this->table('order')->field($field)->where($condition)->page($pagesize)->order($order)->limit($limit)->master($master)->select();
