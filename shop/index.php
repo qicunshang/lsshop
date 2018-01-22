@@ -11,6 +11,24 @@ if (!@include(BASE_PATH.'/control/control.php')) exit('control.php isn\'t exists
 if (!@include(BASE_CORE_PATH.'/33hao.php')) exit('33hao.php isn\'t exists!');
 	$wapurl = WAP_SITE_URL;
 	$agent = $_SERVER['HTTP_USER_AGENT'];
+
+    //TODO 修改
+	if($_GET['act'] == 'index' && $_GET['admin'] != 'test'){
+		$url = $config['wap_site_url'];
+		switch ($_GET['act']){
+			case 'goods':
+				$url .= '/tmpl/product_detail.html?goods_id=' . $_GET['goods_id'];
+				break;
+			case 'store_list':
+				$url .= '/shop.html';
+				break;
+			case 'show_store':
+				$url .= '/tmpl/product_store.html?store_id=' . $_GET['store_id'];
+				break;
+		}
+		header('Location:' . $url);
+		exit();
+	}
 	if(strpos($agent,"comFront") || strpos($agent,"iPhone") || strpos($agent,"MIDP-2.0") || strpos($agent,"Opera Mini") || strpos($agent,"UCWEB") || strpos($agent,"Android") || strpos($agent,"Windows CE") || strpos($agent,"SymbianOS")){
 		global $config;
         if(!empty($config['wap_site_url'])){
