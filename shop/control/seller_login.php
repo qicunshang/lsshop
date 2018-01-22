@@ -44,7 +44,7 @@ class seller_loginControl extends BaseSellerControl {
 
         /**
          * diy:
-         * 如果是直销或者分销会员
+         * TODO 如果是直销或者分销会员
          * */
         $huiyuan_flag = false;
         $model_member = Model('member');

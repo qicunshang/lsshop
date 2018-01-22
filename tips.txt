@@ -1,16 +1,19 @@
-//TODO 未解决问题
-手机端- 用户通过推广二维码注册和通过推广二维码下单问题
-修改密码 短信验证码问题
-pc后台：
-    权限过滤：物流信息添加（快递号）
-    管理订单
-    统计系统
-接入：
-    微信、支付宝
-    客服系统
-已完成http://www.shop.com/wap/tmpl/product_detail.html?goods_id=232
-已完成http://www.shop.com/mobile/index.php?act=member_buy&op=buy_step1
+如果store_id不为null，则是直销或者分销会员
+分销会员没有邀请人inviter_id，直销会员有
+网址：
+    http://shop.qicunshang.com
+系统后台：
+    http://shop.qicunshang.com/admin
+    账号： root
+    密码： 123456
 
-订单列表接口http://www.shop.com/mobile/index.php?act=member_order&op=order_list&page=10&curpage=1
-手动确认收货增加邀请者余额已完成
-    http://www.shop.com/mobile/index.php?act=member_order&op=order_receive
+商家/分销会员/直销会员后台：
+    http://shop.qicunshang.com/shop/index.php?act=seller_center
+    商家账号： admin
+    密码： 123456
+
+    直销会员账号：liushuai123
+    密码：liushuai123
+
+    分销会员账号：liushuai111
+    密码：liushuai111
